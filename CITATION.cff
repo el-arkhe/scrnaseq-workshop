@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Taller de análisis scRNA-seq"
+message: "If you use this material, please cite it as follows."
+type: software
+
+authors:
+  - family-names: "S. Cardinault"
+    given-names: "Cynthia"
+    affiliation: "El Arkhe · Talleres Multiomics"
+    orcid: ""
+
+repository-code: "https://github.com/el-arkhe/taller-scrnaseq"
+url: "https://github.com/el-arkhe/taller-scrnaseq"
+
+keywords:
+  - scRNA-seq
+  - single-cell
+  - transcriptomics
+  - bioinformatics
+  - multi-omics
+  - genomics education
+
+license: "CC-BY-NC-4.0"
+
+abstract: >
+  Material formativo para el Taller de análisis de single-cell RNA sequencing (scRNA-seq),
+  desarrollado por El Arkhe como parte de la línea Talleres Multiomics.
+  El curso combina fundamentos teóricos con análisis prácticos reproducibles.
