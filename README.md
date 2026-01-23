@@ -29,6 +29,19 @@ Este repositorio es mantenido por la autora en representación de **El Arkhe**.
 
 ---
 
+## Instalación (recomendada) con mamba
+
+- mamba env create -f environment.yml
+- mamba activate elarkhe-seurat
+
+### Instalar Seurat dentro del entorno (paso crítico)
+
+Una vez activado el entorno:
+
+- R -q -e 'install.packages("Seurat", repos="https://cloud.r-project.org")'
+
+---
+
 ## Estado del proyecto
 🚧 Repositorio en desarrollo  
 El contenido se irá liberando progresivamente conforme a los talleres y ediciones del curso.
