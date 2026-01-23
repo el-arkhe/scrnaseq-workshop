@@ -1,0 +1,46 @@
+name: elarkhe-seurat
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Base
+  - r-base=4.3
+  - r-essentials
+  - r-irkernel
+  - jupyterlab
+
+  # Dev / install helpers
+  - r-devtools
+  - r-remotes
+  - r-rprojroot
+
+  # Common data + viz (útil en talleres)
+  - r-tidyverse
+  - r-data.table
+  - r-patchwork
+  - r-cowplot
+  - r-ggrepel
+  - r-viridis
+  - r-here
+
+  # HDF5 + formatos single-cell
+  - r-hdf5r
+  - hdf5
+  - zlib
+
+  # Bioconductor base (compatibilidad con ecosistema scRNA)
+  - bioconductor-singlecellexperiment
+  - bioconductor-summarizedexperiment
+  - bioconductor-scater
+  - bioconductor-scran
+  - bioconductor-biocgenerics
+  - bioconductor-biocneighbors
+  - bioconductor-biocparallel
+
+  # Útil si conviertes entre Seurat/AnnData
+  - bioconductor-zellkonverter
+  - r-reticulate
+
+  # (Opcional) soporte para leer 10x / matrices grandes
+  - r-matrix
+  - r-arrow
