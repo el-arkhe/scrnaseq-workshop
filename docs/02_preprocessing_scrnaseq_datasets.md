@@ -1,8 +1,4 @@
----
-title: "Preprocesamiento de datos scRNA-seq con Cell Ranger"
-author: "El Arkhe · Taller scRNA-seq"
-output: html_document
----
+# Preprocesamiento de datos scRNA-seq con Cell Ranger
 
 ## Introducción
 
@@ -15,7 +11,7 @@ Este paso corresponde al **análisis primario** y es crítico para garantizar:
 - Asignación precisa de barcodes y UMIs  
 - Métricas de calidad confiables  
 
----
+
 
 ## ¿Qué es Cell Ranger?
 
@@ -30,7 +26,7 @@ Cell Ranger procesa datos provenientes de experimentos scRNA-seq de 10x Genomics
 Documentación oficial:  
 https://www.10xgenomics.com/support/software/cell-ranger/latest/getting-started  
 
----
+
 
 ## Flujo general de Cell Ranger
 
@@ -42,7 +38,7 @@ El flujo de trabajo típico de Cell Ranger se compone de varios comandos, cada u
 | 2 | `cellranger count` | Pipeline principal: alineación, identificación de barcodes y UMIs, cell calling y conteo | Gene-Barcode Matrix, BAM, Web Summary HTML, `.cloupe` |
 | 3 | `cellranger aggr` | Agrega múltiples corridas independientes en una sola matriz | Aggregated Gene-Barcode Matrix |
 
----
+
 
 ## Paso 1: `cellranger mkfastq`
 
@@ -56,7 +52,7 @@ Output principal:
 
 Este paso es equivalente, conceptualmente, a `bcl2fastq`, pero optimizado para flujos de trabajo de 10x Genomics.
 
----
+
 
 ## Paso 2: `cellranger count`
 
@@ -74,7 +70,7 @@ Output clave:
 - Web Summary (HTML)
 - Archivo `.cloupe` para exploración interactiva
 
----
+
 
 ## Análisis secundario incluido
 
@@ -93,7 +89,7 @@ Dentro de `cellranger count` y `cellranger aggr`, Cell Ranger ejecuta un **anál
 
 > ⚠️ **Nota:** estos resultados son exploratorios y no sustituyen el análisis downstream detallado que se realiza en herramientas como Seurat.
 
----
+
 
 ## Paso 3: `cellranger aggr`
 
@@ -111,7 +107,7 @@ Output:
 - Aggregated Gene-Barcode Matrix
 - Web Summary agregada
 
----
+
 
 ## Outputs principales de Cell Ranger
 
@@ -128,7 +124,7 @@ Estos outputs son la base para:
 
 La exploración inicial puede realizarse con **Loupe Browser**, aunque el análisis formal se hace usualmente en R o Python.
 
----
+
 
 ## Modos de correr Cell Ranger
 
@@ -141,7 +137,7 @@ Cell Ranger puede ejecutarse de diferentes formas dependiendo de la infraestruct
 Resumen de modos de ejecución:
 https://cyntsc.github.io/single_cell_RNA-seq/RunModes/
 
----
+
 
 ## Cell Ranger y Galaxy
 
@@ -154,25 +150,15 @@ Es posible ejecutar Cell Ranger dentro de **Galaxy**, pero con consideraciones i
 Ejemplo:
 - Galaxy Australia ofrece Cell Ranger bajo **acceso controlado** mediante solicitud específica
 
----
 
-## Alternativas a Cell Ranger
-
-En entornos Galaxy, es común utilizar alternativas open-source, como **STARsolo**:
+Como alternativa dentro de entornos Galaxy, es común utilizar herramientas open-source, como **STARsolo**:
 
 - Requiere FASTQ (R1, R2, I1)
 - Produce outputs compatibles con el formato de Cell Ranger
 - Facilita el análisis downstream en pipelines estándar
 
-Referencia:
-https://pmc.ncbi.nlm.nih.gov/articles/PMC6446759/  
 
-Accession:
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123013  
-
----
-
-## Recursos adicionales
+## Recursos de consulta
 
 - Comenzando con Cell Ranger:  
   https://www.10xgenomics.com/support/software/cell-ranger/latest/getting-started
