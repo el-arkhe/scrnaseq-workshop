@@ -107,7 +107,7 @@ Output:
 
 
 
-## Outputs principales de Cell Ranger
+## Resultados (outputs) principales de Cell Ranger
 
 El resultado central del preprocesamiento es:
 
