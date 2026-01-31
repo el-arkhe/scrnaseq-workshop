@@ -26,3 +26,6 @@ abstract: >
   Material formativo para el Taller de análisis de single-cell RNA sequencing (scRNA-seq),
   desarrollado por El Arkhe como parte de la línea Talleres Multiomics.
   El curso combina fundamentos teóricos con análisis prácticos reproducibles.
+  Este material fue desarrollado con la asistencia de GitHub Copilot, una herramienta de completado de código impulsada por IA.
+  Este material fue elaborado con apoyo de **ChatGPT (OpenAI)** como asistente en la redacción, organización y estandarización de la documentación técnica.
+  El contenido técnico, la curaduría conceptual y las decisiones metodológicas son responsabilidad de la autora.

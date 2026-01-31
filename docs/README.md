@@ -6,3 +6,7 @@
 - [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](02_preprocessing_scrnaseq_datasets.md)
 - [03 Selección de datos Chromium single-cell](03_seleccion_datos_chromium_sc.md)
 
+## practicas
+
+- [01 Procesamiento 10X Genomics Cloud](practicas/01_procesamiento_10Xgenomics_cloud.md)
+
