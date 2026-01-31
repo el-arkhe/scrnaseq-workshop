@@ -24,7 +24,7 @@ Este repositorio es mantenido por la autora en representación de **El Arkhe**.
 - `notebooks/` — análisis paso a paso  
 - `data/` — datasets de ejemplo  
 - `scripts/` — utilidades y pipelines  
-- `docs/` — material teórico y guías  
+- [`docs/` — material teórico y guías](/docs/README.md)  
 - `environment/` — entornos reproducibles  
 
 ---
