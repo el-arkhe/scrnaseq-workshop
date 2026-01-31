@@ -107,3 +107,5 @@ Como guía básica de seleccion inicial puedes preguntarte:
     https://www.10xgenomics.com/products/flex-gene-expression
 
 ---
+
+CSC. Enero 31, 2025
