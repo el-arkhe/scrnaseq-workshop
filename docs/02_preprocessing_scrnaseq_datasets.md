@@ -1,5 +1,6 @@
 # Preprocesamiento de datos scRNA-seq con Cell Ranger
 
+
 Para experimentos de **single-cell RNA sequencing (scRNA-seq)** generados con la plataforma **10x Genomics Chromium**, el flujo de trabajo estándar de preprocesamiento se realiza utilizando **Cell Ranger**.
 
 **Cell Ranger** es un conjunto de herramientas bioinformáticas diseñado para procesar datos de secuenciación crudos y generar matrices de expresión génica listas para análisis downstream (por ejemplo, en Seurat o Scanpy).
@@ -8,6 +9,7 @@ Este paso corresponde al **análisis primario** y es crítico para garantizar:
 - Identificación correcta de células reales  
 - Asignación precisa de barcodes y UMIs  
 - Métricas de calidad confiables  
+
 
 
 
@@ -74,12 +76,18 @@ Output clave:
 
 Dentro de `cellranger count` y `cellranger aggr`, Cell Ranger ejecuta un **análisis secundario automático** sobre la matriz de conteos, que incluye:
 
+
+
 ### Cell Calling
 - Distingue células reales de droplets vacíos
+
+
 
 ### Dimensionality Reduction
 - Principal Component Analysis (PCA)
 - t-SNE o UMAP
+
+
 
 ### Clustering
 - K-means
@@ -166,3 +174,4 @@ Como alternativa dentro de entornos Galaxy, es común utilizar herramientas open
 
 ---
 
+CSC. Enero 31, 2025

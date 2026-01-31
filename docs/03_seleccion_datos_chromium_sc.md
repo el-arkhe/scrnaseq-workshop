@@ -3,6 +3,7 @@
 
 ## Universal 3′, Universal 5′ y Flex
 
+
 Las tecnologías Chromium single-cell de 10x Genomics permiten perfilar la expresión génica a nivel de célula individual utilizando distintas químicas, diseñadas para responder a preguntas biológicas y restricciones experimentales específicas. Las más comunes son **Universal 3′**, **Universal 5′** y **Chromium Flex**.
 
 
@@ -44,6 +45,7 @@ Uso recomendado
 
 👉 Es ideal cuando se necesita combinar expresión génica + información inmunológica.
 
+
 ### Chromium Flex (Fixed RNA Profiling)
 
 Chromium Flex es un enfoque targeted, basado en sondas, diseñado para trabajar con muestras fijadas.
@@ -79,7 +81,6 @@ Uso recomendado
 | Enfoque | Descubrimiento | Inmunología | Targeted / clínico |
 
 
-
 ### Guía rápida de decisión
 
 La selección de la química (Universal 3′, Universal 5′ o Flex) define cómo se captura el RNA, mientras que las “Additional applications” (proteínas, multiplexing, CRISPR, throughput) determinan qué capas adicionales de información estarán disponibles para el análisis.
@@ -93,7 +94,6 @@ Como guía básica de seleccion inicial puedes preguntarte:
 
 ## Recursos de consulta
 
-
 - Chromium Single Cell 3′ Gene Expression
     Documentación técnica de la química 3′, captura poly-A y casos de uso.
     https://www.10xgenomics.com/products/single-cell-gene-expression
@@ -105,3 +105,5 @@ Como guía básica de seleccion inicial puedes preguntarte:
 - Chromium Single Cell Fixed RNA Profiling (Flex)
     Descripción oficial del enfoque targeted basado en sondas y muestras fijadas.
     https://www.10xgenomics.com/products/flex-gene-expression
+
+---
