@@ -3,6 +3,10 @@
 
 Este repositorio contiene el material del **Taller de análisis de single-cell RNA sequencing (scRNA-seq)** 
 
+<p align="center">
+  <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
+</p>
+
 El contenido está diseñado para formación académica y técnica, con énfasis en:
 - comprensión conceptual del análisis single-cell
 - reproducibilidad
@@ -29,6 +33,8 @@ Este repositorio es mantenido por la autora en representación de **El Arkhe**.
 
 ---
 
+<!--
+
 ## Instalación (recomendada) con mamba
 
 - mamba env create -f environment.yml
@@ -39,6 +45,30 @@ Este repositorio es mantenido por la autora en representación de **El Arkhe**.
 Una vez activado el entorno:
 
 - R -q -e 'install.packages("Seurat", repos="https://cloud.r-project.org")'
+
+-->
+
+## Citation
+
+Si utiliza material del taller, código o recursos asociados en su investigación, enseñanza u obras derivadas, por favor cítelo de la siguiente manera.
+
+### Cita preferida
+
+Cynthia S. Cardinault. *El Arkhe: Single-Cell RNA-seq Workshop*.  
+GitHub repository: https://github.com/<cyntsc>/<scrnaseq-workshop>  
+2026.
+
+Un archivo de citación legible por máquina está disponible en este repositorio:
+
+- [`CITATION.cff`](./CITATION.cff)
+
+GitHub generará automáticamente formatos de citación (BibTeX, APA, etc.) desde este archivo a través del botón **"Cite this repository"**.
+
+---
+
+### Referencias relacionadas
+
+Si utiliza datos, métodos o herramientas específicas presentadas en este taller, por favor cite también las publicaciones primarias correspondientes (por ejemplo, Seurat, Scanpy, edgeR, 10x Genomics Cell Ranger), como se indica a lo largo de los materiales del taller.
 
 ---
 
