@@ -65,7 +65,10 @@ GitHub generará automáticamente formatos de citación (BibTeX, APA, etc.) desd
 
 Si utiliza datos, métodos o herramientas específicas presentadas en este taller, por favor cite también las publicaciones primarias correspondientes (por ejemplo, Seurat, Scanpy, edgeR, 10x Genomics Cell Ranger), como se indica a lo largo de los materiales del taller.
 
----
+
+## Acceso a datos
+
+Los datos que se utilizan en este taller son de acceso publico. Ir a  [Acceso a datos de práctica](01_introduccion_sc_rnaseq.md)
 
 ## Estado del proyecto
 🚧 Repositorio en desarrollo  
