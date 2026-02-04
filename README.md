@@ -15,14 +15,6 @@ El contenido está diseñado para formación académica y técnica, con énfasis
 
 ---
 
-## Autora y curaduría
-**Cyntia Soto Cardinault**  
-GitHub: https://github.com/cyntsc  
-
-Este repositorio es mantenido por la autora en representación de **El Arkhe**.
-
----
-
 ## Estructura (en construcción)
 
 - `notebooks/` — análisis paso a paso  
@@ -48,7 +40,11 @@ Una vez activado el entorno:
 
 -->
 
-## Citation
+## Autora y curaduría
+**Cyntia S. Cardinault**  
+GitHub: https://github.com/cyntsc  
+
+Este repositorio es mantenido por la autora en representación de **El Arkhe**.
 
 Si utiliza material del taller, código o recursos asociados en su investigación, enseñanza u obras derivadas, por favor cítelo de la siguiente manera.
 
@@ -64,7 +60,6 @@ Un archivo de citación legible por máquina está disponible en este repositori
 
 GitHub generará automáticamente formatos de citación (BibTeX, APA, etc.) desde este archivo a través del botón **"Cite this repository"**.
 
----
 
 ### Referencias relacionadas
 
