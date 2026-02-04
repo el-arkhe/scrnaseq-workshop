@@ -123,6 +123,8 @@ Artículo asociado:
 *Transcriptomic Analysis of the Human Habenula in Schizophrenia*  
 *American Journal of Psychiatry*
 
+[Enlace a la cita original](https://doi.org/10.1176/appi.ajp.20240776)
+
 
 ### Acceso a datos vía Globus
 
