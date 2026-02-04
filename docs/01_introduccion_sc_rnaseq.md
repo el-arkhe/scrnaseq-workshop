@@ -1,8 +1,6 @@
 # Introducción a Single-Cell RNA-seq (scRNA-seq)
 
 
-<div align="center">![Main Image](images/intro.png)</div>
-
 ## ¿Qué es scRNA-seq?
 
 La **secuenciación de RNA a nivel de célula individual (single-cell RNA-seq, scRNA-seq)** es una tecnología que permite medir la expresión génica **de miles a millones de células individuales en paralelo**.  
