@@ -17,9 +17,8 @@ El contenido está diseñado para formación académica y técnica, con énfasis
 
 ## Estructura (en construcción)
 
-- `notebooks/` — análisis paso a paso  
 - `data/` — datasets de ejemplo  
-- `scripts/` — utilidades y pipelines  
+- [`scripts/` - Codigo R] (/scripts/README.md)  
 - [`docs/` — material teórico y guías](/docs/README.md)  
 - `environment/` — entornos reproducibles  
 
