@@ -132,12 +132,11 @@ Artículo asociado:
    https://www.globus.org  
 
 2. Localizar el **Globus Endpoint** correspondiente al proyecto seleccionado.
+   Nombre del proyecto: `jhpce#habenulaPilotsnRNAseq`
 
-3. Buscar y seleccionar los **raw data (FASTQ files)** y el **RData** o **hdf5** file 
+3. Localiza y descarga en tu computador los **raw data (FASTQ files)** y el archivo **RData** o **hdf5** correspondiente a la matriz de conteos procesados.
 
-   Localiza los datos del proyecto: `jhpce#habenulaPilotsnRNAseq`
-
-4. Descargar los datos al computador local.
+   Nota. Este proceso puede llevar minutos/horas/días dependiendo de los recursos de internet disponibles.
 
 
 ### Procesamiento en 10x Genomics Cloud
