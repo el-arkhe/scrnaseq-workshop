@@ -133,7 +133,9 @@ Artículo asociado:
 
 2. Localizar el **Globus Endpoint** correspondiente al proyecto seleccionado.
 
-3. Buscar y seleccionar los **raw data (FASTQ files)**.
+3. Buscar y seleccionar los **raw data (FASTQ files)** y el **RData** o **hdf5** file 
+
+   Localiza los datos del proyecto: `jhpce#habenulaPilotsnRNAseq`
 
 4. Descargar los datos al computador local.
 
