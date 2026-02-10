@@ -27,16 +27,17 @@ Dado que existen múltiples sets de datos de célula única disponibles de forma
 
 Deberás contar con cuentas de acceso para lo siguiente:
 
-1. **Datos disponibles a través de 10x Genomics** (todos los equipos) 
+1. **Datos disponibles a través de 10x Genomics** (datos para el equipo 1) 
    https://www.10xgenomics.com/datasets  
    *(Equipo 1)*
 
-2. **Plataforma de procesamiento en la nube de 10x Genomics**  (todos los equipos)
-   https://cloud.10xgenomics.com/signin  
-
-3. **Datos experimentales de 10x Genomics vía Globus Endpoints**  (equipo con datos externos a 10X Genomics Datasets)
+2. **Datos experimentales de 10x Genomics vía Globus Endpoints** (datos para el equipo 2) 
    https://www.globus.org  
    *(Equipo 2)*
+
+3. **Plataforma de procesamiento en la nube de 10x Genomics**  (todos los equipos)
+   https://cloud.10xgenomics.com/signin  
+
 
 ---
 
