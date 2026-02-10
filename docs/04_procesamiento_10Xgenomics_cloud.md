@@ -1,6 +1,6 @@
 # Práctica 01  
 
-## Selección y procesamiento de datos utilizando `10x Genomics Cloud`
+## Selección y procesamiento de datos utilizando `10x Genomics on the Cloud`
 
 ### Metas de la práctica
 
@@ -34,25 +34,25 @@ Deberás contar con cuentas de acceso para lo siguiente:
 2. **Plataforma de procesamiento en la nube de 10x Genomics**  (todos los equipos)
    https://cloud.10xgenomics.com/signin  
 
-3. **Datos experimentales de 10x Genomics vía Globus**  (equipo con datos externos a 10X Genomics Datasets)
+3. **Datos experimentales de 10x Genomics vía Globus Endpoints**  (equipo con datos externos a 10X Genomics Datasets)
    https://www.globus.org  
    *(Equipo 2)*
 
 ---
 
 
-## Entendiendo las categorias de datos en *10x Genomics Datasets*
+### Entendiendo las categorias de datos en *10x Genomics Datasets*
 
 A la fecha, *10x Genomics Datasets* lista diferentes categorias de datos de celúla única, en lo que se refiere a datos RNA Chromium se  dividen en cinco categorias: *3' Gene Expression (v3.1, Next GEM)*, *5' Gene Expression*, *Fixed RNA Profiling*, *Nuclei RNA (Single Cell Multiome)* y *Targeted Gene Expression*.  
 
 En esta práctica nos enfocaremos en **Chromium 3' Gene Expression**, ya que esté tipo de datos corresponden a experimentos de **secuenciación de transcriptoma completo**, el cuál es además el formato más común en estudios de scRNA-seq.
 
-      Nota adicional: independientemente de sí el dato es 3', 5' o Fixed RNA, el flujo de trabajo inicial en *Seurat* suele seguir los mismos pasos esenciales. 
+   Nota: independientemente de sí el dato es 3', 5' o Fixed RNA, el flujo de trabajo inicial en *Seurat* suele seguir los mismos pasos esenciales. 
 
-      En el caso de Fixed RNA Profiling (Flex), notarás que *Seurat* identifica sondas en lugar de lecturas directas de transcritos, pero el objeto final se comporta igual. Si usas 5' RNA, también podrías cargar los datos de V(D)J (TCR/BCR) como un "Assay" adicional.
+   En el caso de Fixed RNA Profiling (Flex), notarás que *Seurat* identifica sondas en lugar de lecturas directas de transcritos, pero el objeto final se comporta igual. Si usas 5' RNA, también podrías cargar los datos de V(D)J (TCR/BCR) como un "Assay" adicional.
 
 
-## Datos con secuencias sin procesar versus datos procesados
+### Datos con secuencias sin procesar versus datos procesados
 
 
 ---
@@ -60,8 +60,10 @@ En esta práctica nos enfocaremos en **Chromium 3' Gene Expression**, ya que est
 
 ## Equipo 1: Datos del repositorio de `10x Genomics Datasets`
 
-Los datos de este proyecto estan enfocados en `Peripheral blood mononuclear cells (PBMCs) from healthy humans`
-El set de datos esta compuesto por 4 donadores control con ~20 k celúlas en total
+Los datos de este proyecto estan enfocados en `Peripheral blood mononuclear cells (PBMCs) from healthy humans`.
+
+El set de datos esta compuesto por 4 donadores control con ~20 k celúlas en total.
+
 Es un set de datos Universal 3' procesado utilizando Cell Ranger 9.0.0
 
 Los datos serán descargados directamente de `10x Genomics Datasets`
@@ -77,36 +79,39 @@ Los datos serán descargados directamente de `10x Genomics Datasets`
 
 ### 2. Selección y descarga de datos (FASTQ y HDF5)
 
-   a. Crea una cuenta en **10x Genomics Cloud**  
-      https://cloud.10xgenomics.com/signin  
+- Crea una cuenta en **10x Genomics Cloud**  
+https://cloud.10xgenomics.com/signin  
 
-   b. Accede al portal de datasets de 10x Genomics  
-      https://www.10xgenomics.com/datasets  
+- Accede al portal de datasets de 10x Genomics  
+https://www.10xgenomics.com/datasets  
 
-   c. Aplica los siguientes filtros de búsqueda:
+- Aplica los siguientes filtros de búsqueda:
 
-      - **Platform:** Chromium Single Cell  
-      - **Product:** Universal 3′  
-      - **Chemistry version:** V2+  
-      - **Additional application:**  
-      > Esta sección indica **capas adicionales de información** (p. ej. proteínas de superficie, multiplexing, CRISPR, throughput).  
-      > No define la química principal, solo actúa como **filtro funcional complementario**.
-      - **Software:** Cell Ranger  
-      - **Pipeline:** v9.0.0  
-      - El resto de las opciones puede dejarse sin selección.
+   - **Platform:** Chromium Single Cell  
+   - **Product:** Universal 3′  
+   - **Chemistry version:** V2+  
+   - **Additional application:**  
+   Esta sección indica **capas adicionales de información** (p. ej. proteínas de superficie, multiplexing, CRISPR, throughput).  
+   No define la química principal, solo actúa como **filtro funcional complementario**.
+   - **Software:** Cell Ranger  
+   - **Pipeline:** v9.0.0  
+   - El resto de las opciones puede dejarse sin selección.
 
 Los archivos a descargar usualmente estarán en formato comprimido *.fastq.gz y h5*
 
 Sigue las intrucciones disponibles del website para descargar los datos, y después de descargarlos verifica su integridad mediante checksums MD5.  
-Este paso permite confirmar que los archivos se descargaron **completos y sin corrupción**, especialmente cuando se trata de archivos grandes (`.h5`, `.fastq.gz`).
+
+La verificación permite confirmar que los archivos se descargaron **completos y sin corrupción**, especialmente cuando se trata de archivos grandes (`.h5`, `.fastq.gz`).
 
 ---
 
 
 ## Equipo 2: Datos de `Lieber Institute for Brain Development`
 
-Los datos de este proyecto estan enfocados en la `habenula humana`
-El set de datos esta compuesto por 7 donadores control con ~16 k celúlas en total
+Los datos de este proyecto estan enfocados en la `habenula humana`.
+
+El set de datos esta compuesto por 7 donadores control con ~16 k celúlas en total.
+
 Es un set de datos Universal 3' procesado utilizando Cell Ranger X.0.0
 
 Los datos serán descargados de *Globus Endpoints*.
@@ -115,30 +120,30 @@ Los datos serán descargados de *Globus Endpoints*.
 
 ### 1. Exploración de datos
 
-- Los aspectps técnicos de este proyecto pueden consultarse en:
+- Los aspectos técnicos de este proyecto pueden consultarse en:
+
    Artículo asociado:  
    *Transcriptomic Analysis of the Human Habenula in Schizophrenia*  
    *American Journal of Psychiatry*
 
-- [Enlace a la cita original](https://doi.org/10.1176/appi.ajp.20240776)
+   [Enlace a la cita original](https://doi.org/10.1176/appi.ajp.20240776)
 
-- Repositorio GitHub:  
-https://github.com/LieberInstitute/Habenula_Pilot
+- Repositorio GitHub: https://github.com/LieberInstitute/Habenula_Pilot
 
 
-### 2. Selección y descarga de datos (FASTQ y HDF5) vía Globus
+### 2. Selección y descarga de datos (FASTQ y HDF5) vía Globus Endpoints
 
-   a. Accede a tu cuenta **Globus**: https://www.globus.org  
+- Accede a tu cuenta **Globus**: https://www.globus.org  
 
-   b. Localizar el proyecto: `jhpce#habenulaPilotsnRNAseq`
+- Localiza el proyecto: `jhpce#habenulaPilotsnRNAseq`
 
-   c. Busca y descarga en tu computador los **FASTQ files** y **RData / hdf5** correspondiente a los donadores:
+- Busca y descarga en tu computador los **FASTQ files** y **RData / hdf5** correspondiente a los donadores:
 
    - `Br1204`
    - `Br5558`
    - `sc_Habenula_Pilot.Rdata`
 
-De igual forma, después de descargarlos verifica su integridad mediante checksums MD5.  
+- De igual forma, después de descargarlos verifica su integridad mediante checksums MD5.  
 
 ---
 
@@ -158,7 +163,7 @@ De igual forma, después de descargarlos verifica su integridad mediante checksu
 ---
 
 
-## Resultados esperados
+### Resultados esperados
 
 Al finalizar la práctica, cada equipo deberá contar con:
 
@@ -170,17 +175,14 @@ Al finalizar la práctica, cada equipo deberá contar con:
   - Subida a la nube
   - Procesamiento sin infraestructura local
 
----
 
-
-## Notas finales
+### Notas finales
 
 - El objetivo principal de esta práctica es **entender el flujo de procesamiento**, no optimizar parámetros.
 - 10x Genomics Cloud es una **alternativa práctica** cuando no se cuenta con:
   - HPC
   - Memoria suficiente
   - Entorno Linux configurado
-- Este flujo es especialmente útil para **docencia, talleres y prototipado rápido**.
 
 ---
 
