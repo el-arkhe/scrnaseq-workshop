@@ -25,3 +25,26 @@
 - [08 Instalar otros paquetes básicos y Seurat](08_paquetes_seurat.md)
 - [09 GitHub: clonar y organizar el repositorio](09_github_repo.md)
 
+---
+
+### Día 2 (en desarrollo)
+
+#### Material teórico
+
+- Introducción a datos scRNA-seq procesados y estructura de matrices
+- Introducción al objeto Seurat (v5)
+- Control de calidad (QC) en scRNA-seq y snRNA-seq
+- Normalización y selección de features
+- Reducción de dimensionalidad, clustering y visualización
+
+#### Práctica
+
+- Carga de datos procesados en Seurat
+- Exploración inicial y métricas de QC
+- Filtrado basado en criterios razonados
+- Normalización y reducción de dimensionalidad
+- Clustering y visualización (UMAP)
+- Exploración biológica preliminar
+
+
+---
