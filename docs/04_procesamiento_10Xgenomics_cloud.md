@@ -54,6 +54,11 @@ En esta práctica nos enfocaremos en **Chromium 3' Gene Expression**, ya que est
 
 ### Datos con secuencias sin procesar versus datos procesados
 
+En experimentos de scRNA-seq es importante distinguir entre **datos sin procesar (raw data)** y **datos procesados**, ya que cumplen funciones distintas dentro del flujo de análisis.
+
+Los datos sin procesar corresponden principalmente a archivos FASTQ y contienen las lecturas de secuenciación originales. Estos datos son el punto de partida para el análisis primario y permiten reprocesar el experimento utilizando diferentes parámetros, referencias o versiones de software.
+
+Los datos procesados son el resultado del análisis primario (por ejemplo, con Cell Ranger) e incluyen matrices de conteo, archivos BAM y reportes de calidad. Estos datasets están listos para análisis downstream, como control de calidad, clustering e identificación de tipos celulares.
 
 ---
 
@@ -148,17 +153,17 @@ Los datos serán descargados de *Globus Endpoints*.
 ---
 
 
-## Procesamiento en `10x Genomics Cloud`
+## Procesamiento en `10x Genomics on The Cloud`
 
-1. Accede a tu cuenta en **10x Genomics Cloud**  
+1. Accede a tu cuenta en **10x Genomics on The Cloud**  
    https://cloud.10xgenomics.com/signin  
 
-3. Crea un **proyecto nuevo**.
+2. Crea un **proyecto nuevo**.
 
-4. Sigue las instrucciones de la plataforma de acuerdo a tu sistema operativo:
+3. Sigue las instrucciones de la plataforma de acuerdo a tu sistema operativo:
    - Subir los FASTQ files
    - Ejecutar el pipeline de **Cell Ranger**
-   - Explorar los reportes de calidad 
+   - Una vez terminado el procesamiento, explorar los reportes de calidad 
 
 ---
 
