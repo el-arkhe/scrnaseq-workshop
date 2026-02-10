@@ -95,12 +95,9 @@ Los datos serán descargados directamente de `10x Genomics Datasets`
       - **Pipeline:** v9.0.0  
       - El resto de las opciones puede dejarse sin selección.
 
-
-### 3. Descarga los datos sin procesar (raw data) y la matriz de conteos
-
 Los archivos a descargar usualmente estarán en formato comprimido *.fastq.gz y h5*
 
-Sigue las intrucciones disponibles del website para descargar los datos, y después de descargar los archivos verifica su integridad mediante checksums MD5.  
+Sigue las intrucciones disponibles del website para descargar los datos, y después de descargarlos verifica su integridad mediante checksums MD5.  
 Este paso permite confirmar que los archivos se descargaron **completos y sin corrupción**, especialmente cuando se trata de archivos grandes (`.h5`, `.fastq.gz`).
 
 ---
@@ -135,26 +132,31 @@ https://github.com/LieberInstitute/Habenula_Pilot
 
    b. Localizar el proyecto: `jhpce#habenulaPilotsnRNAseq`
 
-   b. Busca y descarga en tu computador los **FASTQ files** y **RData / hdf5** correspondiente a los archivos:
+   c. Busca y descarga en tu computador los **FASTQ files** y **RData / hdf5** correspondiente a los donadores:
 
-      Nota. Este proceso puede llevar minutos/horas/días dependiendo de los recursos de internet disponibles.
+   - `Br1204`
+   - `Br5558`
+   - `sc_Habenula_Pilot.Rdata`
 
-
-### Procesamiento en 10x Genomics Cloud
-
-1. Crear una cuenta en **10x Genomics Cloud**  
-   https://cloud.10xgenomics.com/signin  
-
-2. Agregar las credenciales solicitadas.
-
-3. Crear un **proyecto nuevo**.
-
-4. Seguir las instrucciones de la plataforma según el sistema operativo para:
-   - Subir los FASTQ files descargados desde Globus
-   - Ejecutar el pipeline de **Cell Ranger**
-   - Generar matrices de expresión y reportes de QC
+De igual forma, después de descargarlos verifica su integridad mediante checksums MD5.  
 
 ---
+
+
+## Procesamiento en `10x Genomics Cloud`
+
+1. Accede a tu cuenta en **10x Genomics Cloud**  
+   https://cloud.10xgenomics.com/signin  
+
+3. Crea un **proyecto nuevo**.
+
+4. Sigue las instrucciones de la plataforma de acuerdo a tu sistema operativo:
+   - Subir los FASTQ files
+   - Ejecutar el pipeline de **Cell Ranger**
+   - Explorar los reportes de calidad 
+
+---
+
 
 ## Resultados esperados
 
@@ -170,6 +172,7 @@ Al finalizar la práctica, cada equipo deberá contar con:
 
 ---
 
+
 ## Notas finales
 
 - El objetivo principal de esta práctica es **entender el flujo de procesamiento**, no optimizar parámetros.
@@ -180,5 +183,6 @@ Al finalizar la práctica, cada equipo deberá contar con:
 - Este flujo es especialmente útil para **docencia, talleres y prototipado rápido**.
 
 ---
+
 
 CSC. Enero 31, 2025
