@@ -67,7 +67,7 @@ Si utiliza datos, métodos o herramientas específicas presentadas en este talle
 
 ## Acceso a datos
 
-Los datos que se utilizan en este taller son de acceso publico. Ir a  [Acceso a datos de práctica](01_introduccion_sc_rnaseq.md)
+Los datos que se utilizan en este taller son de acceso publico. Ir a  [Acceso a datos de práctica](docs/04_procesamiento_10Xgenomics_cloud.md)
 
 ## Estado del proyecto
 🚧 Repositorio en desarrollo  
