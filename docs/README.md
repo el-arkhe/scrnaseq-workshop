@@ -59,4 +59,4 @@
 
 ### Otro material de ayuda
 
-- [Verificar archivos con MD5 checksum](200_verify_files_checksum)
+- [Verificar archivos con MD5 checksum](200_verify_files_checksum.md)
