@@ -48,3 +48,15 @@
 
 
 ---
+
+### Día 3 (en desarrollo)
+
+---
+
+### Día 4 (en desarrollo)
+
+---
+
+### Otro material de ayuda
+
+- [Verificar archivos con MD5 checksum](200_verify_files_checksum)
