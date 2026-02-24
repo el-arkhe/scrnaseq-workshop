@@ -56,14 +56,14 @@ Por ejemplo:
 cd ~/Documents
 ````
 
-Opcion A. Clonar usando SSH (recomendado)
+#### Opcion A. Clonar usando SSH (recomendado)
 
 ```bash
 git clone git@github.com:el-arkhe/scrnaseq-workshop.git
 ````
 Este método requiere que tengas configurada una llave SSH en GitHub.
 
-Opción B. Clonar usando HTTPS (alternativa)
+#### Opción B. Clonar usando HTTPS (alternativa)
 
 Si no tienes configurada una llave SSH, puedes usar HTTPS:
 
@@ -118,3 +118,50 @@ Para actualizar el repositorio durante el curso, utiliza:
 ```bash
 git pull
 ```
+
+## Recursos de consulta
+
+Si deseas profundizar o resolver dudas adicionales sobre Git y GitHub, puedes consultar los siguientes recursos:
+
+### Documentación oficial
+
+- Documentación oficial de Git:  
+  https://git-scm.com/docs
+
+- GitHub Docs – Clonar un repositorio:  
+  https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
+- GitHub Docs – Generar una llave SSH:  
+  https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+- GitHub Docs – Crear un Personal Access Token (PAT):  
+  https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+---
+
+### Recursos introductorios recomendados
+
+- Git Book (gratuito y muy completo):  
+  https://git-scm.com/book/en/v2
+
+- Introducción visual a Git (Atlassian):  
+  https://www.atlassian.com/git/tutorials
+
+- Git Cheat Sheet (resumen de comandos básicos):  
+  https://education.github.com/git-cheat-sheet-education.pdf
+
+---
+
+### Comandos básicos que usamos en el workshop
+
+```bash
+git clone   # Clonar un repositorio
+git pull    # Actualizar el repositorio
+git status  # Ver el estado del repositorio
+git add     # Preparar cambios
+git commit  # Guardar cambios
+git push    # Subir cambios a GitHub
+
+---
+
+CSC. Febrero 24, 2026
