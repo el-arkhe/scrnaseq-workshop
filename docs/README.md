@@ -36,6 +36,14 @@
 - Comprensión de la estructura de salida de Cell Ranger
   - Carga e inspección inicial de datos 10x
 
+- Exploración inicial de datos
+  - Por qué es importante el ARN ambiental
+    - Detección estadística con EmptyDrops
+    - Corrección de ARN ambiental con SoupX
+  - Estimación y eliminación de la contaminación
+  - Detección de dobletes con scDblFinder
+    - Detección de gotas vacías con DropletUtils
+    - Comprensión de los dobletes
 
 <!--
 - Carga de datos procesados en Seurat
