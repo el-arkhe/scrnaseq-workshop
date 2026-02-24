@@ -161,6 +161,7 @@ git status  # Ver el estado del repositorio
 git add     # Preparar cambios
 git commit  # Guardar cambios
 git push    # Subir cambios a GitHub
+```
 
 ---
 
