@@ -8,6 +8,13 @@ A diferencia del RNA-seq tradicional (bulk), donde la señal corresponde a un pr
 
 Esta tecnología ha transformado áreas como inmunología, neurociencia, biología del desarrollo y cáncer, donde entender la diversidad celular es clave.
 
+    Analogía conceptual:
+    Imagina que observas una ciudad desde el cielo. Te dicen que la temperatura promedio es templada, agradable, equilibrada. Todo parece estar en calma.
+    Pero decides descender. Entras edificio por edificio. Y entonces descubres otra historia: oficinas donde el aire es sofocante, departamentos helados, cocinas ardiendo, sótanos húmedos y fríos.
+    El promedio aunque correcto, no cuenta los detalles.
+    El RNA-seq bulk es esa vista aérea: una cifra que simplifica una medición.
+    El scRNA-seq es caminar la ciudad por dentro: revelar que cada célula vive su propia temperatura molecular.
+
 
 ## ¿Por qué usar scRNA-seq?
 
