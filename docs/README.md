@@ -10,10 +10,12 @@
   - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](03_seleccion_datos_chromium_sc.md)
 
 - [03 Práctica: procesamiento de datos en 10x Genomics Cloud](04_procesamiento_10Xgenomics_cloud.md)  
-  En este archivo encontrarás recursos públicos para acceder y procesar datos scRNA-seq utilizando **10x Genomics on the Cloud**:
+  En esta sección encontrarás datasets públicos para procesamiento de datos scRNA-seq utilizando **10x Genomics Datasets** y **10X Genomicson the Cloud**:
   - Datos scRNA-seq canónicos de 10x Genomics  
-  - Datos snRNA-seq de habenula (cerebro humano postmortem)
+<!--  - Datos snRNA-seq de habenula (cerebro humano postmortem)-->
 
+  - Procesamiento de datos con Cell Ranger
+  - Subsampling en scRNA-seq?
   - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](04a_upload_files.md)
   - [Descarga de datos procesados (Cell Ranger) desde 10x Genomics Cloud](04b_download_10X_cloud.md)
 
