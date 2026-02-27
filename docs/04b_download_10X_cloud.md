@@ -65,6 +65,26 @@ curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3p_gem-x_5k_Human_Donor1_PBMC_3p_gem-x_count_sample_filtered_feature_bc_matrix.h5
 ```
 
+## Siguiente paso
+
+Inspecciona los reportes de calidad y si satisfacen tus expectativas estas listo para iniciar  **downstream analysis**.
+
+---
+
+## Recursos de consulta
+
+- **Cell Ranger Documentation (Official 10x Genomics Docs)**  
+  Guía completa sobre procesamiento de datos scRNA-seq con Cell Ranger.  
+  https://www.10xgenomics.com/support/software/cell-ranger/latest
+
+- **10x Genomics Cloud – Support & Documentation**  
+  Documentación oficial sobre análisis en la nube y gestión de jobs.  
+  https://www.10xgenomics.com/support/cloud-analysis
+
+- **10x Genomics Datasets (Public Data Portal)**  
+  Repositorio oficial de datasets públicos para práctica y benchmarking.  
+  https://www.10xgenomics.com/datasets
+
 ---
 
 CSC. Febrero 26, 2026

@@ -11,14 +11,13 @@ En esta sección veremos opciones para:
 
 ## Descarga de datos sin procesar (FASTQs)
 
-Tomemos como ejemplo el dataset:
-
-**Peripheral blood mononuclear cells (PBMCs) from healthy humans**
+Tomemos como ejemplo el dataset: **Peripheral blood mononuclear cells (PBMCs) from healthy humans**
 
 Este dataset está compuesto por **4 donadores control (~20k células en total)**.
 
-Dataset base:
-https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x
+Dataset base: https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x
+
+--- 
 
 ## Descarga vía navegador
 
@@ -36,8 +35,6 @@ curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3p_gem-x_Multiplex/5k_Human_Donor1_PBMC_3p_gem-x_Multiplex_config.csv
 ```
 
----
-
 ### Donor 2
 
 ```bash
@@ -46,23 +43,18 @@ curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor2_PBMC_3
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor2_PBMC_3p_gem-x_Multiplex/5k_Human_Donor2_PBMC_3p_gem-x_Multiplex_config.csv
 ```
 
-
 ### Alternativa usando `wget`
 
 ```bash
 wget https://cf.10xgenomics.com/archivo.fastq.tar
 ```
 
-
 ### Donor 3 y Donor 4
 
-Repetir el procedimiento para las muestras restantes del experimento:
+Repetir el procedimiento para las muestras restantes del experimento del donador 3 y 4:
 
 - https://www.10xgenomics.com/datasets/5k_Human_Donor3_PBMC_3p_gem-x
 - https://www.10xgenomics.com/datasets/5k_Human_Donor4_PBMC_3p_gem-x
-
-
-### Descompresión
 
 Si descargaste archivos `.tar`:
 
@@ -74,13 +66,11 @@ tar -xvf archivo_fastqs.tar
 
 # Carga de FASTQs a 10x Genomics Cloud
 
-Para procesar los datos en la nube con Cell Ranger utilizaremos la herramienta:
+## Descarga de CLI
 
-**10x Genomics Cloud CLI**
+Para procesar los datos en la nube con Cell Ranger utilizaremos la herramienta: **10x Genomics Cloud CLI**
 
-La instalación depende del sistema operativo.
-
-## Descargar la CLI (ejemplo macOS)
+La instalación depende del sistema operativo. Por ejemplo este es el comando de descarga de CLI para macOS
 
 ```bash
 curl -f -o txg-macos-v4.0.0.zip https://cf.10xgenomics.com/cloud-cli/v4.0.0/txg-macos-v4.0.0.zip
@@ -99,14 +89,13 @@ Al ejecutar la CLI por primera vez, deberás configurar tu token de acceso.
 txg auth setup
 ```
 
-Obtén tu token desde tu proyecto en perfil de la cuenta -> Seguridad:
-
+También puedes obtenerlo desde tu proyecto en perfil de la cuenta -> Seguridad -> Token
 https://cloud.10xgenomics.com/account/security
 
 ⚠️ No compartas tu access token públicamente.
 
 
-## Subida de archivos FASTQ
+## Subida de archivos FASTQ usando CLI
 
 Ejemplo en macOS:
 
@@ -124,7 +113,7 @@ txg-macos-v4.0.0/txg files upload \
   scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*
 ```
 
-Observa que tienes que apuntar al direcorio donde descargaste CLI y al directorio donde estan los FASTQs, en mi caso CLI esta en `txg-macos-v4.0.0/txg` y mis FASTQs estan en `scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*` 
+Observa que tienes que apuntar al direcorio donde descargaste CLI (txg) y al directorio donde estan los FASTQs, en mi caso CLI esta en `txg-macos-v4.0.0/txg` y mis FASTQs estan en `scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*` 
 
 
 ## Confirmación de subida
@@ -153,14 +142,7 @@ Ctrl + C
 
 # Notas Técnicas Importantes
 
-## Archivos I1 / I2
-
-En muchos análisis de expresión génica (GEX), los archivos:
-
-- `I1`
-- `I2`
-
-son opcionales en Cell Ranger.
+En muchos análisis de expresión génica (GEX), los archivos los archivos I1 / I2 son opcionales en Cell Ranger.
 
 Sin embargo, **no los elimines sin verificar el tipo de experimento**.
 
@@ -198,9 +180,23 @@ Procesamiento con Cell Ranger Cloud
 
 ## Siguiente paso
 
-Una vez cargados los FASTQs, procederemos a:
+Una vez cargados los FASTQs, procederemos a **Ejecutar Cell Ranger count en la nube**.
 
-**Ejecutar Cell Ranger count en la nube**.
+---
+
+## Recursos de consulta
+
+- **Cell Ranger Documentation (Official 10x Genomics Docs)**  
+  Guía completa sobre procesamiento de datos scRNA-seq con Cell Ranger.  
+  https://www.10xgenomics.com/support/software/cell-ranger/latest
+
+- **10x Genomics Cloud – Support & Documentation**  
+  Documentación oficial sobre análisis en la nube y gestión de jobs.  
+  https://www.10xgenomics.com/support/cloud-analysis
+
+- **10x Genomics Datasets (Public Data Portal)**  
+  Repositorio oficial de datasets públicos para práctica y benchmarking.  
+  https://www.10xgenomics.com/datasets
 
 ---
 
