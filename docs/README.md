@@ -7,7 +7,7 @@
 - [01 Introducción a Single-Cell RNA-seq](01_introduccion_sc_rnaseq.md)
   - [Plataforma Chromium de 10x Genomics](01a_chromiun_platforms.md)
 - [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](02_preprocessing_scrnaseq_datasets.md)
-- [03 Selección de datos Chromium single-cell](03_seleccion_datos_chromium_sc.md)
+- [03 Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](03_seleccion_datos_chromium_sc.md)
 
 - [04 Práctica: procesamiento de datos en 10x Genomics Cloud](04_procesamiento_10Xgenomics_cloud.md)  
   En este archivo encontrarás recursos públicos para acceder y procesar datos scRNA-seq utilizando **10x Genomics on the Cloud**:
