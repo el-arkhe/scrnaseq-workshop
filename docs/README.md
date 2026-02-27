@@ -7,14 +7,15 @@
 - [01 Introducción a Single-Cell RNA-seq](01_introduccion_sc_rnaseq.md)
   - [Plataforma Chromium de 10x Genomics](01a_chromiun_platforms.md)
 - [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](02_preprocessing_scrnaseq_datasets.md)
-- [03 Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](03_seleccion_datos_chromium_sc.md)
+  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](03_seleccion_datos_chromium_sc.md)
 
-- [04 Práctica: procesamiento de datos en 10x Genomics Cloud](04_procesamiento_10Xgenomics_cloud.md)  
+- [03 Práctica: procesamiento de datos en 10x Genomics Cloud](04_procesamiento_10Xgenomics_cloud.md)  
   En este archivo encontrarás recursos públicos para acceder y procesar datos scRNA-seq utilizando **10x Genomics on the Cloud**:
   - Datos scRNA-seq canónicos de 10x Genomics  
   - Datos snRNA-seq de habenula (cerebro humano postmortem)
-  
+
   - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](04a_upload_files.md)
+  - [Descarga de datos procesados (Cell Ranger) desde 10x Genomics Cloud](04b_download_10X_cloud.md)
 
 - [05 GitHub: clonar y organizar el repositorio de datos](09_github_repo.md)
 
