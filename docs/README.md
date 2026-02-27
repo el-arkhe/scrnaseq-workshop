@@ -13,6 +13,9 @@
   En este archivo encontrarás recursos públicos para acceder y procesar datos scRNA-seq utilizando **10x Genomics on the Cloud**:
   - Datos scRNA-seq canónicos de 10x Genomics  
   - Datos snRNA-seq de habenula (cerebro humano postmortem)
+  
+  - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](04a_upload_files.md)
+
 - [05 GitHub: clonar y organizar el repositorio de datos](09_github_repo.md)
 
 ---
