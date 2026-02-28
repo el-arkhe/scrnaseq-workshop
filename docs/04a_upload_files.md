@@ -62,7 +62,6 @@ Si descargaste archivos `.tar`:
 tar -xvf archivo_fastqs.tar
 ```
 
----
 
 ## Carga de FASTQs a 10x Genomics Cloud
 
@@ -195,4 +194,4 @@ Una vez cargados los FASTQs, estas listo para **Ejecutar Cell Ranger count** en 
 
 ---
 
-CSC. Febrero 28, 2026
+CSC. Febrero 26, 2026
