@@ -7,7 +7,7 @@ En esta sección veremos opciones para:
 - Subir los archivos FASTQ a 10x Genomics Cloud utilizando la herramienta CLI.
 - Preparar los datos para su procesamiento con Cell Ranger en la nube.
 
----
+
 
 ## Descarga de datos sin procesar (FASTQs)
 
@@ -17,7 +17,7 @@ Este dataset está compuesto por **4 donadores control (~20k células en total)*
 
 Dataset base: https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x
 
---- 
+
 
 ## Descarga vía navegador
 
@@ -64,7 +64,7 @@ tar -xvf archivo_fastqs.tar
 
 ---
 
-# Carga de FASTQs a 10x Genomics Cloud
+## Carga de FASTQs a 10x Genomics Cloud
 
 ## Descarga de CLI
 
@@ -81,7 +81,7 @@ Instrucciones para Linux y Windows:
 https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/CA-cloud-cli-documentation-for-mac#downloading-and-unpacking-47097c
 
 
-## Autenticación (primer uso)
+## Autenticación
 
 Al ejecutar la CLI por primera vez, deberás configurar tu token de acceso.
 
@@ -138,17 +138,15 @@ Para cancelar:
 Ctrl + C
 ```
 
----
 
-# Notas Técnicas Importantes
+## Notas Técnicas Importantes
 
 En muchos análisis de expresión génica (GEX), los archivos los archivos I1 / I2 son opcionales en Cell Ranger.
 
 Sin embargo, **no los elimines sin verificar el tipo de experimento**.
 
----
 
-# Resumen del Flujo
+## Resumen del Flujo
 
 ```
 10x Dataset
@@ -166,9 +164,8 @@ Upload FASTQs
 Procesamiento con Cell Ranger Cloud
 ```
 
----
 
-# Buenas Prácticas
+## Buenas Prácticas
 
 - Verificar espacio en disco antes de descargar.
 - Confirmar integridad con md5sum si está disponible.
@@ -176,13 +173,11 @@ Procesamiento con Cell Ranger Cloud
 - Organizar directorios por donador.
 - Documentar project-id utilizado.
 
----
 
 ## Siguiente paso
 
-Una vez cargados los FASTQs, procederemos a **Ejecutar Cell Ranger count en la nube**.
+Una vez cargados los FASTQs, estas listo para **Ejecutar Cell Ranger count** en línea de comandos o en la nube.
 
----
 
 ## Recursos de consulta
 
@@ -200,4 +195,4 @@ Una vez cargados los FASTQs, procederemos a **Ejecutar Cell Ranger count en la n
 
 ---
 
-CSC. Febrero 26, 2026
+CSC. Febrero 28, 2026
