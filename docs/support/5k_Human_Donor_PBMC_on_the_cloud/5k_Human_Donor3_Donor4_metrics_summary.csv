@@ -1,0 +1,62 @@
+Category,Library Type,Grouped By,Group Name,Metric Name,Metric Value
+Cells,Gene Expression,,,Cells,"10,255"
+Cells,Gene Expression,,,Confidently mapped reads in cells,97.4%
+Cells,Gene Expression,,,Mean reads per cell,"8,896"
+Cells,Gene Expression,,,Median UMI counts per cell,"4,337"
+Cells,Gene Expression,,,Median genes per cell,"1,809"
+Cells,Gene Expression,,,Total genes detected,"28,129"
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX,Number of reads,"11,546,846"
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX,Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX,Q30 RNA read,95.0%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX,Q30 UMI,94.5%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX,Q30 barcodes,95.8%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (2),Number of reads,"11,630,026"
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (2),Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (2),Q30 RNA read,95.0%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (2),Q30 UMI,94.8%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (2),Q30 barcodes,96.1%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (3),Number of reads,"11,640,825"
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (3),Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (3),Q30 RNA read,95.2%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (3),Q30 UMI,94.8%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (3),Q30 barcodes,96.1%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (4),Number of reads,"11,594,698"
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (4),Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (4),Q30 RNA read,95.1%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (4),Q30 UMI,94.8%
+Library,Gene Expression,Fastq ID,5k_Human_Donor3_PBMC_3p_gem-x_GEX (4),Q30 barcodes,96.1%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX,Number of reads,"12,887,379"
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX,Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX,Q30 RNA read,95.0%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX,Q30 UMI,94.4%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX,Q30 barcodes,95.8%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (2),Number of reads,"12,986,889"
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (2),Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (2),Q30 RNA read,95.1%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (2),Q30 UMI,94.7%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (2),Q30 barcodes,96.0%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (3),Number of reads,"13,051,972"
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (3),Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (3),Q30 RNA read,95.2%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (3),Q30 UMI,94.7%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (3),Q30 barcodes,96.0%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (4),Number of reads,"13,002,320"
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (4),Number of short reads skipped,0
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (4),Q30 RNA read,95.0%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (4),Q30 UMI,94.7%
+Library,Gene Expression,Fastq ID,5k_Human_Donor4_PBMC_3p_gem-x_GEX (4),Q30 barcodes,96.1%
+Library,Gene Expression,Physical library ID,GEX_1,Cells,"10,255"
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped antisense,3.6%
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped reads in cells,97.4%
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to exonic regions,46.3%
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to genome,78.0%
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to intergenic regions,9.2%
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to intronic regions,22.4%
+Library,Gene Expression,Physical library ID,GEX_1,Confidently mapped to transcriptome,64.7%
+Library,Gene Expression,Physical library ID,GEX_1,Mapped to genome,97.3%
+Library,Gene Expression,Physical library ID,GEX_1,Mean reads per cell,"9,590"
+Library,Gene Expression,Physical library ID,GEX_1,Number of reads,"98,340,955"
+Library,Gene Expression,Physical library ID,GEX_1,Number of reads in the library,"98,340,955"
+Library,Gene Expression,Physical library ID,GEX_1,Sequencing saturation,18.1%
+Library,Gene Expression,Physical library ID,GEX_1,Valid UMIs,99.9%
+Library,Gene Expression,Physical library ID,GEX_1,Valid barcodes,96.7%

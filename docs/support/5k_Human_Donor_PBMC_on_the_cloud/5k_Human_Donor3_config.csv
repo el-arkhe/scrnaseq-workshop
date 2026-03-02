@@ -1,0 +1,18 @@
+[gene-expression]
+reference,refdata-cellranger-GRCh38-2024-A
+chemistry,auto
+include-introns,true
+no-secondary,false
+create-bam,true
+check-library-compatibility,true
+tenx-cloud-token-path,tenx_cloud_token.txt
+cell-annotation-model,auto
+skip-cell-annotation,false
+
+[libraries]
+fastq_id,fastqs,lanes,feature_types,subsample_rate
+5k_Human_Donor3_PBMC_3p_gem-x_GEX,da79956b-f1f3-4ef9-bf3d-36650b9bfe73/009f2725-d697-4ce4-9f9e-4b4da29b0cfc,any,Gene Expression,0.25
+5k_Human_Donor3_PBMC_3p_gem-x_GEX,da79956b-f1f3-4ef9-bf3d-36650b9bfe73/f5785769-f17f-4685-bd6f-504ecf40c45b,any,Gene Expression,0.25
+5k_Human_Donor3_PBMC_3p_gem-x_GEX,da79956b-f1f3-4ef9-bf3d-36650b9bfe73/5b2e3fb2-289a-4a53-b814-1d6c0881c759,any,Gene Expression,0.25
+5k_Human_Donor3_PBMC_3p_gem-x_GEX,da79956b-f1f3-4ef9-bf3d-36650b9bfe73/fc4bdd39-99b9-4973-91c6-4b9aac6dac9c,any,Gene Expression,0.25
+
