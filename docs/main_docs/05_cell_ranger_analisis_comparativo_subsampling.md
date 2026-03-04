@@ -1,8 +1,9 @@
+## Módulo 1: Procesamiento de datos scRNA-seq y subsampling
 ## Preguntas para discusión
 
-En datasets con alta saturación inicial, el subsampling moderado suele preservar la estructura global. En datasets con saturación baja, la reducción de profundidad impacta más fuertemente la detección molecular.
-
 ### Compara las condiciones sin y con subsampling en Cell Ranger y responde las siguientes preguntas
+
+En datasets con alta saturación inicial, el subsampling moderado suele preservar la estructura global. En datasets con saturación baja, la reducción de profundidad impacta más fuertemente la detección molecular. Sin embargo no siempre es así. Análiza las siguientes preguntas:
 
 ¿El número de células detectadas cambió tras el subsampling?
 
@@ -15,10 +16,9 @@ En datasets con alta saturación inicial, el subsampling moderado suele preserva
 ¿Se observa pérdida de genes de baja expresión?
 
 
-
 ### Identificación de especificaciones técnicas
 
-¿En qué muestras se específico create-bam=false y porqué?
+¿En qué muestras se específico `create-bam=false` y porqué?
 
 Análiza la configuración y resultados de los donadores 3+4 con subsampling al 25%
 
@@ -30,9 +30,9 @@ Análiza la configuración y resultados de los donadores 3+4 con subsampling al 
 
     Total genes detected: ? 
 
-¿Porque el reporte de Cell Ranger no reporta número de clusters estimados ni resultados de expresión diferencial?
+¿Porque el reporte de Cell Ranger no reporta número de clusters estimados ní resultados de expresión diferencial?
 
---
+---
 
 ### 🎉 ¡Felicidades, has completado el Módulo 1!
 
