@@ -28,12 +28,12 @@ fastq_id,fastqs,lanes,feature_types
 
 ### Reportes de Cell Ranger
 
-[Reporte CSV de Cell Ranger](support/5k_Human_Donor3_PBMC_3p_gem-x_5k_Human_Donor3_PBMC_3p_gem-x_metrics_summary.csv)
+[Reporte CSV de Cell Ranger](../support/5k_Human_Donor3_PBMC_3p_gem-x_5k_Human_Donor3_PBMC_3p_gem-x_metrics_summary.csv)
 
-[Reporte HTML de Cell Ranger](support/5k_Human_Donor3_PBMC_3p_gem-x_5k_Human_Donor3_PBMC_3p_gem-x_web_summary.html)
+[Reporte HTML de Cell Ranger](../support/5k_Human_Donor3_PBMC_3p_gem-x_5k_Human_Donor3_PBMC_3p_gem-x_web_summary.html)
 
-Secondary Analysis: \
-Clusters (Graph-based): 11 
+Secondary Analysis: 
+- Clusters (Graph-based): 11 
 
 
 ### Donador 4 sin subsampling
@@ -51,12 +51,12 @@ fastq_id,fastqs,lanes,feature_types
 
 ### Reportes de Cell Ranger
 
-[Reporte CSV de Cell Ranger](support/5k_Human_Donor4_PBMC_3p_gem-x_5k_Human_Donor4_PBMC_3p_gem-x_metrics_summary.csv)
+[Reporte CSV de Cell Ranger](../support/5k_Human_Donor4_PBMC_3p_gem-x_5k_Human_Donor4_PBMC_3p_gem-x_metrics_summary.csv)
 
-[Reporte HTML de Cell Ranger](support/5k_Human_Donor4_PBMC_3p_gem-x_5k_Human_Donor4_PBMC_3p_gem-x_web_summary.html)
+[Reporte HTML de Cell Ranger](../support/5k_Human_Donor4_PBMC_3p_gem-x_5k_Human_Donor4_PBMC_3p_gem-x_web_summary.html)
 
-Secondary Analysis: \
-Clusters (Graph-based): 14 
+Secondary Analysis:
+- Clusters (Graph-based): 14 
 
 ---
 
@@ -86,13 +86,13 @@ fastq_id,fastqs,lanes,feature_types,subsample_rate
 
 ### Reportes de Cell Ranger
 
-[Reporte CSV de Cell Ranger](support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_metrics_summary.csv)
+[Reporte CSV de Cell Ranger](../support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_metrics_summary.csv)
 
-[Reporte HTML de Cell Ranger](support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_web_summary.html)
+[Reporte HTML de Cell Ranger](../support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_web_summary.html)
 
-Secondary Analysis: \
-Clusters (Graph-based): 8 \
-Run Time: 34 Minutos
+Secondary Analysis:
+- Clusters (Graph-based): 8
+- Run Time: 34 Minutos
 
 
 ### Donador 3+4 con subsampling al 25%
@@ -124,13 +124,13 @@ fastq_id,fastqs,lanes,feature_types,subsample_rate
 
 ### Reportes de Cell Ranger
 
-[Reporte CSV de Cell Ranger](support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_Donor4_metrics_summary.csv)
+[Reporte CSV de Cell Ranger](../support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_Donor4_metrics_summary.csv)
 
-[Reporte HTML de Cell Ranger](support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_Donor4_web_summary.html)
+[Reporte HTML de Cell Ranger](../support/5k_Human_Donor_PBMC_on_the_cloud/5k_Human_Donor3_Donor4_web_summary.html)
 
-Secondary Analysis: \
-Clusters (Graph-based): \
-Run Time: 34 Minutos
+Secondary Analysis:
+- Clusters (Graph-based): ?
+- Run Time: 34 Minutos
 
     Nota que al especificar `create-bam,false` el tiempo de ejecución reduce significativamente.
 
