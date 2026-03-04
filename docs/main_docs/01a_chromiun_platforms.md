@@ -137,6 +137,81 @@ Software estándar:
 
 - Cell Ranger
 
+
+### Diagrama Conceptual del Flujo 10x Genomics scRNA-seq
+
+┌───────────────────────────────┐
+│        MUESTRA BIOLÓGICA      │
+│  (tejido, sangre, núcleos)    │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│   AISLAMIENTO CELULAR / QC    │
+│  Viabilidad >85%              │
+│  700–1200 células/µL          │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌──────────────────────────────────────────────┐
+│      INSTRUMENTO CHROMIUM (Microfluídica)   │
+│                                              │
+│  Células + Gel Beads + Aceite → GEMs        │
+│                                              │
+│   ┌──────────────┐   ┌──────────────┐       │
+│   │   GEM 1      │   │   GEM 2      │  ...  │
+│   │ [1 célula]   │   │ [1 célula]   │       │
+│   │ [1 barcode]  │   │ [1 barcode]  │       │
+│   └──────────────┘   └──────────────┘       │
+└───────────────┬──────────────────────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│  LISIS + REVERSE TRANSCRIPTION│
+│  mRNA + poly(dT)              │
+│  Incorporación de:            │
+│   - Cell Barcode              │
+│   - UMI                       │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│  RUPTURA DE GEMs              │
+│  Pool de cDNA amplificado     │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│  PREPARACIÓN DE LIBRERÍA      │
+│  Fragmentación + Adaptadores  │
+│  Tamaño ~400–600 bp           │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│       SECUENCIACIÓN           │
+│                               │
+│  Read 1 → Barcode + UMI       │
+│  Read 2 → cDNA (gen)          │
+│  Index → Muestra              │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│    PROCESAMIENTO COMPUTACIONAL│
+│                               │
+│  Demultiplexing               │
+│  Alignment                    │
+│  UMI counting                 │
+│  Cell calling                 │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│  MATRIZ DE EXPRESIÓN GÉNICA   │
+│  Genes × Células              │
+└───────────────────────────────┘
+
 ---
 
 # Comparación de Químicas  
