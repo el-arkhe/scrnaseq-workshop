@@ -1,5 +1,5 @@
-# Subsampling datos single-cell RNA-seq
-## Qué es el Subsampling
+# Submuestreo (subsampling) con datos single-cell RNA-seq
+## Qué es el subsampling
 
 En scRNA-seq, **subsampling** (también llamado *downsampling*) es el proceso de **tomar una fracción aleatoria de lecturas (reads)** o de **UMIs/cells** para simular un dataset con menor profundidad o menor tamaño. El objetivo es (mejorar) **evaluar sensibilidad, robustez y efectos técnicos**, o **reducir costo computacional** durante exploraciones iniciales.
 
@@ -45,8 +45,6 @@ Si el resultado cambia drásticamente con una reducción moderada, probablemente
 
 #### Quieres una exploración rápida en datasets grandes
 Para iterar parámetros (QC, HVFs, clustering) antes de correr el análisis completo.
-
-
 
 ### ¿Cuándo NO conviene utilizar subsampling?
 
@@ -103,7 +101,7 @@ Al actuar sobre los reads, el subsampling:
 
 En esencia, se trata de una re-ejecución completa del modelo con menor evidencia molecular.
 
-### Métricas relevantes en el Web Summary
+### Métricas relevantes en el `Web Summary Report`
 
 El `Web Summary` de Cell Ranger reporta métricas clave para evaluar profundidad y rendimiento del experimento, entre ellas:
 
@@ -114,7 +112,7 @@ El `Web Summary` de Cell Ranger reporta métricas clave para evaluar profundidad
 
 Estas métricas permiten explorar la calidad del dataset y anticipar el efecto del subsampling.
 
-### ¿Qué es sequencing saturation?
+### ¿Qué es `sequencing saturation`?
 
 `Sequencing saturation` estima la fracción de lecturas adicionales que  producirían nuevos UMIs únicos. Está directamente relacionada con la tasa de duplicación de moléculas.
 

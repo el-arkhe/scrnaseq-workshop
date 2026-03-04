@@ -14,8 +14,7 @@ Run IDs:
 ---
 
 ### Donador 3 sin subsampling
-
-### Configuración
+Configuración
 
 ```bash
 [gene-expression]
@@ -37,7 +36,9 @@ Secondary Analysis: \
 Clusters (Graph-based): 11 
 
 
-### Config Donador 4 sin subsampling
+### Donador 4 sin subsampling
+Configuración
+
 ```bash
 [gene-expression]
 reference,/path/to/references/GRCh38-2024-A
@@ -60,8 +61,8 @@ Clusters (Graph-based): 14
 ---
 
 ## Subsampling 
-
-### Config Donador 3 con subsampling al 25% 
+### Donador 3 con subsampling al 25% 
+Configuración
 
 ```bash
 [gene-expression]
@@ -93,9 +94,9 @@ Secondary Analysis: \
 Clusters (Graph-based): 8 \
 Run Time: 34 Minutos
 
----
 
-### Config Donador 3 y 4 con submuestreo al 25%
+### Donador 3+4 con subsampling al 25%
+Configuración
 
 ```bash
 [gene-expression]
@@ -134,14 +135,11 @@ Run Time: 34 Minutos
     Nota que al especificar `create-bam,false` el tiempo de ejecución reduce significativamente.
 
 
-### Analisis de resultados
+### Siguiente paso:
 
-Cells: 10,255
-Median genes per cell: 1,809
-Median UMI counts per cell: 4,337
-Total genes detected: 28,129
+[Práctica de ánalisis de resultados](../main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)
 
+---
 
-### Responde las siguientes preguntas
-
+CSC. Marzo 04, 2026
 

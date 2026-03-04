@@ -4,20 +4,24 @@
 
 ### Día 1: Introducción y Procesamiento de Datos con Cell Ranger
 
-- [01 Introducción a Single-Cell RNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
+- [01 Introducción a scRNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
   - [Plataforma Chromium de 10x Genomics](main_docs/01a_chromiun_platforms.md)
+
 - [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
-  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/03_seleccion_datos_chromium_sc.md)
+  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/02a_seleccion_datos_chromium_sc.md)
 
-- [03 Práctica: procesamiento de datos en 10x Genomics Cloud](main_docs/04_procesamiento_10Xgenomics_cloud.md)  
-  En este archivo encontrarás enlaces a datos scRNA-seq públicos de `10x Genomics Datasets` u otros disponibles para su procesamiento con `Cell Ranger` utilizando la plataforma `10X Genomics on the Cloud`:
+- [03 Práctica: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/03_procesamiento_10Xgenomics_cloud.md)  
+  En este archivo encontrarás enlaces a datos scRNA-seq públicos de `10x Genomics Datasets` u otros disponibles para su procesamiento con `Cell Ranger`
 
-- [04 Submuestreo (Subsampling) en flujos de trabajo con Cell Ranger](main_docs/04c_subsampling.md)
-  - [Ejemplo: Análisis de resultados con y sin subsampling](main_docs/04c_1_subsampling.md)  
+    Recursos de apoyo:
+  - [Descarga y carga de datos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](main_docs/03a_upload_files.md)
+  - [Descarga de datos procesados en `Cell Ranger on the Cloud`](main_docs/03b_download_10X_cloud.md)
 
-  Recursos de apoyo:
-  - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](main_docs/04a_upload_files.md)
-  - [Descarga de datos procesados (Cell Ranger) desde 10x Genomics Cloud](main_docs/04b_download_10X_cloud.md)
+- [04 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/04_subsampling.md)
+  - [Análisis de resultados con y sin submuestreo](main_docs/04a_subsampling.md)  
+
+- [05 Práctica: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)  
+
 
 ---
 
