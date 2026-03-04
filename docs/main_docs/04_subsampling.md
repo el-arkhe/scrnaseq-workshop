@@ -58,7 +58,7 @@ En lo general evita subsampling cuando:
 - Tu dataset ya es de baja profundidad
 
 
-## Estasbilidad del número de células 
+## Estabilidad del número de células 
 
 ¿Cambia el número de células cuando aplicamos subsampling?
 
