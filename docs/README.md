@@ -2,6 +2,10 @@
 
 ## Índice
 
+### Vídeos Tutoriales
+
+[Consulta videográfica sobre temas del taller](300_videos_tutoriales.md)
+
 ### Día 1: Introducción y Procesamiento de Datos con Cell Ranger
 
 - [01 Introducción a scRNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
