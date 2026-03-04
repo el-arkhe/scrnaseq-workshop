@@ -1,43 +1,35 @@
 # Taller scRNA-seq
 ### El Arkhe · Talleres Multiomics
 
-Este repositorio contiene el material del **Taller de análisis de single-cell RNA sequencing (scRNA-seq)** 
+Este repositorio contiene el material del **Taller de análisis de single-cell RNA-seq (scRNA-seq)** 
 
 <p align="center">
   <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
 </p>
 
-El contenido está diseñado para formación académica y técnica, con énfasis en:
+El contenido está diseñado para formación técnica con énfasis en:
 - comprensión conceptual del análisis single-cell
 - reproducibilidad
 - buenas prácticas computacionales
 - lectura crítica de datos y resultados
+- uso de referencias bibliográficas relevantes
 
 ---
 
-## Estructura (en construcción)
+## Estructura
 
-- `data/` — datasets de ejemplo  
-- [`scripts/` - Codigo R] (/scripts/README.md)  
-- [`docs/` — material teórico y guías](/docs/README.md)  
-- `environment/` — entornos reproducibles  
+- [`Datos single-cell`](data/) — Acceso a diversos datasets single-cell o otros tipos de datos relacionados
+- [`Codigo R/Python/HTML](/scripts/README.md) — Scripts con codigo para reproducibilidad del taller
+- [`Material`](/docs/README.md) — Material teórico, guías del taller y ejercicios de práctica relacionados
+- [`Environment`] — Entornos reproducibles  
 
 ---
 
-<!--
+## Clonar repositorio
 
-## Instalación (recomendada) con mamba
+- [`Github repo`](docs/main_docs/09_github_repo.md)
 
-- mamba env create -f environment.yml
-- mamba activate elarkhe-seurat
-
-### Instalar Seurat dentro del entorno (paso crítico)
-
-Una vez activado el entorno:
-
-- R -q -e 'install.packages("Seurat", repos="https://cloud.r-project.org")'
-
--->
+---
 
 ## Autora y curaduría
 **Cyntia S. Cardinault**  
@@ -64,10 +56,6 @@ GitHub generará automáticamente formatos de citación (BibTeX, APA, etc.) desd
 
 Si utiliza datos, métodos o herramientas específicas presentadas en este taller, por favor cite también las publicaciones primarias correspondientes (por ejemplo, Seurat, Scanpy, edgeR, 10x Genomics Cell Ranger), como se indica a lo largo de los materiales del taller.
 
-
-## Acceso a datos
-
-Los datos que se utilizan en este taller son de acceso publico. Ir a  [Acceso a datos de práctica](docs/04_procesamiento_10Xgenomics_cloud.md)
 
 ## Estado del proyecto
 🚧 Repositorio en desarrollo  
