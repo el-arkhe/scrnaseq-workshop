@@ -7,8 +7,6 @@ En esta sección veremos opciones para:
 - Subir los archivos FASTQ a 10x Genomics Cloud utilizando la herramienta CLI.
 - Preparar los datos para su procesamiento con Cell Ranger en la nube.
 
-
-
 ## Descarga de datos sin procesar (FASTQs)
 
 Tomemos como ejemplo el dataset: **Peripheral blood mononuclear cells (PBMCs) from healthy humans**
@@ -17,14 +15,11 @@ Este dataset está compuesto por **4 donadores control (~20k células en total)*
 
 Dataset base: https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x
 
-
-
 ## Descarga vía navegador
 
 Puedes descargar los archivos directamente desde el botón de descarga en la página oficial del dataset. Sin mayor complicación.
 
 ## Descarga vía línea de comandos (recomendado)
-
 ### Donor 1
 
 ```bash
@@ -64,7 +59,6 @@ tar -xvf archivo_fastqs.tar
 
 
 ## Carga de FASTQs a 10x Genomics Cloud
-
 ## Descarga de CLI
 
 Para procesar los datos en la nube con Cell Ranger utilizaremos la herramienta: **10x Genomics Cloud CLI**
@@ -172,11 +166,9 @@ Procesamiento con Cell Ranger Cloud
 - Organizar directorios por donador.
 - Documentar project-id utilizado.
 
-
 ## Siguiente paso
 
 Una vez cargados los FASTQs, estas listo para **Ejecutar Cell Ranger count** en línea de comandos o en la nube.
-
 
 ## Recursos de consulta
 
