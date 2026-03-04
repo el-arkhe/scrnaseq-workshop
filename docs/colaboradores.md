@@ -9,7 +9,7 @@ Titular Académico - Arkhe: Cynthia S. Cardinault
 Vinculación y Coordinación IPN-CIIDIR: Abraham Cruz
 Instructor Asociado - IPN-CIIDIR: Ana Lucía Roblez Castro
 Instructor Asociado - IPN-CIIDIR: Itzel López
-[Asistentes](ediciones/asistentes1a_ed.md)
+Asistentes: 
 
 ### scRNA-seq 2a. Edición 2026
 
