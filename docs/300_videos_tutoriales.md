@@ -2,17 +2,17 @@
 
 ### Introducción y Procesamiento de Datos con Cell Ranger
 
-Cómo funciona | Solución de expresión génica de células individuales de Chromium
-[![How it Works | Chromium Single Cell Gene Expression Solution](https://img.youtube.com/vi/4NAS1qTJmYA/hqdefault.jpg)](https://www.youtube.com/watch?v=4NAS1qTJmYA)
+**¿Cómo funciona Chromium Single Cell Gene Expression?**  
+[![Chromium Single Cell Overview](https://img.youtube.com/vi/4NAS1qTJmYA/hqdefault.jpg)](https://www.youtube.com/watch?v=4NAS1qTJmYA)
 
-Cargar los archivos FASTQ y configurar el análisis siguiendo el setup automático estándar de Cell Ranger:
-[![Video: Introducción y procesamiento](https://img.youtube.com/vi/RpvIAYhI_ao/hqdefault.jpg)](https://www.youtube.com/watch?v=RpvIAYhI_ao)
+**Carga de FASTQ y configuración automática en Cell Ranger**  
+[![Carga y configuración en Cell Ranger](https://img.youtube.com/vi/RpvIAYhI_ao/hqdefault.jpg)](https://www.youtube.com/watch?v=RpvIAYhI_ao)
 
-Flujo de trabajo estándar para ejecutar Cell Ranger utilizando la configuración automática recomendada:
-[![Video: Introducción y procesamiento](https://img.youtube.com/vi/RpvIAYhI_ao/hqdefault.jpg)](https://youtu.be/fOBE8oOp4zs?si=ffmgFcV8Ly3-krRH)
+**Flujo de trabajo estándar con configuración recomendada**  
+[![Flujo estándar Cell Ranger](https://img.youtube.com/vi/fOBE8oOp4zs/hqdefault.jpg)](https://www.youtube.com/watch?v=fOBE8oOp4zs)
 
-Revisamos los archivos de salida generados por Cell Ranger tras la ejecución del pipeline en la plataforma en la nube de 10x Genomics. Se muestran los principales archivos de salida, incluyendo las matrices de conteo, métricas de calidad y reportes automáticos, antes de avanzar al análisis downstream:
-[![Video: Introducción y procesamiento](https://img.youtube.com/vi/RpvIAYhI_ao/hqdefault.jpg)](https://youtu.be/93gFx_ZMuQI?si=fTLYTU9ux7BnJHA9)
+**Revisión de archivos de salida y Web Summary**  
+[![Salida y métricas de Cell Ranger](https://img.youtube.com/vi/93gFx_ZMuQI/hqdefault.jpg)](https://www.youtube.com/watch?v=93gFx_ZMuQI)
 
 
 ---
