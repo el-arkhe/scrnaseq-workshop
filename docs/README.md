@@ -12,7 +12,7 @@
 - [03 Práctica: procesamiento de datos en 10x Genomics Cloud](04_procesamiento_10Xgenomics_cloud.md)  
   En esta sección encontrarás datos scRNA-seq públicos de `10x Genomics Datasets` (u otros) disponibles para su procesamiento con Cell Ranger en `10X Genomics on the Cloud`:
     - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](04a_upload_files.md)
-    - Decisiones para Subsampling en scRNA-seq
+    - [Decisiones para Subsampling en Cell Ranger](04c_subsampling.md)
     - [Descarga de datos procesados (Cell Ranger) desde 10x Genomics Cloud](04b_download_10X_cloud.md)
 
 - [05 GitHub: clonar y organizar el repositorio de datos](09_github_repo.md)
