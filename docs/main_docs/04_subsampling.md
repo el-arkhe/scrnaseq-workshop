@@ -1,9 +1,9 @@
-# Submuestreo (subsampling) con datos single-cell RNA-seq
-## Qué es el subsampling
+# Submuestreo (subsampling) con datos scRNA-seq
+### Qué es el subsampling
 
 En scRNA-seq, **subsampling** (también llamado *downsampling*) es el proceso de **tomar una fracción aleatoria de lecturas (reads)** o de **UMIs/cells** para simular un dataset con menor profundidad o menor tamaño. El objetivo es (mejorar) **evaluar sensibilidad, robustez y efectos técnicos**, o **reducir costo computacional** durante exploraciones iniciales.
 
-## Tipos comunes de subsampling
+### Tipos comunes de subsampling
 
 - **Por reads**: reduce lecturas antes del conteo (impacta directamente UMIs/genes detectados).
 - **Por UMIs**: reduce conteos en la matriz (aproxima menor profundidad).
@@ -29,35 +29,40 @@ Lo que suele conservarse (si el subsampling no es extremo):
 
 ### ¿Cuándo utilizar subsampling?
 
-#### Quieres comparar muestras con distinta profundidad (depth matching)
+Algunos casos típicos son:
+
+- Quieres comparar muestras con distinta profundidad (depth matching)
 Si una muestra tiene muchas más lecturas por célula que otra, puede parecer “mejor” solo por mayor profundidad. Subsampling permite igualar profundidad para comparar de forma más justa.
 
-#### Benchmarking de pipelines
-Quieres evaluar:
-- Estabilidad de clustering
-- Robustez de marcadores
-- Sensibilidad a menor profundidad
+- Benchmarking de pipelines para evaluar:
+  - Estabilidad de clustering
+  - Robustez de marcadores
+  - Sensibilidad a menor profundidad
 
-Ejemplo común: 100% → 75% → 50% → 25% y comparar resultados.
+  Ejemplo común: 100% → 75% → 50% → 25% y comparar resultados.
 
-#### Quieres evaluar estabilidad de resultados
+- Quieres evaluar estabilidad de resultados:
 Si el resultado cambia drásticamente con una reducción moderada, probablemente estabas en el límite de detección o sobreinterpretando señal débil.
 
-#### Quieres una exploración rápida en datasets grandes
+- Quieres una exploración rápida en datasets grandes
 Para iterar parámetros (QC, HVFs, clustering) antes de correr el análisis completo.
+
 
 ### ¿Cuándo NO conviene utilizar subsampling?
 
-Evita subsampling cuando:
+En lo general evita subsampling cuando:
+
 - Necesitas detectar poblaciones raras
 - Buscas genes de muy baja expresión
 - Harás differential expression fino
 - Tu dataset ya es de baja profundidad
 
 
-## ¿Cambia el número de células?
+## Estasbilidad del número de células 
 
-Depende del nivel de aplicación.
+¿Cambia el número de células cuando aplicamos subsampling?
+
+La respuesta no es simple, y depende del nivel de aplicación. La tabla de abajo  vislumbra un poco el posible resultado, pero no es una guía definitiva.
 
 | Nivel | ¿Puede cambiar el número de células detectadas? |
 |-------|-----------------------------------------------|
@@ -66,8 +71,6 @@ Depende del nivel de aplicación.
 | Subsampling en matriz filtrada | No |
 
 El número de células detectadas es el resultado de un modelo estadístico de *cell calling*, basado en la distribución de UMIs por barcode. Reducir reads puede hacer que barcodes marginales caigan por debajo del umbral.
-
-## Interpretación técnica: detección celular
 
 Una célula detectada no es una observación directa, sino una inferencia basada en:
 
@@ -85,9 +88,9 @@ Por lo tanto, el número de células detectadas depende de:
 Reducir reads no cambia la biología subyacente, pero sí la evidencia estadística disponible.
 
 
-## Subsampling en Cell Ranger
+### Interpretación técnica del subsampling en `Cell Ranger`
 
-En Cell Ranger (incluyendo 10x Genomics on the Cloud), la opción de subsampling actúa a nivel de reads, no a nivel de UMIs ni de células.
+En Cell Ranger la opción de subsampling actúa a nivel de reads, no a nivel de UMIs ni de células.
 
 Cell Ranger toma una fracción aleatoria de lecturas (reads) del FASTQ y ejecuta nuevamente el pipeline completo (cellranger count) con esas lecturas reducidas. Como consecuencia, se recalcula el cell calling bajo la nueva profundidad de secuenciación.
 
@@ -103,7 +106,7 @@ En esencia, se trata de una re-ejecución completa del modelo con menor evidenci
 
 ### Métricas relevantes en el `Web Summary Report`
 
-El `Web Summary` de Cell Ranger reporta métricas clave para evaluar profundidad y rendimiento del experimento, entre ellas:
+El `Web Summary Report` de Cell Ranger reporta métricas clave para evaluar profundidad y rendimiento del experimento, entre ellas:
 
 - Mean reads per cell
 - Median genes per cell
@@ -112,9 +115,7 @@ El `Web Summary` de Cell Ranger reporta métricas clave para evaluar profundidad
 
 Estas métricas permiten explorar la calidad del dataset y anticipar el efecto del subsampling.
 
-### ¿Qué es `sequencing saturation`?
-
-`Sequencing saturation` estima la fracción de lecturas adicionales que  producirían nuevos UMIs únicos. Está directamente relacionada con la tasa de duplicación de moléculas.
+Por ejemplo, `Sequencing saturation`, estima la fracción de lecturas adicionales que  producirían nuevos UMIs únicos. Está directamente relacionada con la tasa de duplicación de moléculas.
 
 En una `Saturación alta` (ej. >70–80%) la mayoría de las moléculas ya han sido capturadas; incrementar reads aportará poca información adicional. Mientras en una `Saturación baja` aún es probable detectar nuevas moléculas únicas con mayor profundidad.
 
@@ -124,9 +125,8 @@ Aproximadamente:
 
     Por ej. sí la saturación de secuenciación es del 50 % (1 / 1-0.50), significa que hay 1 UMI (unique transcript in a cell barcode) por cada 2 lecturas (en códigos de barras celulares y mapeadas con precisión al transcriptoma). Por el contrario, una saturación de secuenciación del 90 % significa que hay 1 UMI por cada 10 lecturas. Si la saturación de secuenciación es alta, la secuenciación adicional no recuperaría mucha información nueva para la biblioteca.
 
-### Estabilidad del número de células 
 
-La estabilidad del número de células detectadas dependerá de qué tan separada esté la distribución de señal celular del background.
+Por tanto, la estabilidad del número de células detectadas dependerá de qué tan separada esté la distribución de señal celular del background.
 
 El `cell calling` en Cell Ranger se basa en un modelo estadístico que intenta distinguir barcodes con señal celular real de aquellos dominados por RNA ambiental. De manera conceptualmente similar al enfoque de `EmptyDrops`, el algoritmo evalúa si el perfil de expresión de un barcode difiere significativamente de una distribución esperada de fondo. 
 
