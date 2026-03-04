@@ -136,15 +136,19 @@ Por ello, la detección de células es una inferencia probabilística dependient
 ## Recursos de consulta
 
 - Cell Ranger´s Gene Expression Algorithm  
+
   https://www.10xgenomics.com/support/software/cell-ranger/latest/algorithms-overview/cr-gex-algorithm  
 
 - Cell Ranger count Web Summary
+
   https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/outputs/cr-outputs-web-summary-count
 
 - How much sequencing saturation should I aim for?
+
   https://kb.10xgenomics.com/s/article/115002474263-How-much-sequencing-saturation-should-I-aim-for 
 
 - EmptyDrops: distinguishing cells from empty droplets  
+
   Lun ATL et al., Genome Biology (2019). Modelo estadístico para separar células reales de droplets vacíos.  
   https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1662-y  
 
