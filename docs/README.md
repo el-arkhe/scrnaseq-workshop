@@ -4,18 +4,18 @@
 
 ### Día 1: Introducción y Procesamiento de Datos con Cell Ranger
 
-- [01 Introducción a Single-Cell RNA-seq](01_introduccion_sc_rnaseq.md)
-  - [Plataforma Chromium de 10x Genomics](01a_chromiun_platforms.md)
-- [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](02_preprocessing_scrnaseq_datasets.md)
-  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](03_seleccion_datos_chromium_sc.md)
+- [01 Introducción a Single-Cell RNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
+  - [Plataforma Chromium de 10x Genomics](main_docs/01a_chromiun_platforms.md)
+- [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
+  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/03_seleccion_datos_chromium_sc.md)
 
-- [03 Práctica: procesamiento de datos en 10x Genomics Cloud](04_procesamiento_10Xgenomics_cloud.md)  
+- [03 Práctica: procesamiento de datos en 10x Genomics Cloud](main_docs/04_procesamiento_10Xgenomics_cloud.md)  
   En esta sección encontrarás datos scRNA-seq públicos de `10x Genomics Datasets` (u otros) disponibles para su procesamiento con Cell Ranger en `10X Genomics on the Cloud`:
-    - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](04a_upload_files.md)
-    - [Decisiones para Subsampling en Cell Ranger](04c_subsampling.md)
-    - [Descarga de datos procesados (Cell Ranger) desde 10x Genomics Cloud](04b_download_10X_cloud.md)
+    - [Descarga y carga de datos FASTQ desde 10x Genomics Datasets a 10x Genomics Cloud](main_docs/04a_upload_files.md)
+    - [Decisiones para Subsampling en Cell Ranger](main_docs/04c_subsampling.md)
+    - [©Descarga de datos procesados (Cell Ranger) desde 10x Genomics Cloud](main_docs/04b_download_10X_cloud.md)
 
-- [05 GitHub: clonar y organizar el repositorio de datos](09_github_repo.md)
+- [05 GitHub: clonar y organizar el repositorio de datos](main_docs/09_github_repo.md)
 
 ---
 
@@ -68,4 +68,4 @@
 
 ### Otro material de ayuda
 
-- [Verificar archivos con MD5 checksum](200_verify_files_checksum.md)
+- [Verificar archivos con MD5 checksum](main_docs/200_verify_files_checksum.md)
