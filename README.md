@@ -30,7 +30,12 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 ## Clonar repositorio
 
-- [`Github repo`](docs/main_docs/09_github_repo.md)
+```bash
+git clone git@github.com:el-arkhe/scrnaseq-workshop.git
+````
+Este método requiere que tengas configurada una llave SSH en GitHub.
+
+Mas detalles: [`Github repo`](docs/main_docs/09_github_repo.md)
 
 ---
 
