@@ -1,10 +1,46 @@
-# Taller scRNA-seq
-### El Arkhe · Talleres Multiomics
+# Taller de Análisis de Datos Single-Cell RNA-seq
+### El Arkhe · Multiomics
 
-Aquí encontraras todo el material del **Taller de análisis de single-cell RNA-seq** 
+<p align="center">
+
+Análisis bioinformático paso a paso de datos **single-cell RNA-seq** utilizando datasets públicos y herramientas modernas de análisis en **R / Seurat v5**.
+
+Curso práctico orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ hasta la identificación de tipos celulares**.
+
+</p>
+
+---
+
+### Tech Stack
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white">
+<img src="https://img.shields.io/badge/Seurat.v5-4B8BBE?style=for-the-badge">
+<img src="https://img.shields.io/badge/Cell_Ranger 10x_Genomics-F47C20?style=for-the-badge">
+<img src="https://img.shields.io/badge/Single--Cell RNAseq-8E44AD?style=for-the-badge">
+<img src="https://img.shields.io/badge/Linux-Bioinformatics-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+
+</p>
+
+---
 
 <p align="center">
   <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
+</p>
+
+Este taller sigue el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular.
+
+| Día | Tema | Resultado |
+|----|----|----|
+| Día 1 | Procesamiento con Cell Ranger | matriz de expresión |
+| Día 2 | Control de calidad | dataset limpio |
+| Día 3 | Integración de datasets | dataset integrado |
+| Día 4 | Clustering celular | poblaciones celulares |
+| Día 5 | Anotación celular | interpretación biológica |
+
+Duración total: **20 horas**
+
 </p>
 
 El contenido está diseñado para formación técnica con énfasis en:
@@ -18,7 +54,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 ---
 
-## Estructura
+### Acceso rápido al contenido
 
 - [`Material`](/docs/README.md) — Material teórico, guías del taller y ejercicios de práctica
 - [`Environment`]() — Entornos reproducibles
@@ -28,18 +64,18 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 ---
 
-## Clonar repositorio
+### Clonar repositorio
 
 ```bash
 git clone git@github.com:el-arkhe/scrnaseq-workshop.git
-````
+```
 Este método requiere que tengas configurada una llave SSH en GitHub.
 
 Mas detalles: [`Github repo`](docs/main_docs/09_github_repo.md)
 
 ---
 
-## Autora y curaduría
+### Autora y curaduría
 **Cyntia S. Cardinault**  
 GitHub: https://github.com/cyntsc  
 
