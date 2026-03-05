@@ -18,10 +18,10 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 ## Estructura
 
-- [`Material`](/docs/README.md) — Material teórico, guías del taller y ejercicios de práctica relacionados
-- [`Environment`] — Entornos reproducibles
-- [`Codigo R/Python/HTML`](/scripts/README.md) — Scripts con codigo para reproducibilidad del taller
-- [`Datos single-cell`](data/) — Acceso a diversos datasets single-cell o otros tipos de datos relacionados
+- [`Material`](/docs/README.md) — Material teórico, guías del taller y ejercicios de práctica
+- [`Environment`]() — Entornos reproducibles
+- [`Código R/Python/HTML`](/scripts/README.md) — Scripts R / Bash / Python
+- [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
 - [`Colaboradores / Estudiantes`](docs/colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
 
 ---
