@@ -1,10 +1,16 @@
 # Material teórico y guías
 
-## Índice
-
 ### Vídeos Tutoriales
 
-[Consulta videográfica sobre temas del taller](300_videos_tutoriales.md)
+[Videos seleccionados para apoyo pedagógico](../videos_tutoriales.md)
+
+### Posts y bibliografía
+
+[Referencias bibliográficas seleccionadas]() - Selección de Journals, Posts, Videos, Guías, etc
+
+---
+
+## Índice del Taller
 
 ### Día 1: Introducción y Procesamiento de Datos con Cell Ranger
 
@@ -31,31 +37,23 @@
 
 ### Día 2: Contol de Calidad y filtrado de células (en desarrollo)
 
-#### Material teórico
+<!--
+Understanding Your Data: FASTQ Files and 10x File Structure
+Downloading Data from SRA
+Renaming Files for Cell Ranger Compatibility
+Understanding Cell Ranger Count
 
-- Comprensión del resultado: matrices de expresión genética
-- Control de calidad a través del análisis profundo de una sola muestra
-  - Elegir flujo de análisis de datos: Seurat vs SingleCellExperiment
-  - Celulas PBMC como modelo de aprendizaje
-  - Metricas de calidad clave
-  - Objeto Seurat (v5)
+https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-7-trajectory-and-pseudotime-analysis-using-monocle-3/
 
-- Configuración del entorno R para Seurat 5
-  - Requisitos del sistema
-  - Instalación de los paquetes necesarios
-  - Carga de bibliotecas y configuración
+-->
 
-- Comprensión de la estructura de salida de Cell Ranger
-  - Carga e inspección inicial de datos 10x
-
-- Exploración inicial de datos
-  - Por qué es importante el ARN ambiental
-    - Detección estadística con EmptyDrops
-    - Corrección de ARN ambiental con SoupX
-  - Estimación y eliminación de la contaminación
-  - Detección de dobletes con scDblFinder
-    - Detección de gotas vacías con DropletUtils
-    - Comprensión de los dobletes
+- Comprensión de la matrices de expresión genética (201)
+- Diseño experimental (202)
+- Control de calidad 
+  - Reportes de Cell Ranger (203)
+  - Métricas de calidad bien establecidas (204)
+- Seurat V5 and R environment (205)
+- Práctica: Script 01 (https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-2-quality-control-and-cell-filtering/)
 
 <!--
 - Carga de datos procesados en Seurat
