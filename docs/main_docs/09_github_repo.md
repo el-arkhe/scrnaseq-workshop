@@ -1,4 +1,4 @@
-# Clonar el repositorio del workshop
+# Clonar el repositorio del taller
 
 En este paso clonaremos el repositorio oficial del curso desde GitHub a tu computadora local.  
 Trabajaremos siempre desde esta copia local durante el workshop.
@@ -7,7 +7,7 @@ Repositorio oficial:
 https://github.com/el-arkhe/scrnaseq-workshop
 
 
-## Paso 1. Abrir la terminal
+### Paso 1. Abrir la terminal
 
 Abre la terminal de tu sistema:
 
@@ -16,7 +16,7 @@ Abre la terminal de tu sistema:
 - Windows → Git Bash o WSL
 
 
-## Paso 2. Navegar al directorio de trabajo
+### Paso 2. Navegar al directorio de trabajo
 
 Muévete al directorio donde quieres guardar el proyecto.  
 Por ejemplo:
@@ -25,7 +25,7 @@ Por ejemplo:
 cd ~/Documents
 ```
 
-## Paso 3: Clonar el repositorio del taller
+### Paso 3: Clonar el repositorio del taller
 
 Clonaremos el repositorio del taller desde GitHub a tu computadora local. Trabajaremos siempre desde esta copia local durante el taller.
 
@@ -87,7 +87,7 @@ Estas listo para comenzar!
 
 ---
 
-## Comandos básicos que usamos en el workshop
+### Comandos básicos que usamos en el workshop
 
 ```bash
 git clone   # Clonar un repositorio
@@ -97,8 +97,9 @@ git add     # Preparar cambios
 git commit  # Guardar cambios
 git push    # Subir cambios a GitHub
 ```
+---
 
-## Recursos de consulta
+### Recursos de consulta
 
 - Documentación oficial de Git:  
   https://git-scm.com/docs
