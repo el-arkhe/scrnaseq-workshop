@@ -119,11 +119,19 @@ Para actualizar el repositorio durante el curso, utiliza:
 git pull
 ```
 
+### Comandos básicos que usamos en el workshop
+
+```bash
+git clone   # Clonar un repositorio
+git pull    # Actualizar el repositorio
+git status  # Ver el estado del repositorio
+git add     # Preparar cambios
+git commit  # Guardar cambios
+git push    # Subir cambios a GitHub
+```
+---
+
 ## Recursos de consulta
-
-Si deseas profundizar o resolver dudas adicionales sobre Git y GitHub, puedes consultar los siguientes recursos:
-
-### Documentación oficial
 
 - Documentación oficial de Git:  
   https://git-scm.com/docs
@@ -137,31 +145,9 @@ Si deseas profundizar o resolver dudas adicionales sobre Git y GitHub, puedes co
 - GitHub Docs – Crear un Personal Access Token (PAT):  
   https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
----
-
-### Recursos introductorios recomendados
-
-- Git Book (gratuito y muy completo):  
-  https://git-scm.com/book/en/v2
-
-- Introducción visual a Git (Atlassian):  
-  https://www.atlassian.com/git/tutorials
-
 - Git Cheat Sheet (resumen de comandos básicos):  
   https://education.github.com/git-cheat-sheet-education.pdf
 
----
-
-### Comandos básicos que usamos en el workshop
-
-```bash
-git clone   # Clonar un repositorio
-git pull    # Actualizar el repositorio
-git status  # Ver el estado del repositorio
-git add     # Preparar cambios
-git commit  # Guardar cambios
-git push    # Subir cambios a GitHub
-```
 
 ---
 
