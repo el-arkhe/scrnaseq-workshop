@@ -6,7 +6,7 @@
 
 ### Posts y bibliografía
 
-[Referencias bibliográficas seleccionadas]() - Selección de Journals, Posts, Videos, Guías, etc
+[Referencias bibliográficas seleccionadas](../referencias_seleccionadas.md) - Selección de Journals, Posts, Videos, Guías, etc
 
 ---
 
