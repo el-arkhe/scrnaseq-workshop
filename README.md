@@ -1,18 +1,20 @@
 # Taller scRNA-seq
 ### El Arkhe · Talleres Multiomics
 
-Este repositorio contiene el material del **Taller de análisis de single-cell RNA-seq (scRNA-seq)** 
+Aquí encontraras todo el material del **Taller de análisis de single-cell RNA-seq** 
 
 <p align="center">
   <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
 </p>
 
 El contenido está diseñado para formación técnica con énfasis en:
-- comprensión conceptual del análisis single-cell
-- reproducibilidad
-- buenas prácticas computacionales
-- lectura crítica de datos y resultados
-- uso de referencias bibliográficas relevantes
+- Comprensión conceptual del análisis scRNA-seq basado en tecnología `10X Genomics 3′`
+- Comprensión del flujo de trabajo de `Cell Ranger`
+- Identificación, selección y exploración de datasets iniciales
+- Procesamiento de datos: análisis de calidad, filtrado, clustering, identificación de tipos celulares e identificación de marcadores celulares
+- Lectura crítica de datos y resultados
+- Buenas prácticas computacionales
+- Uso de referencias bibliográficas relevantes
 
 ---
 
@@ -22,7 +24,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 - [`Environment`]() — Entornos reproducibles
 - [`Código R/Python/HTML`](/scripts/README.md) — Scripts R / Bash / Python
 - [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
-- [`Colaboradores / Estudiantes`](docs/colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
+- [`Colaboradores / Estudiantes`](colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
 
 ---
 
