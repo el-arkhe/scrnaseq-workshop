@@ -4,7 +4,7 @@ Tecnologías utilizadas:\
 Cell Ranger • Seurat v5 • R • Single-Cell RNA-seq • 10x Genomics
 
 ---
-§
+
 Este taller introduce los principios conceptuales y prácticos del análisis de datos de **single-cell RNA sequencing (scRNA-seq)** utilizando datasets públicos generados con la plataforma **Chromium de 10x Genomics**.
 
 El contenido sigue el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular, comenzando con el procesamiento de datos crudos y culminando con la identificación de tipos celulares y la interpretación biológica de los resultados.
@@ -22,16 +22,10 @@ Cada módulo combina **conceptos teóricos** con **prácticas guiadas en R utili
 Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones**.
 
 ---
+## Material teórico y guías
 
-# Material teórico y guías
-
-### Vídeos Tutoriales
-
-[Videos seleccionados para apoyo pedagógico](../videos_tutoriales.md)
-
-### Posts y bibliografía
-
-[Referencias bibliográficas seleccionadas](../referencias_seleccionadas.md) - Selección de Journals, Posts, Videos, Guías, etc
+[Videos seleccionados para apoyo pedagógico](../videos_tutoriales.md)\
+[Referencias bibliográficas y posts seleccionadas](../referencias_seleccionadas.md)
 
 ---
 
