@@ -78,12 +78,16 @@ environment/
 - Si git clone falla con SSH, usa la opción HTTPS.
 - Todos los scripts del workshop deben ejecutarse desde la raíz del proyecto.
 - No modifiques la estructura de carpetas.
-- Para actualizar el repositorio durante el curso, utiliza:
+- Para actualizar el repositorio durante el taller, utiliza:
 ```bash
 git pull
 ```
 
-### Comandos básicos que usamos en el workshop
+Estas listo para comenzar!
+
+---
+
+## Comandos básicos que usamos en el workshop
 
 ```bash
 git clone   # Clonar un repositorio
