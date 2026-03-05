@@ -1,11 +1,11 @@
-# Taller de Análisis de Datos Single-Cell RNA-seq
+# Taller de análisis de datos Single-Cell RNA-seq
 ### El Arkhe · Multiomics
 
 <p align="center">
 
 Análisis bioinformático paso a paso de datos **single-cell RNA-seq** utilizando datasets públicos y herramientas modernas de análisis en **R / Seurat v5**.
 
-Curso práctico orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ hasta la identificación de tipos celulares**.
+El curso está orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ** hasta la **identificación de tipos celulares**.
 
 </p>
 
@@ -16,8 +16,8 @@ Curso práctico orientado a comprender el flujo completo de análisis desde el p
 <p align="center">
 
 <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white">
-<img src="https://img.shields.io/badge/Seurat.v5-4B8BBE?style=for-the-badge">
-<img src="https://img.shields.io/badge/Cell_Ranger 10x_Genomics-F47C20?style=for-the-badge">
+<img src="https://img.shields.io/badge/Seurat v5-4B8BBE?style=for-the-badge">
+<img src="https://img.shields.io/badge/Cell Ranger 10x_Genomics-F47C20?style=for-the-badge">
 <img src="https://img.shields.io/badge/Single--Cell RNAseq-8E44AD?style=for-the-badge">
 <img src="https://img.shields.io/badge/Linux-Bioinformatics-FCC624?style=for-the-badge&logo=linux&logoColor=black">
 
@@ -29,26 +29,27 @@ Curso práctico orientado a comprender el flujo completo de análisis desde el p
   <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
 </p>
 
-Este taller sigue el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular.
+El taller sigue el flujo estándar utilizado en estudios modernos de transcriptómica a nivel celular.
 
 | Día | Tema | Resultado |
 |----|----|----|
-| Día 1 | Procesamiento con Cell Ranger | matriz de expresión |
-| Día 2 | Control de calidad | dataset limpio |
-| Día 3 | Integración de datasets | dataset integrado |
-| Día 4 | Clustering celular | poblaciones celulares |
+| Día 1 | Introducción a scRNA-seq y procesamiento con Cell Ranger | matriz de expresión |
+| Día 2 | Control de calidad y filtrado de células | dataset limpio |
+| Día 3 | Integración de datasets y corrección de batch effects | dataset integrado |
+| Día 4 | Reducción de dimensionalidad y clustering | poblaciones celulares |
 | Día 5 | Anotación celular | interpretación biológica |
 
 Duración total: **20 horas**
 
-</p>
 
 El contenido está diseñado para formación técnica con énfasis en:
-- Comprensión conceptual del análisis scRNA-seq basado en tecnología `10X Genomics 3′`
+
+- Comprensión conceptual del análisis scRNA-seq basado en tecnología `10x Genomics 3′`
 - Comprensión del flujo de trabajo de `Cell Ranger`
 - Identificación, selección y exploración de datasets iniciales
-- Procesamiento de datos: análisis de calidad, filtrado, clustering, identificación de tipos celulares e identificación de marcadores celulares
-- Lectura crítica de datos y resultados
+- Procesamiento de datos: control de calidad, filtrado, clustering e identificación de tipos celulares
+- Identificación de genes marcadores
+- Lectura crítica de resultados
 - Buenas prácticas computacionales
 - Uso de referencias bibliográficas relevantes
 
@@ -58,7 +59,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 - [`Material`](/docs/README.md) — Material teórico, guías del taller y ejercicios de práctica
 - [`Environment`]() — Entornos reproducibles
-- [`Código R/Python/HTML`](/scripts/README.md) — Scripts R / Bash / Python
+- [`Código (R / Bash / Python)`](/scripts/README.md) — Scripts R / Bash / Python
 - [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
 - [`Colaboradores / Estudiantes`](colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
 
@@ -77,7 +78,7 @@ Mas detalles: [`Github repo`](docs/main_docs/09_github_repo.md)
 
 ### Autora y curaduría
 **Cyntia S. Cardinault**  
-GitHub: https://github.com/cyntsc  
+GitHub: https://github.com/el-arkhe/scrnaseq-workshop  
 
 Este repositorio es mantenido por la autora en representación de **El Arkhe**.
 

@@ -31,7 +31,9 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ## Índice del Taller
 
-### Día 1: Introducción y procesamiento de datos con Cell Ranger
+**Convención del índice:** cada práctica indica las secciones que deben revisarse previamente en "Lecturas previas".
+
+### Día 1: Introducción a scRNA-seq y procesamiento con Cell Ranger
 
 - [1.1 Introducción a scRNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
   - [Plataforma Chromium de 10x Genomics](main_docs/01a_chromiun_platforms.md)
@@ -39,25 +41,27 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 - [1.2 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
   - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/02a_seleccion_datos_chromium_sc.md)
 
-  - *Práctica 1.1:* Procesamiento de datos scRNA-seq en 10x Genomics on the Cloud
+  - *Práctica 1.P1:* Procesamiento de datos scRNA-seq en 10x Genomics on the Cloud  
+    **Lecturas previas:** 1.1, 1.2
 
 - [1.3 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/04_subsampling.md)
   - [Análisis de resultados con y sin submuestreo](main_docs/04a_subsampling.md)  
 
-  - *Práctica 1.2:* Análisis comparativo de resultados de submuestreo
+  - *Práctica 1.P2:* Análisis comparativo de resultados de submuestreo  
+    **Lectura previa:** 1.3
 
 **Prácticas:** 
 
-- [1.1: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/03_procesamiento_10Xgenomics_cloud.md)  
+- [1.P1: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/03_procesamiento_10Xgenomics_cloud.md)  
   Recursos de apoyo:
   - [Descarga y carga de datos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](main_docs/03a_upload_files.md)
   - [Descarga de datos procesados en `Cell Ranger on the Cloud`](main_docs/03b_download_10X_cloud.md)
 
-- [1.2: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)  
+- [1.P2: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)
 
 ---
 
-### Día 2: Control de Calidad y filtrado de células
+### Día 2: Control de calidad y filtrado de células
 
 <!--
 https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-7-trajectory-and-pseudotime-analysis-using-monocle-3/
@@ -67,11 +71,12 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 
 - [2.2 Seurat v5]() (205)
   - Nuevo en Seurat: https://satijalab.org/seurat/articles/get_started_v5_new
-  - Comandos escenciales: https://satijalab.org/seurat/articles/essential_commands
+  - Comandos esenciales: https://satijalab.org/seurat/articles/essential_commands
   - Reference: https://satijalab.org/seurat/reference/
   - Tutorial auto-guiado de clustering: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
 
-  - *Práctica 2.1:* Requerimientos de sistema
+  - *Práctica 2.P1:* Requerimientos de sistema  
+    **Lecturas previas:** 2.1, 2.2
 
 - [2.3 Exploración inicial de datos]()
 
@@ -82,21 +87,22 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
   - Ambient RNA Correction (SoupX)
   - Doublet Detection (scDblFinder)
 
-- [2.6 Cell-Level QC Filtering (manual threshold setting)]()
+- [2.6 Filtrado de calidad a nivel celular (Cell-level QC filtering)]()
 
 - [2.7 Filtrado de control de calidad a nivel genético]()
 
-- [2.8 Normalización y selección de características variables]()
+- [2.8 Normalización y selección de características variables (Feature selection)]()
 
 - [2.9 Dataset limpio y filtrado tras control de calidad]()
 
-  - *Práctica 2.2:* Control de calidad de una sola muestra
+  - *Práctica 2.P2:* Control de calidad de una sola muestra  
+    **Lecturas previas:** 2.3–2.9
 
 **Prácticas:**
 
-- [2.1: Requerimientos de sistema](../scripts/00_system_requirments.md)
+- [2.P1: Requerimientos de sistema](../scripts/00_system_requirments.md)
 
-- [2.2: Control de calidad de una sola muestra](../scripts/01_std_qc_filtering.R)
+- [2.P2: Control de calidad de una sola muestra](../scripts/01_std_qc_filtering.R)
 
 ---
 
@@ -108,7 +114,8 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 
 **Práctica:**
 
-- [3.1: Integración de múltiples muestras en Seurat](../scripts/03_dataset_integration.R)
+- [3.P1: Integración de múltiples muestras en Seurat](../scripts/03_dataset_integration.R)  
+  **Lecturas previas:** 3.1–3.3
 
 ---
 
@@ -119,7 +126,8 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 
 **Práctica:**
 
-- [4.1: Clustering de poblaciones celulares](../scripts/04_clustering.R)
+- [4.P1: Clustering de poblaciones celulares](../scripts/04_clustering.R)  
+  **Lecturas previas:** 4.1, 4.2
 
 ---
 
@@ -132,11 +140,27 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 
 **Práctica:**
 
-- [5.1: Anotación de tipos celulares](../scripts/05_celltype_annotation.R)
+- [5.P1: Anotación de tipos celulares](../scripts/05_celltype_annotation.R)  
+  **Lecturas previas:** 5.1–5.4
 
 ---
 
-## Flujo del análisis en el taller
+## Resultado esperado del taller
+
+Al finalizar el taller, los participantes habrán recorrido el flujo completo de análisis de datos **single-cell RNA-seq**, desde el procesamiento inicial de archivos FASTQ hasta la identificación de tipos celulares.
+
+Los participantes aprenderán a:
+
+- Procesar datos scRNA-seq utilizando `Cell Ranger`
+- Explorar matrices de expresión génica
+- Aplicar métricas de control de calidad
+- Integrar múltiples datasets
+- Identificar poblaciones celulares mediante clustering
+- Anotar tipos celulares utilizando genes marcadores
+
+---
+
+## Flujo conceptual del análisis scRNA-seq
 
 ```bash
 scRNA-seq experiment
@@ -178,7 +202,12 @@ Marker Genes
         ▼
 Cell Type Annotation
 ```
----
+
+## Próximos pasos
+
+Los recursos adicionales y lecturas recomendadas se encuentran en:
+- videos_tutoriales.md\
+- referencias_seleccionadas.md
 
 <!--
 ### Miscelaneos
@@ -186,5 +215,6 @@ Cell Type Annotation
 - [Verificar archivos con MD5 checksum](main_docs/200_verify_files_checksum.md)
 -->
 
+---
 
 CSC. Marzo 05, 2026
