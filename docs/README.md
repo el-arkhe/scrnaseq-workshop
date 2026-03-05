@@ -1,3 +1,23 @@
+# Taller de Análisis de Single-Cell RNA-seq
+
+Este taller introduce los principios conceptuales y prácticos del análisis de datos de **single-cell RNA sequencing (scRNA-seq)** utilizando datasets públicos generados con la plataforma **Chromium de 10x Genomics**.
+
+El contenido sigue el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular, comenzando con el procesamiento de datos crudos y culminando con la identificación de tipos celulares y la interpretación biológica de los resultados.
+
+A lo largo del taller los participantes trabajarán con un conjunto de datos real y recorrerán paso a paso las etapas principales del análisis:
+
+1. Procesamiento de datos crudos con `Cell Ranger`
+2. Control de calidad y filtrado de células
+3. Integración de múltiples datasets
+4. Reducción de dimensionalidad y clustering
+5. Identificación de tipos celulares mediante genes marcadores
+
+Cada módulo combina **conceptos teóricos** con **prácticas guiadas en R utilizando Seurat v5**, permitiendo a los participantes comprender tanto la lógica estadística del análisis como su implementación práctica.
+
+Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones**.
+
+---
+
 # Material teórico y guías
 
 ### Vídeos Tutoriales
@@ -12,68 +32,161 @@
 
 ## Índice del Taller
 
-### Día 1: Introducción y Procesamiento de Datos con Cell Ranger
+### Día 1: Introducción y procesamiento de datos con Cell Ranger
 
-- [01 Introducción a scRNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
+- [1.1 Introducción a scRNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
   - [Plataforma Chromium de 10x Genomics](main_docs/01a_chromiun_platforms.md)
 
-- [02 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
+- [1.2 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
   - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/02a_seleccion_datos_chromium_sc.md)
 
-- [03 Práctica: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/03_procesamiento_10Xgenomics_cloud.md)  
-  En este archivo encontrarás enlaces a datos scRNA-seq públicos de `10x Genomics Datasets` u otros disponibles para su procesamiento con `Cell Ranger`
+- *Práctica 1.1:* Procesamiento de datos scRNA-seq en 10x Genomics on the Cloud
 
-    Recursos de apoyo:
+- [1.3 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/04_subsampling.md)
+  - [Análisis de resultados con y sin submuestreo](main_docs/04a_subsampling.md)  
+
+- *Práctica 1.3:* Análisis comparativo de resultados de submuestreo
+
+**Prácticas:** 
+
+- [1.1: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/03_procesamiento_10Xgenomics_cloud.md)  
+  Recursos de apoyo:
   - [Descarga y carga de datos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](main_docs/03a_upload_files.md)
   - [Descarga de datos procesados en `Cell Ranger on the Cloud`](main_docs/03b_download_10X_cloud.md)
 
-- [04 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/04_subsampling.md)
-  - [Análisis de resultados con y sin submuestreo](main_docs/04a_subsampling.md)  
-
-- [05 Práctica: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)  
-
+- [1.3: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)  
 
 ---
 
-### Día 2: Contol de Calidad y filtrado de células (en desarrollo)
+### Día 2: Contol de Calidad y filtrado de células
 
 <!--
-Understanding Your Data: FASTQ Files and 10x File Structure
-Downloading Data from SRA
-Renaming Files for Cell Ranger Compatibility
-Understanding Cell Ranger Count
-
 https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-7-trajectory-and-pseudotime-analysis-using-monocle-3/
-
 -->
 
-- Comprensión de la matrices de expresión genética (201)
-- Diseño experimental (202)
-- Control de calidad 
-  - Reportes de Cell Ranger (203)
-  - Métricas de calidad bien establecidas (204)
-- Seurat V5 and R environment (205)
-- Práctica: Script 01 (https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-2-quality-control-and-cell-filtering/)
+- [2.1 Comprensión de la matrices de expresión genética de Cell Ranger]() (201)
+
+- [2.2 Seurat v5]() (205)
+  - Nuevo en Seurat: https://satijalab.org/seurat/articles/get_started_v5_new
+  - Comandos escenciales: https://satijalab.org/seurat/articles/essential_commands
+  - Reference: https://satijalab.org/seurat/reference/
+  - Tutorial auto-guiado de clustering: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
+
+- *Práctica 2.1:* Requerimientos de sistema
+
+- [2.3 Exploración inicial de datos]()
+
+- [2.4 Métricas de control de calidad de Cell Ranger]() (204a)
+
+- [2.5 Métricas de control de cálidad ampliamente establecidas]()
+  - Empty Droplet Detection (DropletUtils)
+  - Ambient RNA Correction (SoupX)
+  - Doublet Detection (scDblFinder)
+
+- [2.6 Cell-Level QC Filtering (manual threshold setting)]()
+
+- [2.7 Filtrado de control de calidad a nivel genético]()
+
+- [2.8 Normalización y selección de características variables]()
+
+- [2.9 Muestra limpia y filtrada por control de calidad]()
+
+- *Práctica 2.2:* Control de cálidad de una sola muestra
+
+**Prácticas:**
+
+- [2.1: Requerimientos de sistema](../scripts/00_system_requirments.md)
+
+- [2.2: Control de cálidad de una sola muestra](../scripts/01_std_qc_filtering.R)
+
+---
+
+### Día 3: Integración de datasets y corrección de batch effects
+
+- [3.1 Integración de datasets en scRNA-seq](main_docs/08_dataset_integration.md)
+- [3.2 Batch effects en datos single-cell](main_docs/08a_batch_effects.md)
+- [3.3 Métodos de integración de datasets](main_docs/08b_integration_methods.md)
+
+**Práctica:**
+
+- [3.1: Integración de múltiples muestras en Seurat](../scripts/03_dataset_integration.R)
+
+---
+
+### Día 4: Reducción de dimensionalidad y clustering
+
+- [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
+- [4.2 Construcción del grafo celular y clustering](main_docs/09a_knn_graph_clustering.md)
+
+**Práctica:**
+
+- [4.1: Clustering de poblaciones celulares](../scripts/04_clustering.R)
+
+---
+
+### Día 5: Identificación de tipos celulares e interpretación biológica
+
+- [5.1 Identificación de genes marcadores](main_docs/10_marker_genes.md)
+- [5.2 Differential expression entre clusters](main_docs/10a_differential_expression.md)
+- [5.3 Identificación de tipos celulares](main_docs/11_cell_type_annotation.md)
+- [5.4 Bases de datos de marcadores celulares](main_docs/11a_marker_databases.md)
+
+**Práctica:**
+
+- [5.1: Anotación de tipos celulares](../scripts/05_celltype_annotation.R)
+
+---
+
+## Flujo del análisis en el taller
+
+```bash
+scRNA-seq experiment
+        │
+        ▼
+FASTQ files
+        │
+        ▼
+Cell Ranger
+(alignment + quantification)
+        │
+        ▼
+Gene expression matrix
+        │
+        ▼
+Quality Control
+(cell filtering)
+        │
+        ▼
+Normalization
+& feature selection
+        │
+        ▼
+Dataset Integration
+(batch correction)
+        │
+        ▼
+Dimensionality Reduction
+(PCA / UMAP)
+        │
+        ▼
+Clustering
+(Louvain / Leiden)
+        │
+        ▼
+Marker Genes
+(Differential Expression)
+        │
+        ▼
+Cell Type Annotation
+```
+---
 
 <!--
-- Carga de datos procesados en Seurat
-- Exploración inicial y métricas de QC
-- Filtrado basado en criterios razonados
-- Normalización y reducción de dimensionalidad
-- Clustering y visualización (UMAP)
-- Exploración biológica preliminar
--->
-
----
-
-### Día 3 (en desarrollo)
-
----
-
-### Día 4 (en desarrollo)
-
----
-
-### Otro material de ayuda
+### Miscelaneos
 
 - [Verificar archivos con MD5 checksum](main_docs/200_verify_files_checksum.md)
+-->
+
+---
+
+CSC. Marzo 05, 2026
