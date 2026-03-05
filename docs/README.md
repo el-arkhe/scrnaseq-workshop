@@ -1,5 +1,10 @@
 # Taller de Análisis de Single-Cell RNA-seq
 
+Tecnologías utilizadas:\
+Cell Ranger • Seurat v5 • R • Single-Cell RNA-seq • 10x Genomics
+
+---
+§
 Este taller introduce los principios conceptuales y prácticos del análisis de datos de **single-cell RNA sequencing (scRNA-seq)** utilizando datasets públicos generados con la plataforma **Chromium de 10x Genomics**.
 
 El contenido sigue el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular, comenzando con el procesamiento de datos crudos y culminando con la identificación de tipos celulares y la interpretación biológica de los resultados.
@@ -40,12 +45,12 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 - [1.2 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
   - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/02a_seleccion_datos_chromium_sc.md)
 
-- *Práctica 1.1:* Procesamiento de datos scRNA-seq en 10x Genomics on the Cloud
+  - *Práctica 1.1:* Procesamiento de datos scRNA-seq en 10x Genomics on the Cloud
 
 - [1.3 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/04_subsampling.md)
   - [Análisis de resultados con y sin submuestreo](main_docs/04a_subsampling.md)  
 
-- *Práctica 1.3:* Análisis comparativo de resultados de submuestreo
+  - *Práctica 1.2:* Análisis comparativo de resultados de submuestreo
 
 **Prácticas:** 
 
@@ -54,17 +59,17 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
   - [Descarga y carga de datos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](main_docs/03a_upload_files.md)
   - [Descarga de datos procesados en `Cell Ranger on the Cloud`](main_docs/03b_download_10X_cloud.md)
 
-- [1.3: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)  
+- [1.2: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)  
 
 ---
 
-### Día 2: Contol de Calidad y filtrado de células
+### Día 2: Control de Calidad y filtrado de células
 
 <!--
 https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-7-trajectory-and-pseudotime-analysis-using-monocle-3/
 -->
 
-- [2.1 Comprensión de la matrices de expresión genética de Cell Ranger]() (201)
+- [2.1 Comprensión de las matrices de expresión genética de Cell Ranger]() (201)
 
 - [2.2 Seurat v5]() (205)
   - Nuevo en Seurat: https://satijalab.org/seurat/articles/get_started_v5_new
@@ -72,13 +77,13 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
   - Reference: https://satijalab.org/seurat/reference/
   - Tutorial auto-guiado de clustering: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
 
-- *Práctica 2.1:* Requerimientos de sistema
+  - *Práctica 2.1:* Requerimientos de sistema
 
 - [2.3 Exploración inicial de datos]()
 
 - [2.4 Métricas de control de calidad de Cell Ranger]() (204a)
 
-- [2.5 Métricas de control de cálidad ampliamente establecidas]()
+- [2.5 Métricas de control de calidad ampliamente establecidas]()
   - Empty Droplet Detection (DropletUtils)
   - Ambient RNA Correction (SoupX)
   - Doublet Detection (scDblFinder)
@@ -89,15 +94,15 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 
 - [2.8 Normalización y selección de características variables]()
 
-- [2.9 Muestra limpia y filtrada por control de calidad]()
+- [2.9 Dataset limpio y filtrado tras control de calidad]()
 
-- *Práctica 2.2:* Control de cálidad de una sola muestra
+  - *Práctica 2.2:* Control de calidad de una sola muestra
 
 **Prácticas:**
 
 - [2.1: Requerimientos de sistema](../scripts/00_system_requirments.md)
 
-- [2.2: Control de cálidad de una sola muestra](../scripts/01_std_qc_filtering.R)
+- [2.2: Control de calidad de una sola muestra](../scripts/01_std_qc_filtering.R)
 
 ---
 
@@ -162,7 +167,7 @@ Normalization
         │
         ▼
 Dataset Integration
-(batch correction)
+(batch effect correction)
         │
         ▼
 Dimensionality Reduction
@@ -187,6 +192,5 @@ Cell Type Annotation
 - [Verificar archivos con MD5 checksum](main_docs/200_verify_files_checksum.md)
 -->
 
----
 
 CSC. Marzo 05, 2026
