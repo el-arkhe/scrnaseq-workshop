@@ -250,6 +250,9 @@ La plataforma Chromium combina:
 El análisis computacional es una continuación directa del diseño experimental.
 
 ---
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
+
+© El Arkhe · Talleres Multiomics
 
 CSC. Febrero 27, 2026
 

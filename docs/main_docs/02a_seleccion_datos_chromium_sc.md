@@ -114,4 +114,8 @@ Como guía básica de seleccion inicial puedes preguntarte:
 
 ---
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
+
+© El Arkhe · Talleres Multiomics
+
 CSC. Enero 31, 2026

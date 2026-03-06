@@ -151,4 +151,8 @@ Como alternativa dentro de entornos Galaxy, es común utilizar herramientas open
 
 ---
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
+
+© El Arkhe · Talleres Multiomics
+
 CSC. Marzo 06, 2026

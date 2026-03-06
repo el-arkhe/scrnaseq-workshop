@@ -214,4 +214,8 @@ Los recursos adicionales y lecturas recomendadas se encuentran en:
 
 ---
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
+
+© El Arkhe · Talleres Multiomics
+
 CSC. Marzo 05, 2026

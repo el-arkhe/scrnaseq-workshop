@@ -106,4 +106,8 @@ En este workshop, el enfoque principal estará en el **análisis downstream**, u
 
 ---
 
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
+
+© El Arkhe · Talleres Multiomics
+
 CSC. Enero 27, 2025

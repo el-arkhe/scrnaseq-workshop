@@ -107,5 +107,6 @@ Si utiliza datos, métodos o herramientas específicas presentadas en este talle
 El contenido se irá liberando progresivamente conforme a los talleres y ediciones del curso.
 
 ---
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
 
 © El Arkhe · Talleres Multiomics
