@@ -160,57 +160,73 @@ Los participantes aprenderán a:
 ## Flujo conceptual del análisis scRNA-seq
 
 ```bash
-scRNA-seq experiment
-        │
-        ▼
-FASTQ files
-        │
-        ▼
-Cell Ranger
-(alignment + quantification)
-        │
-        ▼
-Gene expression matrix
-        │
-        ▼
-Quality Control
-(cell filtering)
-        │
-        ▼
-Normalization
-& feature selection
-        │
-        ▼
-Dataset Integration
-(batch effect correction)
-        │
-        ▼
-Dimensionality Reduction
-(PCA / UMAP)
-        │
-        ▼
-Clustering
-(Louvain / Leiden)
-        │
-        ▼
-Marker Genes
-(Differential Expression)
-        │
-        ▼
-Cell Type Annotation
++-----------------------+
+|   scRNA-seq experiment|
++-----------------------+
+            │
+            ▼
++-----------------------+
+|       FASTQ files     |
++-----------------------+
+            │
+            ▼
++-------------------------------+
+|          Cell Ranger          |
+|   (alignment + quantification)|
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|     Gene expression matrix    |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|        Quality Control        |
+|        (cell filtering)       |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|         Normalization         |
+|       & feature selection     |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|      Dataset Integration      |
+|   (batch effect correction)   |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|    Dimensionality Reduction   |
+|         (PCA / UMAP)          |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|           Clustering          |
+|       (Louvain / Leiden)      |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|          Marker Genes         |
+|    (Differential Expression)  |
++-------------------------------+
+            │
+            ▼
++-------------------------------+
+|       Cell Type Annotation    |
++-------------------------------+
 ```
 
 ## Próximos pasos
 
 Los recursos adicionales y lecturas recomendadas se encuentran en:
-- videos_tutoriales.md\
-- referencias_seleccionadas.md
-
-<!--
-### Miscelaneos
-
-- [Verificar archivos con MD5 checksum](main_docs/200_verify_files_checksum.md)
--->
+- [Videos tutoriales](../videos_tutoriales.md)
+- [Referencias seleccionadas](../referencias_seleccionadas.md)
 
 ---
 

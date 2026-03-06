@@ -1,5 +1,9 @@
 # Scripts del taller
-## 🚧 Repositorio en desarrollo  
+## 🚧 Material en desarrollo y/o actualización
+
+Liberaremos los recursos tan pronto esten verificados. Agradezco su paciencia. 
+
+---
 
 Los scripts en este directorio están numerados y deben ejecutarse en orden.
 
