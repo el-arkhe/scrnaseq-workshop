@@ -144,8 +144,6 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 - [5.P1: Anotación de tipos celulares](../scripts/05_celltype_annotation.R)  
   **Lecturas previas:** 5.1–5.4
 
----
-
 ## Resultado esperado del taller
 
 Al finalizar el taller, los participantes habrán recorrido el flujo completo de análisis de datos **single-cell RNA-seq**, desde el procesamiento inicial de archivos FASTQ hasta la identificación de tipos celulares.
@@ -158,8 +156,6 @@ Los participantes aprenderán a:
 - Integrar múltiples datasets
 - Identificar poblaciones celulares mediante clustering
 - Anotar tipos celulares utilizando genes marcadores
-
----
 
 ## Flujo conceptual del análisis scRNA-seq
 
