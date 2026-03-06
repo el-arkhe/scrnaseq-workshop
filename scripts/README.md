@@ -1,4 +1,5 @@
 # Scripts del taller
+## 🚧 Repositorio en desarrollo  
 
 Los scripts en este directorio están numerados y deben ejecutarse en orden.
 
@@ -16,4 +17,4 @@ Orden recomendado de ejecución:
 
 
 
-## 🚧 Repositorio en desarrollo  
+
