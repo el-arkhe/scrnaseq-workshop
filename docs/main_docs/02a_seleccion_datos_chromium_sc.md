@@ -1,11 +1,7 @@
 # Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4
-
-
-## Universal 3′, Universal 5′ y Flex
-
+### Universal 3′, Universal 5′ y Flex
 
 Las tecnologías Chromium single-cell de 10x Genomics permiten perfilar la expresión génica a nivel de célula individual utilizando distintas químicas, diseñadas para responder a preguntas biológicas y restricciones experimentales específicas. Las más comunes son **Universal 3′**, **Universal 5′** y **Chromium Flex**.
-
 
 ### Universal 3′ Gene Expression
 
@@ -17,15 +13,15 @@ Características principales:
 * Captura basada en cola poly-A
 * No permite distinguir isoformas
 * No recupera secuencias completas de TCR/BCR (*)
+
 Uso recomendado
 * Atlas celulares
 * Identificación de tipos y estados celulares
 * Análisis de clustering, integración y expresión diferencial
 
-👉 Es la opción estándar y más utilizada en estudios de scRNA-seq.
+Es la opción estándar y más utilizada en estudios de scRNA-seq.
 
 (*)TCR y BCR se refieren a los receptores de los linfocitos, es decir, las moléculas que usan las células del sistema inmune para reconocer antígenos
-
 
 ### Universal 5′ Gene Expression
 
@@ -37,14 +33,14 @@ Características principales:
 * Captura basada en poly-A
 * Compatible con V(D)J sequencing
 * Permite recuperar secuencias completas de TCR y BCR
+
 Uso recomendado
 * Inmunología
 * Cáncer
 * Estudios de clonalidad
 * Integración de expresión génica con identidad del receptor inmune
 
-👉 Es ideal cuando se necesita combinar expresión génica + información inmunológica.
-
+Es ideal cuando se necesita combinar expresión génica + información inmunológica.
 
 ### Chromium Flex (Fixed RNA Profiling)
 
@@ -56,18 +52,25 @@ Características principales:
 * Utiliza paneles de genes predefinidos o personalizados
 * Compatible con células o núcleos fijados
 * Alta reproducibilidad entre lotes
+
 Limitaciones
 * No captura el transcriptoma completo
 * El análisis depende del diseño del panel
 * Menor capacidad de descubrimiento
+
 Uso recomendado
 * Muestras clínicas
 * Biobancos
 * Estudios longitudinales
 * Situaciones donde la logística o preservación de la muestra es crítica
 
-👉 Flex prioriza robustez experimental sobre amplitud transcriptómica.
- 
+Flex prioriza robustez experimental sobre amplitud transcriptómica. 
+
+    Las químicas Universal Expression 3′ y 5′ capturan RNA mediante hibridación a la cola poly-A del mRNA, mientras que Chromium Flex utiliza sondas específicas de genes y no depende de la presencia de poly-A para capturar transcriptos.
+
+<p align="center">
+  <img src="../images/cell_ranger_universal_3_5_methods.png" alt="cell ranger universal transcriptome methods">
+</p>
 
 ## Comparación general
 
@@ -97,6 +100,9 @@ Como guía básica de seleccion inicial puedes preguntarte:
 - Chromium Single Cell 3′ Gene Expression
     Documentación técnica de la química 3′, captura poly-A y casos de uso.
     https://www.10xgenomics.com/products/single-cell-gene-expression
+
+-  Chromium GEM-X Single Cell 3' v4 Gene Expression User Guide
+    https://cdn.10xgenomics.com/image/upload/v1725314293/support-documents/CG000731_ChromiumGEM-X_SingleCell3v4_UserGuide_RevB.pdf
 
 - Chromium Single Cell 5′ Gene Expression & Immune Profiling
     Descripción de la química 5′ y su integración con V(D)J sequencing (TCR/BCR).
