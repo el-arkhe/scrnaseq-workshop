@@ -21,13 +21,11 @@ Cada módulo combina **conceptos teóricos** con **prácticas guiadas en R utili
 
 Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones**.
 
----
+
 ## Material teórico y guías
 
 [Videos seleccionados para apoyo pedagógico](../videos_tutoriales.md)\
 [Referencias bibliográficas y posts seleccionadas](../referencias_seleccionadas.md)
-
----
 
 ## Índice del Taller
 
@@ -62,7 +60,7 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ---
 
 ### Día 2: Control de calidad y filtrado de células
-
+### 🚧 Estado: en desarrollo  
 <!--
 https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-7-trajectory-and-pseudotime-analysis-using-monocle-3/
 -->
@@ -107,6 +105,7 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 ---
 
 ### Día 3: Integración de datasets y corrección de batch effects
+### 🚧 Estado: en desarrollo  
 
 - [3.1 Integración de datasets en scRNA-seq](main_docs/08_dataset_integration.md)
 - [3.2 Batch effects en datos single-cell](main_docs/08a_batch_effects.md)
@@ -120,6 +119,7 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 ---
 
 ### Día 4: Reducción de dimensionalidad y clustering
+### 🚧 Estado: en desarrollo  
 
 - [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
 - [4.2 Construcción del grafo celular y clustering](main_docs/09a_knn_graph_clustering.md)
@@ -132,6 +132,7 @@ https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-gu
 ---
 
 ### Día 5: Identificación de tipos celulares e interpretación biológica
+### 🚧 Estado: en desarrollo  
 
 - [5.1 Identificación de genes marcadores](main_docs/10_marker_genes.md)
 - [5.2 Differential expression entre clusters](main_docs/10a_differential_expression.md)

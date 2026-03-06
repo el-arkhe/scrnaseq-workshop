@@ -57,7 +57,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 ### Acceso rápido al contenido
 
-- [`Material`](/docs/README.md) — Material teórico, guías del taller y ejercicios de práctica
+- [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica
 - [`Environment`]() — Entornos reproducibles
 - [`Código (R / Bash / Python)`](/scripts/README.md) — Scripts R / Bash / Python
 - [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
