@@ -66,7 +66,7 @@ Uso recomendado
 
 Flex prioriza robustez experimental sobre amplitud transcriptómica. 
 
-    Las químicas Universal Expression 3′ y 5′ capturan RNA mediante hibridación a la cola poly-A del mRNA, mientras que Chromium Flex utiliza sondas específicas de genes y no depende de la presencia de poly-A para capturar transcriptos.
+>Las químicas Universal Expression 3′ y 5′ capturan RNA mediante hibridación a la cola poly-A del mRNA, mientras que Chromium Flex utiliza sondas específicas de genes y no depende de la presencia de poly-A para capturar transcriptos.
 
 <p align="center">
   <img src="../images/cell_ranger_universal_3_5_methods.png" alt="cell ranger universal transcriptome methods">
