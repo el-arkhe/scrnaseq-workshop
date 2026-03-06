@@ -1,23 +1,15 @@
 # Plataforma 10x Genomics Chromium  
-## Innovaciones, Flujo Experimental y Comparación de Químicas
 
 La plataforma Chromium de 10x Genomics es el estándar actual para análisis de single-cell RNA-seq (scRNA-seq) de alto rendimiento.
 
-Actualmente, la química vigente para expresión génica 3′ es:
+Actualmente, la química vigente para expresión génica 3′ es **GEM-X Universal 3′ Gene Expression v4**. Sin embargo, una gran proporción de datasets públicos fueron generados con **Next GEM v3.1**, por lo que es importante comprender ambas generaciones.
 
-**GEM-X Universal 3′ Gene Expression v4**
 
-Sin embargo, una gran proporción de datasets públicos fueron generados con **Next GEM v3.1**, por lo que es importante comprender ambas generaciones.
+## Innovaciones Fundamentales de la Plataforma Chromium
 
----
+### 1. Captura Celular Basada en Microgotas (GEM Technology)
 
-# Innovaciones Fundamentales de la Plataforma Chromium
-
-## 1. Captura Celular Basada en Microgotas (GEM Technology)
-
-El sistema Chromium utiliza microfluídica (Droplet-Based Cell Capture) para encapsular células individuales en gotas nanolíticas llamadas:
-
-**GEMs (Gel Bead-in-Emulsions)**
+El sistema Chromium utiliza microfluídica (Droplet-Based Cell Capture) para encapsular células individuales en gotas nanolíticas llamadas **GEMs (Gel Bead-in-Emulsions)**
 
 Cada GEM contiene:
 
@@ -27,9 +19,7 @@ Cada GEM contiene:
 
 Este diseño permite miles de reacciones paralelas independientes en minutos.
 
----
-
-## 2. Barcoding Celular y UMIs
+### 2. Barcoding Celular y UMIs
 
 Cada perla contiene millones de copias de oligonucleótidos con:
 
@@ -50,9 +40,7 @@ Esto permite:
 - Asignar lecturas a su célula de origen
 - Contar moléculas reales y eliminar duplicados de PCR
 
----
-
-## 3. Alto Rendimiento
+### 3. Alto Rendimiento
 
 La plataforma permite:
 
@@ -61,29 +49,23 @@ La plataforma permite:
 - Procesar hasta 8 muestras simultáneamente
 - Alta reproducibilidad experimental
 
----
+## Flujo Experimental Completo
 
-# Flujo Experimental Completo
-
-## Paso 1: Preparación de Muestra
+### Paso 1: Preparación de Muestra
 
 - Aislamiento de células o núcleos
 - Viabilidad ideal >85%
 - Concentración: 700–1,200 células/μL
 - Eliminación de células muertas si es necesario
 
----
-
-## Paso 2: Generación de GEMs
+### Paso 2: Generación de GEMs
 
 - Células + gel beads + aceite → formación de GEMs
 - ~6–7 minutos para 8 muestras
 - Lisis celular dentro de la gota
 - Captura inmediata del mRNA
 
----
-
-## Paso 3: Síntesis y Amplificación de cDNA
+### Paso 3: Síntesis y Amplificación de cDNA
 
 - Reverse transcription dentro del GEM
 - Ruptura de emulsión
@@ -91,18 +73,14 @@ La plataforma permite:
 
 Resultado: cDNA con barcodes y UMIs incorporados.
 
----
-
-## Paso 4: Preparación de Librerías
+### Paso 4: Preparación de Librerías
 
 - Fragmentación enzimática
 - Adición de adaptadores Illumina
 - Selección por tamaño (400–600 bp)
 - Cuantificación
 
----
-
-## Paso 5: Secuenciación
+### Paso 5: Secuenciación
 
 Plataformas comunes:
 
@@ -120,26 +98,21 @@ Profundidad recomendada:
 
 20,000–50,000 reads por célula
 
----
+### Paso 6: Procesamiento Computacional
 
-## Paso 6: Procesamiento Computacional
+El flujo de procesamiento (pipeline) de secuencias sin procesar con el software estándar de Cell Ranger incluye:
 
-Pipeline típico:
-
-1. Demultiplexing 
-2. Quality control
-3. Alignment al genoma de referencia
-4. UMI counting
+1. Demultiplexación
+2. Control de calidad
+3. Alineación al genoma de referencia
+4. Conteo de UMI
 5. Generación de matriz de expresión
-6. Cell calling
-
-Software estándar:
-
-- Cell Ranger
+6. Llamadas a celulas (cell calling)
 
 
-### Diagrama Conceptual del Flujo 10x Genomics scRNA-seq
+## Diagrama conceptual del flujo de procesamiento con Cell Ranger de 10x Genomics
 
+```bash
 ┌───────────────────────────────┐
 │        MUESTRA BIOLÓGICA      │
 │  (tejido, sangre, núcleos)    │
@@ -154,15 +127,15 @@ Software estándar:
                 │
                 ▼
 ┌──────────────────────────────────────────────┐
-│      INSTRUMENTO CHROMIUM (Microfluídica)   │
+│      INSTRUMENTO CHROMIUM (Microfluídica)    │
 │                                              │
-│  Células + Gel Beads + Aceite → GEMs        │
+│  Células + Gel Beads + Aceite → GEMs         │
 │                                              │
-│   ┌──────────────┐   ┌──────────────┐       │
-│   │   GEM 1      │   │   GEM 2      │  ...  │
-│   │ [1 célula]   │   │ [1 célula]   │       │
-│   │ [1 barcode]  │   │ [1 barcode]  │       │
-│   └──────────────┘   └──────────────┘       │
+│   ┌──────────────┐   ┌──────────────┐        │
+│   │   GEM 1      │   │   GEM 2      │  ...   │
+│   │ [1 célula]   │   │ [1 célula]   │        │
+│   │ [1 barcode]  │   │ [1 barcode]  │        │
+│   └──────────────┘   └──────────────┘        │
 └───────────────┬──────────────────────────────┘
                 │
                 ▼
@@ -211,11 +184,9 @@ Software estándar:
 │  MATRIZ DE EXPRESIÓN GÉNICA   │
 │  Genes × Células              │
 └───────────────────────────────┘
+```
 
----
-
-# Comparación de Químicas  
-## Next GEM v3.1 vs GEM-X Universal 3′ v4
+## Comparación de Químicas: Next GEM v3.1 vs GEM-X Universal 3′ v4
 
 | Característica | Next GEM v3.1 | GEM-X Universal 3′ v4 |
 |---------------|---------------|------------------------|
@@ -228,18 +199,14 @@ Software estándar:
 | Compatibilidad Cell Ranger | Total | Total (requiere versión reciente) |
 | Uso recomendado | Dataset legado | Nuevos experimentos |
 
----
-
-# Diferencias Clave
+## Diferencias Clave
 
 - GEM-X v4 mejora eficiencia de captura celular.
 - Mayor consistencia experimental.
 - Optimizada para arquitectura Chromium X.
 - Mantiene el mismo principio conceptual de barcoding + UMI.
 
----
-
-# Implicaciones para el Análisis Downstream
+## Implicaciones para el Análisis Downstream
 
 Desde el punto de vista computacional:
 
@@ -248,41 +215,30 @@ Desde el punto de vista computacional:
 - El pipeline analítico es equivalente.
 - Las diferencias impactan sensibilidad experimental, no la lógica de análisis.
 
----
+## Nota para el Taller
 
-# Nota para el Taller
+1. Trabajaremos con datos **Next GEM v3.1**, ya que:
+    - Es uno de los formatos más abundantes en repositorios públicos.
+    - Es ideal para enseñanza.
+    - Permite reproducibilidad.
+    - El análisis downstream es equivalente a GEM-X v4.
 
-Trabajaremos con datos **Next GEM v3.1**, ya que:
+    Para nuevos experimentos, **GEM-X Universal 3′ v4 es la versión recomendada actualmente**.
 
-- Es uno de los formatos más abundantes en repositorios públicos.
-- Es ideal para enseñanza.
-- Permite reproducibilidad.
-- El análisis downstream es equivalente a GEM-X v4.
+2. Consultar siempre:
+    - Documentación oficial de 10x Genomics
+    - Guías de usuario de Chromium
+    - Documentación de Cell Ranger
+    - Benchmarks recientes de tecnologías single-cell
+    - Publicaciones metodológicas sobre microdroplet-based scRNA-seq
 
-Para nuevos experimentos, **GEM-X Universal 3′ v4 es la versión recomendada actualmente**.
+3. Verificar siempre:
+    - Versión de química utilizada
+    - Versión de Cell Ranger
+    - Estructura de reads
+    - Profundidad de secuenciación
 
----
-
-# Recursos de Consulta
-
-Consultar siempre:
-
-- Documentación oficial de 10x Genomics
-- User Guides de Chromium Universal 3′
-- Documentación de Cell Ranger
-- Benchmarks recientes de tecnologías single-cell
-- Publicaciones metodológicas sobre microdroplet-based scRNA-seq
-
-Verificar siempre:
-
-- Versión de química utilizada
-- Versión de Cell Ranger
-- Estructura de reads
-- Profundidad de secuenciación
-
----
-
-# Resumen
+## Resumen
 
 La plataforma Chromium combina:
 
