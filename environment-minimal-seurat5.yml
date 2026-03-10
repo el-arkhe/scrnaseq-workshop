@@ -1,0 +1,56 @@
+name: scrnaseq-seurat5
+channels:
+  - conda-forge
+  - bioconda
+channel_priority: strict
+
+dependencies:
+  # R core
+  - r-base=4.4.*
+
+  # Seurat ecosystem
+  - r-seurat=5.4.*
+  - r-seuratobject=5.3.*
+  - r-sctransform=0.4.*
+
+  # Essential R packages
+  - r-tidyverse
+  - r-data.table
+  - r-patchwork
+  - r-future
+  - r-future.apply
+  - r-matrix
+  - r-matrixstats
+  - r-rcpp
+  - r-rlang
+  - r-glue
+  - r-cli
+  - r-yaml
+  - r-jsonlite
+  - r-here
+  - r-fs
+  - r-r.utils
+
+  # Visualization
+  - r-cowplot
+  - r-ggrepel
+  - r-pheatmap
+  - r-viridis
+  - r-scales
+
+  # Reproducibility / reports
+  - r-rmarkdown
+  - r-knitr
+  - r-sessioninfo
+
+  # Single-cell Bioconductor ecosystem
+  - bioconductor-singlecellexperiment
+  - bioconductor-scater
+  - bioconductor-scran
+  - bioconductor-scuttle
+  #- bioconductor-dropletutils
+  - bioconductor-biocparallel
+  - bioconductor-rhdf5
+
+  # HDF5 support for 10x files
+  - r-hdf5r
