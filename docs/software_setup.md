@@ -1,6 +1,6 @@
 # Guía de Instalación y Configuración: Workshop scRNA-seq
 
-Este documento contiene las instrucciones paso a paso para configurar el entorno de análisis genómico utilizando **Conda**, **Mamba** y **Seurat v5**.
+Este documento contiene las instrucciones paso a paso para configurar el entorno de análisis transcriptomico utilizando **Conda**, **Mamba** y **Seurat v5**.
 
 ---
 
