@@ -56,9 +56,9 @@ El contenido está diseñado para formación técnica con énfasis en:
 ---
 
 ### Acceso rápido al contenido
-
-- [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica
-- [`Environment`](README.md) — Entornos reproducibles (en desarrollo)
+- [`Requerimientos Técnicos`](requerimientos.md)
+- [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica.
+- [`Environment`](/docs/software_setup.md) — Entorno reproducible.
 - [`Código (R / Bash / Python)`](/scripts/README.md) — Scripts R / Bash / Python
 - [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
 - [`Colaboradores / Estudiantes`](colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
@@ -67,12 +67,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 ### Clonar repositorio
 
-```bash
-git clone git@github.com:el-arkhe/scrnaseq-workshop.git
-```
-Este método requiere que tengas configurada una llave SSH en GitHub.
-
-Mas detalles: [`Github repo`](docs/main_docs/09_github_repo.md)
+[`Github repo`](docs/main_docs/09_github_repo.md)
 
 ---
 
