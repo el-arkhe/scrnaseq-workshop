@@ -58,7 +58,7 @@ cd scrnaseq-workshop
 # Verificar contenido (debes ver environment-minimal-seurat5.yml, docs, scripts, etc.)
 ls
 ```
-
+Para más detalles sigue las instrucciones en [`Github repo`](docs/main_docs/09_github_repo.md)
 
 ### 5. Crear el entorno de análisis
 El archivo environment-minimal-seurat5.yml define todas las dependencias. Para crear el entorno, ejecuta:
