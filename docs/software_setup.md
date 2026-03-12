@@ -2,15 +2,24 @@
 
 Este documento contiene las instrucciones paso a paso para configurar el entorno de análisis transcriptomico utilizando **Conda**, **Mamba** y **Seurat v5**.
 
-## Instrucciones para OS y Linux 
+## 1. Instalación de Miniforge (Conda + Mamba)
 
-### 1. Proceso de instalación de Miniforge/Conda
+Primero descarga **Miniforge**, que permitirá crear un entorno de desarrollo controlado para ejecutar los scripts del taller.
 
-Primero descarga el software Miniforge/Conda que te permitira crear un entorno de desarrollo controlado para ejecutar los scripts del taller. El sitio para bajar mamba: https://conda-forge.org/download/
+Descarga desde: https://conda-forge.org/download/
 
-Durante la ejecución del instalador en tu terminal, sigue estas indicaciones:
+Selecciona el instalador correspondiente a tu sistema operativo.
 
-**Nota**. Es recomendable ejecutar el instalador en tu *usuario* del computador local para evitar problemas de autenticación. 
+### macOS y Linux
+
+#### Ejecutar el instalador
+
+En la terminal, ejecuta el archivo descargado y sigue estas indicaciones durante la instalación:
+```bash
+bash Miniforge3-*.sh 
+```
+
+>**Nota:** Es recomendable instalar Miniforge en tu *usuario local* para evitar problemas de permisos.
 
 #### Aceptar licencia
 Cuando aparezca el mensaje:
@@ -29,11 +38,14 @@ Cuando aparezca:
 *(Esto permite usar conda automáticamente en la terminal).*
 
 
-### 2. Reiniciar la terminal
-**Este paso es crucial.** Después de la instalación, cierra la ventana de la terminal actual y abre una nueva. Esto asegura que el comando `conda` esté disponible en tu sesión.
+## 2. Reiniciar la terminal
+
+**Este paso es crucial.** 
+
+Después de la instalación, cierra la ventana de la terminal actual y abre una nueva. Esto asegura que el comando `conda` esté disponible en tu sesión.
 
 
-### 3. Verificar la instalación
+## 3. Verificar la instalación
 En la nueva terminal, ejecuta los siguientes comandos para confirmar que las herramientas están listas:
 
 ```bash
@@ -43,14 +55,16 @@ conda --version
 # Verificar Mamba
 mamba --version
 ```
+Deberías ver algo similar a:
+```bash
+conda 24.x.x
+```
 
-
-### 4. Clonar el repositorio del taller
-Descarga los materiales y entra en el directorio del proyecto. Si ya lo hiciste asegurate de tener la versión más reciente ejecutando `git-pull` desde la ruta raíz del proyecto en tu terminal. 
+## 4. Clonar el repositorio del taller
+Descarga los materiales del taller.
 
 ```bash
-# Clonar
-git clone [https://github.com/elarkhe/scrnaseq-workshop](https://github.com/elarkhe/scrnaseq-workshop)
+git clone https://github.com/elarkhe/scrnaseq-workshop
 
 # Entrar al directorio
 cd scrnaseq-workshop
@@ -58,10 +72,15 @@ cd scrnaseq-workshop
 # Verificar contenido (debes ver environment-minimal-seurat5.yml, docs, scripts, etc.)
 ls
 ```
-Para más detalles sigue las instrucciones en [`Github repo`](docs/main_docs/09_github_repo.md)
+Para más detalles sobre como clonar el repositorio sigue las instrucciones en [`Github repo`](docs/main_docs/09_github_repo.md)
 
-### 5. Crear el entorno de análisis
-El archivo environment-minimal-seurat5.yml define todas las dependencias. Para crear el entorno, ejecuta:
+Si ya habías clonado el repositorio anteriormente, puedes actualizarlo con:
+```bash
+git pull
+```
+
+## 5. Crear el entorno de análisis
+El archivo **environment-minimal-seurat5.yml** define todas las dependencias. Para crear el entorno, ejecuta:
 ```bash
 mamba env create -f environment-minimal-seurat5.yml
 ```
@@ -69,7 +88,7 @@ mamba env create -f environment-minimal-seurat5.yml
 
 
 
-### 6. Activar el entorno
+## 6. Activar el entorno
 Una vez finalizada la creación, activa el entorno de trabajo:
 
 ```Bash
@@ -81,30 +100,29 @@ La terminal debería mostrar el nombre del entorno al inicio de la línea:
 ```
 
 
-### 7. Verificar que el entorno funciona (R y Seurat)
-Verificar manualmente que R y las librerías principales están disponibles:
+### 7. Verificar que R y Seurat funcionan bien
 
-Ejecuta R en la terminal.
-
-Dentro de R, escribe:
+Inicia R desde la terminal: 
 ```Bash
 R
+```
+
+Dentro de R ejecuta:
+```Bash
 library(Seurat)
 packageVersion("Seurat")
 ```
 
 Para salir de R, escribe: q() (luego presiona n).
 
+## 8. Ejecutar el test de instalación
+El repositorio incluye un script para verificar automáticamente que todo el entorno funciona correctamente. 
 
-
-### 8. Ejecutar el test de instalación
-El repositorio incluye un script para verificar automáticamente que todo el entorno funciona correctamente. Ejecuta en el prompt de la términal (fuera de R):
+Ejecuta desde la terminal:
 
 ```Bash
 Rscript scripts/test_installation.R
 ```
-
-Opcionalmente puedes hacer `el test` de forma manual desde la terminal dentro de `R`. Sigue el script [`Prueba de instalación`](../scripts/test_installation.R).
 
 Resultado esperado en ambos casos sí todo es correcto:
 
@@ -123,14 +141,14 @@ Cells: 5000
 Seurat object created successfully
 ```
 
-### 9. Activar el entorno en futuras sesiones
+## 9. Activar el entorno en futuras sesiones
 Cada vez que vuelvas a trabajar en el taller, solo necesitas abrir una terminal y ejecutar:
 
 ```Bash
 conda activate scrnaseq-seurat5
 ```
 
-Estas listo para comenzar!
+¡Listo! El entorno estará preparado para ejecutar los scripts del taller.
 
 ---
 
