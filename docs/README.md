@@ -1,4 +1,4 @@
-# Taller de Análisis de Single-Cell RNA-seq
+# Taller de análisis de célula única (single-cell RNA-seq)
 
 Tecnologías utilizadas:\
 Cell Ranger • Seurat v5 • R • Single-Cell RNA-seq • 10x Genomics
@@ -24,6 +24,7 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ## Material teórico y guías
 
+[Guía de preparación del entorno de análisis](/docs/guide_env.md)\
 [Videos seleccionados para apoyo pedagógico](../videos_tutoriales.md)\
 [Referencias bibliográficas y posts seleccionadas](../referencias_seleccionadas.md)
 
