@@ -35,8 +35,7 @@ Al finalizar tendrás un **entorno Conda reproducible** que instalará **R**, **
 
 ### Entorno computacional del taller
 
-El taller utiliza un entorno reproducible definido en el archivo:
-
+El taller utiliza un entorno reproducible definido en el archivo 
 [environment-minimal-seurat5.yml](../environment-minimal-seurat5.yml)
 
 Este archivo instala automáticamente:
@@ -61,9 +60,7 @@ Durante el taller utilizaremos RStudio para:
 - generar visualizaciones
 - documentar análisis reproducibles
 
-Como se indicó anteriormente, **RStudio no forma parte de los scripts de instalación automatizados**, por lo que deberás instalarlo manualmente siguiendo las instrucciones oficiales:
-
-https://posit.co/download/rstudio-desktop/
+Como se indicó anteriormente, **RStudio no forma parte de los scripts de instalación automatizados**, por lo que deberás instalarlo manualmente siguiendo las instrucciones oficiales en https://posit.co/download/rstudio-desktop/
 
 Selecciona la versión correspondiente a tu sistema operativo y sigue las instrucciones:
 
