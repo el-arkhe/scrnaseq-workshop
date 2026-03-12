@@ -1,6 +1,6 @@
 # Guía de Instalación y Configuración
 
-Este documento contiene las instrucciones paso a paso para configurar el entorno de análisis transcriptomico utilizando **Conda**, **Mamba** y **Seurat v5**.
+Este documento contiene las instrucciones paso a paso para configurar el entorno de análisis transcriptómico utilizando **Conda**, **Mamba** y **Seurat v5**.
 
 > Estas instrucciones aplican para **macOS, Linux y Windows**.  
 > En Windows se recomienda utilizar **PowerShell**, **Windows Terminal** o **Anaconda Prompt**.
@@ -13,12 +13,26 @@ Descarga desde: https://conda-forge.org/download/
 
 Selecciona el instalador correspondiente a tu sistema operativo.
 
-### macOS y Linux
+### Para usuarios Windows:
+
+Para ejecutar los comandos de esta guía necesitas abrir una **terminal**.
+
+Puedes hacerlo de la siguiente forma:
+
+**PowerShell (recomendado)**  
+1. Presiona **Windows + S**  
+2. Escribe **PowerShell**  
+3. Haz clic en **Windows PowerShell**
+
+Una vez abierta la terminal puedes continuar con los comandos de esta guía y saltar al **inciso 2**.
+
+
+### Para usuarios macOS y Linux:
 
 #### Ejecutar el instalador
 
 En la terminal, ejecuta el archivo descargado y sigue estas indicaciones durante la instalación:
-```bash
+```textplain
 bash Miniforge3-*.sh 
 ```
 
@@ -62,7 +76,7 @@ mamba --version
 ```
 
 Deberías ver algo similar a:
-```bash
+```textplain
 conda 24.x.x
 ```
 
