@@ -32,6 +32,7 @@ dependencies:
   - r-r.utils
 
   # Visualization
+  - r-ggplot2   # this is part of the tidyverse ecosystem, but we list it here explicitly to ensure reproducibility
   - r-cowplot
   - r-ggrepel
   - r-pheatmap
@@ -44,13 +45,23 @@ dependencies:
   - r-sessioninfo
 
   # Single-cell Bioconductor ecosystem
-  - bioconductor-singlecellexperiment
+  # - bioconductor-singlecellexperiment
   - bioconductor-scater
   - bioconductor-scran
   - bioconductor-scuttle
-  #- bioconductor-dropletutils
   - bioconductor-biocparallel
   - bioconductor-rhdf5
+  - bioconductor-dropletutils
+  - bioconductor-scdblfinder
+
+  # RNA-seq / pseudobulk analysis
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-exploremodelmatrix
+  - bioconductor-recount3
+
+  # R utilities
+  - r-usethis
 
   # HDF5 support for 10x files
   - r-hdf5r
