@@ -2,6 +2,9 @@
 
 Este documento contiene las instrucciones paso a paso para configurar el entorno de análisis transcriptomico utilizando **Conda**, **Mamba** y **Seurat v5**.
 
+> Estas instrucciones aplican para **macOS, Linux y Windows**.  
+> En Windows se recomienda utilizar **PowerShell**, **Windows Terminal** o **Anaconda Prompt**.
+
 ## 1. Instalación de Miniforge (Conda + Mamba)
 
 Primero descarga **Miniforge**, que permitirá crear un entorno de desarrollo controlado para ejecutar los scripts del taller.
@@ -24,17 +27,21 @@ bash Miniforge3-*.sh
 #### Aceptar licencia
 Cuando aparezca el mensaje:
 > `Do you accept the license terms? [yes|no]`  
+
 **Escribe:** `yes`
 
 #### Aceptar ruta de instalación
 El instalador mostrará algo como:
 > `Miniforge3 will now be installed into this location: /Users/tu_usuario/miniforge3`  
+
 **Presiona:** `ENTER` para aceptar la ruta por defecto.
 
-#### Inicializa conda
+#### Inicializar conda
 Cuando aparezca:
 > `Proceed with initialization? [yes|no]`  
+
 **Escribe:** `yes`  
+
 *(Esto permite usar conda automáticamente en la terminal).*
 
 
@@ -46,38 +53,55 @@ Después de la instalación, cierra la ventana de la terminal actual y abre una 
 
 
 ## 3. Verificar la instalación
-En la nueva terminal, ejecuta los siguientes comandos para confirmar que las herramientas están listas:
-
+En la nueva terminal, ejecuta:
 ```bash
 # Verificar Conda (deberías ver algo como conda 24.x.x)
 conda --version
-
 # Verificar Mamba
 mamba --version
 ```
+
 Deberías ver algo similar a:
 ```bash
 conda 24.x.x
 ```
 
-## 4. Clonar el repositorio del taller
-Descarga los materiales del taller.
+## 4. Clonar el repositorio del taller con Git
 
+Si es necesario, primero verifica que Git esté instalado:
+```bash
+git --version
+```
+
+Si Git no está instalado, puedes descargarlo desde https://git-scm.com/downloads
+
+Ahora puedes clonar el repositorio del taller (clonar):
 ```bash
 git clone https://github.com/elarkhe/scrnaseq-workshop
-
 # Entrar al directorio
 cd scrnaseq-workshop
-
-# Verificar contenido (debes ver environment-minimal-seurat5.yml, docs, scripts, etc.)
-ls
 ```
-Para más detalles sobre como clonar el repositorio sigue las instrucciones en [`Github repo`](docs/main_docs/09_github_repo.md)
+
+Verificar contenido del repositorio:
+```bash
+ls    # macOS / Linux
+dir   # Windows
+```
+
+Deberías ver archivos como:
+```bash
+environment-minimal-seurat5.yml
+docs/
+scripts/
+```
 
 Si ya habías clonado el repositorio anteriormente, puedes actualizarlo con:
 ```bash
 git pull
 ```
+
+Para más detalles sobre como clonar el repositorio sigue las instrucciones en [`Github repo`](docs/main_docs/09_github_repo.md)
+
 
 ## 5. Crear el entorno de análisis
 El archivo **environment-minimal-seurat5.yml** define todas las dependencias. Para crear el entorno, ejecuta:
@@ -85,8 +109,6 @@ El archivo **environment-minimal-seurat5.yml** define todas las dependencias. Pa
 mamba env create -f environment-minimal-seurat5.yml
 ```
 **Nota**: Este proceso puede tardar algunos minutos dependiendo de tu conexión a internet.
-
-
 
 ## 6. Activar el entorno
 Una vez finalizada la creación, activa el entorno de trabajo:
@@ -99,6 +121,11 @@ La terminal debería mostrar el nombre del entorno al inicio de la línea:
 (scrnaseq-seurat5) $
 ```
 
+Si la instalación falla o el entorno no se creó correctamente, puedes eliminarlo y volver a intentarlo:
+
+```bash
+conda env remove -n scrnaseq-seurat5
+```
 
 ### 7. Verificar que R y Seurat funcionan bien
 
@@ -108,24 +135,25 @@ R
 ```
 
 Dentro de R ejecuta:
-```Bash
+```R
 library(Seurat)
 packageVersion("Seurat")
 ```
-
-Para salir de R, escribe: q() (luego presiona n).
+Para salir de R, escribe:
+```R
+q() (luego presiona n).
+```
+luego presiona *n*.
 
 ## 8. Ejecutar el test de instalación
 El repositorio incluye un script para verificar automáticamente que todo el entorno funciona correctamente. 
 
 Ejecuta desde la terminal:
-
 ```Bash
 Rscript scripts/test_installation.R
 ```
 
 Resultado esperado en ambos casos sí todo es correcto:
-
 ```Plaintext
 scRNA-seq Workshop Installation Test
 
@@ -143,7 +171,6 @@ Seurat object created successfully
 
 ## 9. Activar el entorno en futuras sesiones
 Cada vez que vuelvas a trabajar en el taller, solo necesitas abrir una terminal y ejecutar:
-
 ```Bash
 conda activate scrnaseq-seurat5
 ```
