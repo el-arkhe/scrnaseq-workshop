@@ -96,11 +96,6 @@ GitHub generará automáticamente formatos de citación (BibTeX, APA, etc.) desd
 
 Si utiliza datos, métodos o herramientas específicas presentadas en este taller, por favor cite también las publicaciones primarias correspondientes (por ejemplo, Seurat, Scanpy, edgeR, 10x Genomics Cell Ranger), como se indica a lo largo de los materiales del taller.
 
-
-## Estado del proyecto
-🚧 Repositorio en desarrollo  
-El contenido se irá liberando progresivamente conforme a los talleres y ediciones del curso.
-
 ---
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
 
