@@ -143,7 +143,7 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ### Día 4: Reducción de dimensionalidad y clustering
 
 4.1 Reducción de dimensionalidad en scRNA-seq\
-4.2 Construcción del grafo celular
+4.2 Construcción del grafo celular\
 4.3 Métodos de clustering
 <!--
 - [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
