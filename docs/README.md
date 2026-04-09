@@ -24,15 +24,18 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ## Material teórico y guías
 
-[Requerimientos Técnicos](/docs/requerimientos.md)
+[Requerimientos Técnicos](/docs/requerimientos.md)\
 [Guía de preparación del entorno de análisis](/docs/guide_env.md)\
 [Videos seleccionados para apoyo pedagógico](/docs/videos_tutoriales.md)\
 [Referencias bibliográficas y posts seleccionadas](/docs/referencias_seleccionadas.md)
 
 ## Índice del Taller
 
-**Convención del índice:** cada práctica indica las secciones que deben revisarse previamente en "Lecturas previas".
+> Día 1 del taller esta completamente disponible. Para acceder al contenido completo  días 2–5, es necesario registrarse previamente.
 
+<!--
+**Convención del índice:** cada práctica indica las secciones que deben revisarse previamente en "Lecturas previas".
+-->
 ### Día 1: Introducción a scRNA-seq y procesamiento con Cell Ranger
 
 - [1.1 Introducción a scRNA-seq](main_docs/day1/01_introduccion_sc_rnaseq.md)
@@ -63,6 +66,22 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ### Día 2: Control de calidad y filtrado de células
 
+👉 [Registrarse para acceder al taller completo](registro.md)
+
+2.1 Comprensión de las matrices de expresión genética de Cell Ranger\
+2.2 Seurat v5\
+2.3 Exploración inicial de datos\
+2.4 Métricas de control de calidad de Cell Ranger\
+2.5 Métricas de control de calidad ampliamente establecidas\
+2.5.1 Empty Droplet Detection\
+2.5.2 Ambient RNA Correction\
+2.5.3 Doublet Detection\
+2.6 Filtrado de calidad a nivel celular (Cell-level QC filtering)\
+2.7 Filtrado de control de calidad a nivel genético\
+2.8 Normalización y selección de características variables (Feature selection)\
+2.9 Dataset limpio y filtrado tras control de calidad\
+
+<!--
 - [2.1 Comprensión de las matrices de expresión genética de Cell Ranger]() (201)
 
 - [2.2 Seurat v5]() (205)
@@ -99,11 +118,16 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 - [2.P1: Requerimientos de sistema](../scripts/00_system_requirments.md)
 
 - [2.P2: Control de calidad de una sola muestra](../scripts/01_std_qc_filtering.R)
+-->
 
 ---
 
 ### Día 3: Integración de datasets y corrección de batch effects
 
+3.1 Integración de datasets en scRNA-seq\
+3.2 Batch effects en datos single-cell\
+3.3 Métodos de integración de datasets
+<!--
 - [3.1 Integración de datasets en scRNA-seq](main_docs/08_dataset_integration.md)
 - [3.2 Batch effects en datos single-cell](main_docs/08a_batch_effects.md)
 - [3.3 Métodos de integración de datasets](main_docs/08b_integration_methods.md)
@@ -112,11 +136,14 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 - [3.P1: Integración de múltiples muestras en Seurat](../scripts/03_dataset_integration.R)  
   **Lecturas previas:** 3.1–3.3
-
+-->
 ---
 
 ### Día 4: Reducción de dimensionalidad y clustering
 
+4.1 Reducción de dimensionalidad en scRNA-seq\
+4.2 Construcción del grafo celular y clustering
+<!--
 - [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
 - [4.2 Construcción del grafo celular y clustering](main_docs/09a_knn_graph_clustering.md)
 
@@ -124,11 +151,19 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 - [4.P1: Clustering de poblaciones celulares](../scripts/04_clustering.R)  
   **Lecturas previas:** 4.1, 4.2
+-->
 
 ---
 
 ### Día 5: Identificación de tipos celulares e interpretación biológica
 
+5.1 Identificación de genes marcadores\
+5.2 Differential expression entre clusters\
+5.3 Identificación de tipos celulares\
+5.4 Interpretación biológica de resultados\
+5.5 Otros temas avanzados de análisis scRNA-seq
+
+<!--
 - [5.1 Identificación de genes marcadores](main_docs/10_marker_genes.md)
 - [5.2 Differential expression entre clusters](main_docs/10a_differential_expression.md)
 - [5.3 Identificación de tipos celulares](main_docs/11_cell_type_annotation.md)
@@ -138,6 +173,7 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 - [5.P1: Anotación de tipos celulares](../scripts/05_celltype_annotation.R)  
   **Lecturas previas:** 5.1–5.4
+-->
 
 ## Resultado esperado del taller
 
@@ -152,7 +188,10 @@ Los participantes aprenderán a:
 - Identificar poblaciones celulares mediante clustering
 - Anotar tipos celulares utilizando genes marcadores
 
-## Flujo conceptual del análisis scRNA-seq
+
+## Flujo conceptual del análisis de datos scRNA-seq
+
+En este taller seguimos el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular, que se puede resumir en el siguiente esquema:
 
 ```bash
 +-----------------------+
@@ -217,11 +256,11 @@ Los participantes aprenderán a:
 +-------------------------------+
 ```
 
-## Próximos pasos
+---
 
-Los recursos adicionales y lecturas recomendadas se encuentran en:
-- [Videos tutoriales](../videos_tutoriales.md)
-- [Referencias seleccionadas](../referencias_seleccionadas.md)
+### 🔐 Acceso al contenido completo
+
+👉 [Registrarse aquí](registro.md)
 
 ---
 
