@@ -72,18 +72,15 @@ El contenido está diseñado para formación técnica con énfasis en:
 ---
 
 ### Autora y curaduría
-**Cyntia S. Cardinault**  
-GitHub: https://github.com/el-arkhe/scrnaseq-workshop  
+**Cyntia Soto Cardinault**  
 
-Este repositorio es mantenido por la autora en representación de **El Arkhe**.
+Este repositorio es mantenido por la autora en representación de **El Arkhe · Talleres Multiomics**.
 
 Si utiliza material del taller, código o recursos asociados en su investigación, enseñanza u obras derivadas, por favor cítelo de la siguiente manera.
 
 ### Cita preferida
 
-Cynthia S. Cardinault. *El Arkhe: Single-Cell RNA-seq Workshop*.  
-GitHub repository: https://github.com/<cyntsc>/<scrnaseq-workshop>  
-2026.
+Cynthia Soto Cardinault. *El Arkhe: Single-Cell RNA-seq Workshop*.  
 
 Un archivo de citación legible por máquina está disponible en este repositorio:
 
