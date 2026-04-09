@@ -4,7 +4,7 @@ Aprende a analizar datos de célula única desde archivos **FASTQ** hasta la **i
 
 📅 6–10 de julio de 2026  
 ⏱️ 20 horas (5 sesiones en vivo)  
-🧪 Modalidad: Online · Híbrido · Presencial  
+🧪 Modalidad: Online
 
 Impartido por especialistas en análisis multi-ómico con experiencia en datos de 10x Genomics (scRNA-seq, ATAC, spatial) y proyectos reales de investigación.
 
@@ -13,7 +13,7 @@ Impartido por especialistas en análisis multi-ómico con experiencia en datos d
 🕒 Registro abierto hasta llenar cupo
 
 <p align="center">
-  <img src="docs/images/Cartel_scRNAseq_001.png" width="500">
+  <img src="docs/images/Cartel_scRNAseq_001_header.jpg" width="500">
 </p>
 
 ---
