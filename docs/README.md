@@ -61,10 +61,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ---
 
 ### Día 2: Control de calidad y filtrado de células
-### 🚧 Estado: en desarrollo  
-<!--
-https://ngs101.com/how-to-analyze-single-cell-rna-seq-data-complete-beginners-guide-part-7-trajectory-and-pseudotime-analysis-using-monocle-3/
--->
 
 - [2.1 Comprensión de las matrices de expresión genética de Cell Ranger]() (201)
 
