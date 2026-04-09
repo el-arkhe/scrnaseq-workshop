@@ -1,20 +1,20 @@
 # Taller de análisis de célula única (scRNA-seq)
 
+<p align="center">
+  <img src="../docs/images/Cartel_scRNAseq_001_header.jpg" width="500">
+</p>
+
 Aprende a analizar datos de célula única desde archivos **FASTQ** hasta la **identificación de tipos celulares**, combinando teoría y práctica en un flujo real de trabajo.
 
 📅 6–10 de julio de 2026  
 ⏱️ 20 horas (5 sesiones en vivo)  
 🧪 Modalidad: Online
 
-Impartido por especialistas en análisis multi-ómico con experiencia en datos de 10x Genomics (scRNA-seq, scATAC-seq y spatial resolved transcriptomics) y proyectos reales de investigación.
-
-👉 **[Formulario de registro](https://forms.gle/2ZXXXXXXXXXXXX)**
+Impartido por especialistas en análisis multi-ómico con experiencia en datos de 10x Genomics y proyectos reales de investigación.
 
 🕒 Registro abierto hasta llenar cupo
 
-<p align="center">
-  <img src="../docs/images/Cartel_scRNAseq_001_header.jpg" width="500">
-</p>
+####  Asegura tu lugar 👉 **[Regístrate aquí](https://forms.gle/2ZXXXXXXXXXXXX)**
 
 ---
 ### ¿Qué hace diferente este taller?
@@ -77,10 +77,7 @@ Sí. Tendrás acompañamiento en vivo y recursos adicionales.
 ### ⚠️ Cupo limitado
 
 Este taller se imparte en grupos reducidos para asegurar acompañamiento personalizado.
-
-### Asegura tu lugar
-
-👉 **[Regístrate aquí](https://forms.gle/2ZXXXXXXXXXXXX)**
+👉 [Registrarse aquí](registro.md)
 
 ---
 
