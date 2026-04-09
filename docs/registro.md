@@ -14,7 +14,7 @@ Impartido por especialistas en análisis multi-ómico con experiencia en datos d
 
 🕒 Registro abierto hasta llenar cupo
 
-####  Asegura tu lugar 👉 **[Regístrate aquí](https://forms.gle/2ZXXXXXXXXXXXX)**
+####  Asegura tu lugar 👉 **[Regístrate aquí](https://forms.gle/QFrhR1wtP8UJn9Ak8)**
 
 ---
 ### ¿Qué hace diferente este taller?
@@ -77,7 +77,7 @@ Sí. Tendrás acompañamiento en vivo y recursos adicionales.
 ### ⚠️ Cupo limitado
 
 Este taller se imparte en grupos reducidos para asegurar acompañamiento personalizado.
-👉 [Registrarse aquí](registro.md)
+👉 **[Registrarse aquí](https://forms.gle/QFrhR1wtP8UJn9Ak8)**
 
 ---
 
