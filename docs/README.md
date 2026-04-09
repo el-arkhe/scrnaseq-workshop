@@ -31,8 +31,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ## Índice del Taller
 
-> Día 1 del taller esta completamente disponible. Para acceder al contenido completo  días 2–5, es necesario registrarse previamente.
-
 <!--
 **Convención del índice:** cada práctica indica las secciones que deben revisarse previamente en "Lecturas previas".
 -->
@@ -66,7 +64,9 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ### Día 2: Control de calidad y filtrado de células
 
-👉 [Registrarse para acceder al taller completo](registro.md)
+> Para acceder al contenido completo  días 2–5, es necesario registrarse previamente.
+
+👉 [Registrarse aquí](registro.md)
 
 2.1 Comprensión de las matrices de expresión genética de Cell Ranger\
 2.2 Seurat v5\
