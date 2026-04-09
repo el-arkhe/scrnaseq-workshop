@@ -6,14 +6,14 @@ Aprende a analizar datos de célula única desde archivos **FASTQ** hasta la **i
 ⏱️ 20 horas (5 sesiones en vivo)  
 🧪 Modalidad: Online
 
-Impartido por especialistas en análisis multi-ómico con experiencia en datos de 10x Genomics (scRNA-seq, ATAC, spatial) y proyectos reales de investigación.
+Impartido por especialistas en análisis multi-ómico con experiencia en datos de 10x Genomics (scRNA-seq, scATAC-seq y spatial resolved transcriptomics) y proyectos reales de investigación.
 
-👉 **[Regístrate aquí](https://forms.gle/2ZXXXXXXXXXXXX)**
+👉 **[Formulario de registro](https://forms.gle/2ZXXXXXXXXXXXX)**
 
 🕒 Registro abierto hasta llenar cupo
 
 <p align="center">
-  <img src="docs/images/Cartel_scRNAseq_001_header.jpg" width="500">
+  <img src="../docs/images/Cartel_scRNAseq_001_header.jpg" width="500">
 </p>
 
 ---
