@@ -34,6 +34,7 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 <!--
 **Convención del índice:** cada práctica indica las secciones que deben revisarse previamente en "Lecturas previas".
 -->
+
 ### Día 1: Introducción a scRNA-seq y procesamiento con Cell Ranger
 
 - [1.1 Introducción a scRNA-seq](main_docs/day1/01_introduccion_sc_rnaseq.md)
@@ -72,14 +73,14 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 2.2 Seurat v5\
 2.3 Exploración inicial de datos\
 2.4 Métricas de control de calidad de Cell Ranger\
-2.5 Métricas de control de calidad ampliamente establecidas\
+2.5 Otras métricas de control de calidad establecidas\
 2.5.1 Empty Droplet Detection\
 2.5.2 Ambient RNA Correction\
 2.5.3 Doublet Detection\
 2.6 Filtrado de calidad a nivel celular (Cell-level QC filtering)\
 2.7 Filtrado de control de calidad a nivel genético\
 2.8 Normalización y selección de características variables (Feature selection)\
-2.9 Dataset limpio y filtrado tras control de calidad\
+2.9 Dataset limpio y filtrado tras control de calidad
 
 <!--
 - [2.1 Comprensión de las matrices de expresión genética de Cell Ranger]() (201)
@@ -97,7 +98,7 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 - [2.4 Métricas de control de calidad de Cell Ranger]() (204a)
 
-- [2.5 Métricas de control de calidad ampliamente establecidas]()
+- [2.5 Otras métricas de control de calidad establecidas]()
   - Empty Droplet Detection (DropletUtils)
   - Ambient RNA Correction (SoupX)
   - Doublet Detection (scDblFinder)
@@ -124,13 +125,13 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ### Día 3: Integración de datasets y corrección de batch effects
 
-3.1 Integración de datasets en scRNA-seq\
-3.2 Batch effects en datos single-cell\
-3.3 Métodos de integración de datasets
+3.1 Integración de más datos scRNA-seq\
+3.2 Corrección de Batch effects\
+3.3 Métodos de visualización e integración de datos
 <!--
-- [3.1 Integración de datasets en scRNA-seq](main_docs/08_dataset_integration.md)
-- [3.2 Batch effects en datos single-cell](main_docs/08a_batch_effects.md)
-- [3.3 Métodos de integración de datasets](main_docs/08b_integration_methods.md)
+- [3.1 Integración de más datos scRNA-seq](main_docs/08_dataset_integration.md)
+- [3.2 Corrección de Batch effects](main_docs/08a_batch_effects.md)
+- [3.3 Métodos de visualización e integración de datos](main_docs/08b_integration_methods.md)
 
 **Práctica:**
 
@@ -142,11 +143,12 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ### Día 4: Reducción de dimensionalidad y clustering
 
 4.1 Reducción de dimensionalidad en scRNA-seq\
-4.2 Construcción del grafo celular y clustering
+4.2 Construcción del grafo celular
+4.3 Métodos de clustering
 <!--
 - [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
-- [4.2 Construcción del grafo celular y clustering](main_docs/09a_knn_graph_clustering.md)
-
+- [4.2 Construcción del grafo celular](main_docs/09a_knn_graph_clustering.md)
+- [4.3 Métodos de clustering](main_docs/09b_clustering_methods.md)
 **Práctica:**
 
 - [4.P1: Clustering de poblaciones celulares](../scripts/04_clustering.R)  
@@ -158,10 +160,10 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ### Día 5: Identificación de tipos celulares e interpretación biológica
 
 5.1 Identificación de genes marcadores\
-5.2 Differential expression entre clusters\
-5.3 Identificación de tipos celulares\
+5.2 Identificación de tipos celulares\
+5.3 Expressión diferencial entre clusters\
 5.4 Interpretación biológica de resultados\
-5.5 Otros temas avanzados de análisis scRNA-seq
+5.5 Temas avanzados de análisis scRNA-seq
 
 <!--
 - [5.1 Identificación de genes marcadores](main_docs/10_marker_genes.md)
