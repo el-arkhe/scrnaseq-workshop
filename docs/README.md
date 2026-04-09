@@ -24,9 +24,10 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ## Material teórico y guías
 
+[Requerimientos Técnicos](/docs/requerimientos.md)
 [Guía de preparación del entorno de análisis](/docs/guide_env.md)\
-[Videos seleccionados para apoyo pedagógico](../videos_tutoriales.md)\
-[Referencias bibliográficas y posts seleccionadas](../referencias_seleccionadas.md)
+[Videos seleccionados para apoyo pedagógico](/docs/videos_tutoriales.md)\
+[Referencias bibliográficas y posts seleccionadas](/docs/referencias_seleccionadas.md)
 
 ## Índice del Taller
 
@@ -34,16 +35,16 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ### Día 1: Introducción a scRNA-seq y procesamiento con Cell Ranger
 
-- [1.1 Introducción a scRNA-seq](main_docs/01_introduccion_sc_rnaseq.md)
-  - [Plataforma Chromium de 10x Genomics](main_docs/01a_chromiun_platforms.md)
+- [1.1 Introducción a scRNA-seq](main_docs/day1/01_introduccion_sc_rnaseq.md)
+  - [Plataforma Chromium de 10x Genomics](main_docs/day1/01a_chromiun_platforms.md)
 
-- [1.2 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/02_preprocessing_scrnaseq_datasets.md)
-  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/02a_seleccion_datos_chromium_sc.md)
+- [1.2 Preprocesamiento de datos scRNA-seq con Cell Ranger](main_docs/day1/02_preprocessing_scrnaseq_datasets.md)
+  - [Comprendiendo las Químicas Chromium 3′: v3.1 vs GEM-X v4](main_docs/day1/02a_seleccion_datos_chromium_sc.md)
 
   - *Práctica 1.P1:* Procesamiento de datos scRNA-seq en 10x Genomics on the Cloud  
     **Lecturas previas:** 1.1, 1.2
 
-- [1.3 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/04_subsampling.md)
+- [1.3 Submuestreo (Subsampling) con flujos de trabajo `Cell Ranger`](main_docs/day1/04_subsampling.md)
   - [Análisis de resultados con y sin submuestreo](main_docs/04a_subsampling.md)  
 
   - *Práctica 1.P2:* Análisis comparativo de resultados de submuestreo  
@@ -51,12 +52,12 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 **Prácticas:** 
 
-- [1.P1: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/03_procesamiento_10Xgenomics_cloud.md)  
+- [1.P1: procesamiento de datos scRNA-seq en 10x Genomics on the Cloud](main_docs/day1/03_procesamiento_10Xgenomics_cloud.md)  
   Recursos de apoyo:
-  - [Descarga y carga de datos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](main_docs/03a_upload_files.md)
+  - [Descarga y carga de datos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](main_docs/day1/03a_upload_files.md)
   - [Descarga de datos procesados en `Cell Ranger on the Cloud`](main_docs/03b_download_10X_cloud.md)
 
-- [1.P2: Análisis comparativo de resultados de submuestreo](main_docs/05_cell_ranger_analisis_comparativo_subsampling.md)
+- [1.P2: Análisis comparativo de resultados de submuestreo](main_docs/day1/05_cell_ranger_analisis_comparativo_subsampling.md)
 
 ---
 
@@ -102,7 +103,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ---
 
 ### Día 3: Integración de datasets y corrección de batch effects
-### 🚧 Estado: en desarrollo  
 
 - [3.1 Integración de datasets en scRNA-seq](main_docs/08_dataset_integration.md)
 - [3.2 Batch effects en datos single-cell](main_docs/08a_batch_effects.md)
@@ -116,7 +116,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ---
 
 ### Día 4: Reducción de dimensionalidad y clustering
-### 🚧 Estado: en desarrollo  
 
 - [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
 - [4.2 Construcción del grafo celular y clustering](main_docs/09a_knn_graph_clustering.md)
@@ -129,7 +128,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 ---
 
 ### Día 5: Identificación de tipos celulares e interpretación biológica
-### 🚧 Estado: en desarrollo  
 
 - [5.1 Identificación de genes marcadores](main_docs/10_marker_genes.md)
 - [5.2 Differential expression entre clusters](main_docs/10a_differential_expression.md)
@@ -231,4 +229,4 @@ Los recursos adicionales y lecturas recomendadas se encuentran en:
 
 © El Arkhe · Talleres Multiomics
 
-CSC. Marzo 05, 2026
+CSC. Abril 08, 2026

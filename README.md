@@ -56,7 +56,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 ---
 
 ### Acceso rápido al contenido
-- [`Requerimientos Técnicos`](requerimientos.md)
+
 - [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica.
 - [`Environment`](/docs/software_setup.md) — Entorno reproducible.
 - [`Código (R / Bash / Python)`](/scripts/README.md) — Scripts R / Bash / Python
