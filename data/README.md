@@ -8,6 +8,9 @@
 - 👤+🐭 Human–Mouse mix
 - 🧬 Mixed species
 
+[Lieber Brain Datasets](/data/data_lieber_brain.md)
+- 👤 Human brain (habenula)
+
 ## Plants 
 
 **Topic:**  
