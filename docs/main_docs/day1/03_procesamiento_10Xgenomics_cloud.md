@@ -25,7 +25,7 @@ Dado que existen múltiples sets de datos de célula única disponibles de forma
 
 ### Requisitos generales
 
-Deberás contar con cuentas de acceso para lo siguiente:
+Crea tu cuenta de acceso para lo siguiente:
 
 1. **Datos disponibles a través de 10x Genomics** (datos para el equipo 1) 
    https://www.10xgenomics.com/datasets  

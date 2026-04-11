@@ -62,7 +62,7 @@ Output clave:
 Además del análisis primario (alineación, conteo de UMIs y *cell calling*), los comandos `cellranger count`, `cellranger aggr` y `reanalyze` generan resultados de **análisis secundarios automatizados** que permiten explorar la estructura global del dataset.
 
 <p align="center">
-  <img src="../images/cell_ranger_analisis_primario_secundario.png" alt="análisis primario y secundario">
+  <img src="/docs/images/cell_ranger_analisis_primario_secundario.png" alt="análisis primario y secundario">
 </p>
 
 Estos análisis se realizan sobre la **matriz de expresión filtrada y normalizada** e incluyen:
