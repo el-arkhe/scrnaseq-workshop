@@ -1,4 +1,4 @@
-# scRNA-seq Datasets
+# Colección de datos scRNA-seq para entrenamiento
 
 [10x Genomics Datasets](/data/data_10xGenomics.md)
 - 👤 Human
