@@ -65,9 +65,8 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ### Día 2: Control de calidad y filtrado de células
 
-> Para acceder al contenido completo  días 2–5, es necesario registrarse previamente.
-
-👉 [Registrarse aquí](registro.md)
+El día 1 forma parte del contenido de acceso abierto.\
+👉 Para más información sobre el taller: [Registrarse aquí](registro.md)
 
 2.1 Comprensión de las matrices de expresión genética de Cell Ranger\
 2.2 Seurat v5\
@@ -195,79 +194,31 @@ Los participantes aprenderán a:
 
 En este taller seguimos el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular, que se puede resumir en el siguiente esquema:
 
-```bash
-+-----------------------+
-|   scRNA-seq experiment|
-+-----------------------+
-            │
-            ▼
-+-----------------------+
-|       FASTQ files     |
-+-----------------------+
-            │
-            ▼
-+-------------------------------+
-|          Cell Ranger          |
-|   (alignment + quantification)|
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|     Gene expression matrix    |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|        Quality Control        |
-|        (cell filtering)       |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|         Normalization         |
-|       & feature selection     |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|      Dataset Integration      |
-|   (batch effect correction)   |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|    Dimensionality Reduction   |
-|         (PCA / UMAP)          |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|           Clustering          |
-|       (Louvain / Leiden)      |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|          Marker Genes         |
-|    (Differential Expression)  |
-+-------------------------------+
-            │
-            ▼
-+-------------------------------+
-|       Cell Type Annotation    |
-+-------------------------------+
-```
+<p align="center">
+  <img src="../docs/images/snrnaseq_pipe.png" width="500">
+</p>
 
 ---
 
-### 🔐 Acceso al contenido completo
+## Continue learning
 
-👉 [Registrarse aquí](registro.md)
+El día 1 forma parte del contenido de acceso abierto.\
+👉 Para más información sobre el taller: [Registrarse aquí](registro.md)
 
 ---
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
 
-© El Arkhe · Talleres Multiomics
+<div style="display:flex; justify-content:center; margin-top:100px; margin-bottom:20px;">
+  <a href="https://clustrmaps.com/site/1c9qx" title="Visitor map" style="display:inline-block;">
+    <img
+      src="https://clustrmaps.com/map_v2.png?d=KL_rxoyvwLLAV8IA3mE1zgoA43OAbDIlda4lFKHNGRU&cl=ffffff"
+      alt="Visitor map"
+      style="width: 220px; max-width: 90%; height: auto; opacity: 0.85;"
+    />
+  </a>
+</div>
 
-CSC. Abril 08, 2026
+<p style="text-align:center">
+© 2026 El Arkhe MultiOmics · México
+</p>
