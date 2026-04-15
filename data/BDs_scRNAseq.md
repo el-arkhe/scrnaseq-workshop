@@ -116,19 +116,6 @@ Es interpretar datos, formular preguntas y generar conocimiento.
 ¿Te gustaría colaborar, aportar datos o conocer más sobre nuestra propuesta formativa?  
 📩 Escríbenos a [elarkhe@gmail.com](mailto:elarkhe@gmail.com)
 
-Explora nuestros talleres de análisis de datos ómicos: [Índice de talleres](/talleres/indice_talleres/)
-
-Ver la curaduría de datos:
-[Explorar datos](https://github.com/el-arkhe/scrnaseq-workshop/blob/main/data/README.md)
-
----
-
-## ¿Te interesa la próxima edición del taller de scRNA-seq?
-
-Registrate para recibir más información sobre la próxima edición del taller, incluyendo fechas, temario y detalles de inscripción.
-
-👉 [**Registrarse al taller**](/talleres/registro/)
-
 ---
 
 ## Referencias y recursos
