@@ -8,7 +8,7 @@
 El entrenamiento en análisis de datos ómicos como **scRNA-seq**  se enfoca principalmente en herramientas, pipelines y algoritmos. Sin embargo, uno de los factores más determinantes en el aprendizaje es la **selección de los datos con los que se entrena**.
 
 <p align="center">
-  <img src="{{ '/docs/images/scRNAseq_datos_eleccion.png' | relative_url }}" alt="datos_eleccion" style="max-width:60%; height:auto;">
+  <img src="../docs/images/scRNAseq_datos_eleccion.png" alt="datos_eleccion" style="max-width:60%; height:auto;">
 </p>
 
 > Antes de escribir una sola línea de código, la calidad de la experiencia de aprendizaje ya está siendo definida por el tipo de datos elegidos.
