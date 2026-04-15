@@ -76,13 +76,6 @@ Sí. Tendrás acompañamiento en vivo y recursos adicionales.
 
 ### ⚠️ Cupo limitado
 
-Este taller se imparte en grupos reducidos para asegurar acompañamiento personalizado.
-👉 **[Registrarse aquí](https://forms.gle/QFrhR1wtP8UJn9Ak8)**
-
----
-
-### Tecnologías utilizadas
-
-`Cell Ranger` · `Seurat v5` · `R` · `10x Genomics` · `scRNA-seq`
+Para asegurar una experiencia de aprendizaje personalizada, el cupo es limitado. Regístrate para asegurar tu lugar.
 
 ---

@@ -146,4 +146,4 @@ Registrate para recibir más información sobre la próxima edición del taller,
 
 ---
 
-Cynthia S Cardinault (2026). El entrenamiento y la selección estratégica de datos en scRNA-seq. En *Talleres MultiOmics*. El Arkhe.
+Cynthia S Cardinault (2026). El entrenamiento y la selección estratégica de datos scRNA-seq. *El Arkhe MultiOmics*.
