@@ -1,8 +1,6 @@
 # Taller de análisis de datos Single-Cell RNA-seq
 ### El Arkhe · Multiomics
 
-<p align="center">
-
 Análisis bioinformático paso a paso de datos **single-cell RNA-seq** utilizando datasets públicos y herramientas modernas de análisis en **R / Seurat v5**.
 
 El curso está orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ** hasta la **identificación de tipos celulares**.
