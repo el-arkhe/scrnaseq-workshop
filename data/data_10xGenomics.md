@@ -4,9 +4,9 @@
 
 > Esta documentación se mantiene intencionadamente en inglés para preservar los nombres originales de los conjuntos de datos proporcionados por 10x Genomics. La traducción de los nombres de los conjuntos de datos puede generar inconsistencias o confusión al buscar, descargar o reproducir análisis.
 
-Datasets selected for this course are from the **10x Genomics Datasets repository**, a widely used resource of NGS data containing among other data, public single-cell RNA sequencing (scRNA-seq). 
+Datasets presented here are from **10x Genomics Datasets**, a public widely used resource of NGS data containing single-cell RNA sequencing data (scRNA-seq), among other data-types. 
 
-The selected datasets presented here correspond to those generated using the **Chromium Single Cell 3′ platform** and cover a variety of species, tissues, and experimental designs. They are commonly used for trainning, benchmarking computational methods, and practicing real-world data workflows.
+The datastes correspond to those generated using the **Chromium Single Cell 3′ platform** and cover a variety of species, tissues, and experimental designs. They are commonly used for trainning, benchmarking computational methods, and practicing real-world data workflows.
 
 ## Overview
 
