@@ -1,9 +1,10 @@
-# Taller de análisis de datos Single-Cell RNA-seq
-### El Arkhe · Multiomics
+# Taller de análisis de datos de expresión en célula única (scRNA-seq)
 
-Análisis bioinformático paso a paso de datos **single-cell RNA-seq** utilizando datasets públicos y herramientas modernas de análisis en **R / Seurat v5**.
+### El Arkhe · MultiOmics
 
-El curso está orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ** hasta la **identificación de tipos celulares**.
+Análisis bioinformático paso a paso en datos **scRNA-seq** utilizando datos públicos y herramientas de vanguardia para entornos en **R con Seurat v5**.
+
+El taller está orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ** hasta la **identificación de tipos celulares**.
 
 </p>
 
@@ -27,15 +28,15 @@ El curso está orientado a comprender el flujo completo de análisis desde el pr
   <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
 </p>
 
-El taller sigue el flujo estándar utilizado en estudios modernos de transcriptómica a nivel celular.
+El taller sigue el flujo estándar aplicado a estudios modernos de transcriptómica a nivel de célula única.
 
 | Día | Tema | Resultado |
 |----|----|----|
 | Día 1 | Introducción a scRNA-seq y procesamiento con Cell Ranger | matriz de expresión |
 | Día 2 | Control de calidad y filtrado de células | dataset limpio |
-| Día 3 | Integración de datasets y corrección de batch effects | dataset integrado |
-| Día 4 | Reducción de dimensionalidad y clustering | poblaciones celulares |
-| Día 5 | Anotación celular | interpretación biológica |
+| Día 3 | Integración de muestras y corrección de efectos batch | dataset integrado |
+| Día 4 | Métodos de clustering y visualización | poblaciones celulares |
+| Día 5 | Anotación celular e interpretación biológica | interpretación biológica |
 
 Duración total: **20 horas**
 
@@ -44,11 +45,11 @@ El contenido está diseñado para formación técnica con énfasis en:
 
 - Comprensión conceptual del análisis scRNA-seq basado en tecnología `10x Genomics 3′`
 - Comprensión del flujo de trabajo de `Cell Ranger`
-- Identificación, selección y exploración de datasets iniciales
+- Identificación, selección y exploración de colecciones de datos
 - Procesamiento de datos: control de calidad, filtrado, clustering e identificación de tipos celulares
 - Identificación de genes marcadores
 - Lectura crítica de resultados
-- Buenas prácticas computacionales
+- Reproducibilidad de prácticas computacionales
 - Uso de referencias bibliográficas relevantes
 
 ---
@@ -70,7 +71,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 ---
 
 ### Autora y curaduría
-**Cyntia Soto Cardinault**  
+**Cynthia Soto Cardinault**  
 
 Este repositorio es mantenido por la autora en representación de **El Arkhe · Talleres Multiomics**.
 
