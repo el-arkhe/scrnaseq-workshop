@@ -1,10 +1,8 @@
-# Taller de análisis de datos de expresión en célula única (scRNA-seq)
+# Análisis de datos de célula única (scRNA-seq)
 
 ### El Arkhe · MultiOmics
 
-Análisis bioinformático paso a paso en datos **scRNA-seq** utilizando datos públicos y herramientas de vanguardia para entornos en **R con Seurat v5**.
-
-El taller está orientado a comprender el flujo completo de análisis desde el procesamiento de archivos **FASTQ** hasta la **identificación de tipos celulares**.
+Aprende a analizar datos de célula única desde archivos FASTQ hasta la identificación de tipos celulares, combinando teoría y práctica en un flujo de trabajo real.
 
 </p>
 
@@ -28,7 +26,32 @@ El taller está orientado a comprender el flujo completo de análisis desde el p
   <img src="docs/images/intro.png" alt="Introducción a scRNA-seq. Esquema general del flujo de análisis de datos">
 </p>
 
-El taller sigue el flujo estándar aplicado a estudios modernos de transcriptómica a nivel de célula única.
+
+## ¿Qué incluye este repositorio?
+Este repositorio contiene el Día 1 (acceso abierto) del taller completo de scRNA-seq. Aquí aprenderás:
+- 📦 Cómo se generan los datos de célula única, y recomendaciones para seleccionar tus datasets
+- ⚙️ Procesamiento inicial con *Cell Ranger on the Cloud*
+- 📊 De archivos FASTQ → matrices de expresión génica
+- ☁️ Ejecución en la nube sin necesidad de cómputo avanzado
+
+El contenido está diseñado como una introducción completa y funcional para procesamiento con datos de célula única y el pipeline de `Cell Ranger`.
+
+## ¿Por qué empezar con este material?
+La mayoría de los cursos:
+- Empiezan con datos ya procesados
+- Omiten la etapa crítica de generación de matrices
+- Requieren experiencia previa en bioinformática
+
+Aquí no. Este Día 1 está diseñado para que entiendas realmente como se procesan los datos.
+
+## ¿A quién está dirigido?
+- Estudiantes de biología, biotecnología o áreas afines
+- Investigadores que quieren iniciar en scRNA-seq
+- Personas sin experiencia previa en análisis de datos ómicos
+- Usuarios que buscan entender el pipeline completo.
+
+## ¿Qué sigue después del día 1?
+El análisis de célula única comienza aquí (día 1), y continua con las siguientes etapas (día 2 en adelante):
 
 | Día | Tema | Resultado |
 |----|----|----|
@@ -40,7 +63,22 @@ El taller sigue el flujo estándar aplicado a estudios modernos de transcriptóm
 
 Duración total: **20 horas**
 
+## 🔓 Acceso al taller completo (Días 2–5)
+Si ya estas registrado accede al material  a través del siguiente enlace:
+https://github.com/el-arkhe/scrnaseq-workshop_portal
 
+👉 Si deseas participar en próximas ediciones o solicitar información [Registrarse aquí](docs/registro.md)
+
+
+## Filosofía de enseñanza
+*El Arkhe y Colaboradores* nos enfocamos en:
+- Construir criterio analítico, no solo ejecutar código
+- Enseñar con datos reales
+- Integrar teoría + práctica en tiempo real
+- Evitar atajos que limiten la comprensión
+
+
+<!--
 El contenido está diseñado para formación técnica con énfasis en:
 
 - Comprensión conceptual del análisis scRNA-seq basado en tecnología `10x Genomics 3′`
@@ -51,10 +89,9 @@ El contenido está diseñado para formación técnica con énfasis en:
 - Lectura crítica de resultados
 - Reproducibilidad de prácticas computacionales
 - Uso de referencias bibliográficas relevantes
+-->
 
----
-
-### Acceso rápido al contenido
+## Visita rápida al temario y recursos del taller
 
 - [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica.
 - [`Environment`](/docs/software_setup.md) — Entorno reproducible.
@@ -62,18 +99,16 @@ El contenido está diseñado para formación técnica con énfasis en:
 - [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
 - [`Colaboradores / Estudiantes`](colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
 
----
 
 ### Clonar repositorio
 
 [`Github repo`](docs/main_docs/09_github_repo.md)
 
----
 
-### Autora y curaduría
-**Cynthia Soto Cardinault**  
+## Autora y curaduría
+*Dra. Cynthia Soto Cardinault*
 
-Este repositorio es mantenido por la autora en representación de **El Arkhe · MultiOmics**.
+Este repositorio es mantenido por la autora en representación de *El Arkhe MultiOmics*
 
 Si utiliza material del taller, código o recursos asociados en su investigación, enseñanza u obras derivadas, por favor cítelo de la siguiente manera.
 
