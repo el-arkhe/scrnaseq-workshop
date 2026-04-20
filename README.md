@@ -73,7 +73,7 @@ El contenido está diseñado para formación técnica con énfasis en:
 ### Autora y curaduría
 **Cynthia Soto Cardinault**  
 
-Este repositorio es mantenido por la autora en representación de **El Arkhe · Talleres Multiomics**.
+Este repositorio es mantenido por la autora en representación de **El Arkhe · MultiOmics**.
 
 Si utiliza material del taller, código o recursos asociados en su investigación, enseñanza u obras derivadas, por favor cítelo de la siguiente manera.
 
@@ -94,16 +94,6 @@ Si utiliza datos, métodos o herramientas específicas presentadas en este talle
 
 ---
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=el-arkhe.scrnaseq-workshop)
-
-<div style="display:flex; justify-content:center; margin-top:100px; margin-bottom:20px;">
-  <a href="https://clustrmaps.com/site/1c9qx" title="Visitor map" style="display:inline-block;">
-    <img
-      src="https://clustrmaps.com/map_v2.png?d=KL_rxoyvwLLAV8IA3mE1zgoA43OAbDIlda4lFKHNGRU&cl=ffffff"
-      alt="Visitor map"
-      style="width: 220px; max-width: 90%; height: auto; opacity: 0.85;"
-    />
-  </a>
-</div>
 
 <p style="text-align:center">
 © 2026 El Arkhe MultiOmics · México
