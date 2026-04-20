@@ -1,7 +1,8 @@
 # Curaduría de datos scRNA-seq para entrenamiento
 
-Antes de visitar nuestra curaduría de datos, te invitamos a reflexionar sobre la importancia de la selección estratégica de datos en el entrenamiento, especialmente en el contexto de **single-cell RNA-seq**.
+Antes de visitar nuestra curaduría de datos, te invitamos a reflexionar sobre la relevancia de la selección estratégica de datos en el entrenamiento y capacitación especializada en el  contexto de datos de célula única.
 
+- Visita nuestro blog:
 [¿Por qué la selección estratégica de datos en scRNA-seq es clave para el entrenamiento?](BDs_scRNAseq.md)
 
 ---

@@ -4,16 +4,13 @@
 
 > Esta documentación se mantiene intencionadamente en inglés para preservar los nombres originales de los conjuntos de datos proporcionados por 10x Genomics. La traducción de los nombres de los conjuntos de datos puede generar inconsistencias o confusión al buscar, descargar o reproducir análisis.
 
-The **10x Genomics Datasets repository** is a widely used source of public single-cell RNA sequencing (scRNA-seq) data generated with the **Chromium Single Cell 3′ platform**. It provides standardized datasets covering multiple species, tissues, and experimental designs.
+Datasets selected for this course are from the **10x Genomics Datasets repository**, a widely used resource of NGS data containing among other data, public single-cell RNA sequencing (scRNA-seq). 
 
-These datasets are commonly used for:
-- Learning scRNA-seq analysis
-- Benchmarking computational methods
-- Practicing real-world data workflows
+The selected datasets presented here correspond to those generated using the **Chromium Single Cell 3′ platform** and cover a variety of species, tissues, and experimental designs. They are commonly used for trainning, benchmarking computational methods, and practicing real-world data workflows.
 
 ## Overview
 
-- **Total datasets:** ~223  
+- **Total selected datasets:** ~223  
 - **Technology:** Chromium Single Cell 3′ (v1 → v4)  
 - **Output:** Gene expression (scRNA-seq)  
 - **Pipeline compatibility:** Cell Ranger  
@@ -26,7 +23,7 @@ These datasets are commonly used for:
 - Rhesus macaque  
 - Mixed species (human + mouse)  
 
-Mixed-species datasets are useful for detecting doublets  and validating data quality.  
+Mixed-species datasets are useful for detecting doublets and validating data quality.  
 
 ## Common Biological Systems
 
