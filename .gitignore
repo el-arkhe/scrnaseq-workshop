@@ -4,5 +4,5 @@
 **data/10XGenomics_data/
 **data/lieber_human_Hb_data/
 
-## salida de jekyll, no subir a github
-_site/
+docs/main_docs/day2/
+docs/main_docs/misc/
