@@ -78,19 +78,6 @@ https://github.com/el-arkhe/scrnaseq-workshop_portal
 - Evitar atajos que limiten la comprensión
 
 
-<!--
-El contenido está diseñado para formación técnica con énfasis en:
-
-- Comprensión conceptual del análisis scRNA-seq basado en tecnología `10x Genomics 3′`
-- Comprensión del flujo de trabajo de `Cell Ranger`
-- Identificación, selección y exploración de colecciones de datos
-- Procesamiento de datos: control de calidad, filtrado, clustering e identificación de tipos celulares
-- Identificación de genes marcadores
-- Lectura crítica de resultados
-- Reproducibilidad de prácticas computacionales
-- Uso de referencias bibliográficas relevantes
--->
-
 ## Visita rápida al temario y recursos del taller
 
 - [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica.
@@ -99,11 +86,11 @@ El contenido está diseñado para formación técnica con énfasis en:
 - [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
 - [`Colaboradores / Estudiantes`](colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
 
-
+<!--
 ### Clonar repositorio
 
-[`Github repo`](docs/main_docs/09_github_repo.md)
-
+[`Github repo`](docs/main_docs/day1/09_github_repo.md) — Guía para clonar el repositorio y acceder a los materiales localmente.
+-->
 
 ## Autora y curaduría
 *Dra. Cynthia Soto Cardinault*

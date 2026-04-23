@@ -31,10 +31,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ## Índice del Taller
 
-<!--
-**Convención del índice:** cada práctica indica las secciones que deben revisarse previamente en "Lecturas previas".
--->
-
 ### Día 1: Introducción a scRNA-seq y procesamiento con Cell Ranger
 
 - [1.1 Introducción a scRNA-seq](main_docs/day1/01_introduccion_sc_rnaseq.md)
@@ -65,9 +61,6 @@ Duración total del taller: **20 horas efectivas** distribuidas en **5 sesiones*
 
 ### Día 2: Control de calidad y filtrado de células
 
-El día 1 forma parte del contenido de acceso abierto.\
-👉 Para más información sobre el taller: [Registrarse aquí](registro.md)
-
 2.1 Comprensión de las matrices de expresión genética de Cell Ranger\
 2.2 Seurat v5\
 2.3 Exploración inicial de datos\
@@ -81,45 +74,6 @@ El día 1 forma parte del contenido de acceso abierto.\
 2.8 Normalización y selección de características variables (Feature selection)\
 2.9 Dataset limpio y filtrado tras control de calidad
 
-<!--
-- [2.1 Comprensión de las matrices de expresión genética de Cell Ranger]() (201)
-
-- [2.2 Seurat v5]() (205)
-  - Nuevo en Seurat: https://satijalab.org/seurat/articles/get_started_v5_new
-  - Comandos esenciales: https://satijalab.org/seurat/articles/essential_commands
-  - Reference: https://satijalab.org/seurat/reference/
-  - Tutorial auto-guiado de clustering: https://satijalab.org/seurat/articles/pbmc3k_tutorial.html
-
-  - *Práctica 2.P1:* Requerimientos de sistema  
-    **Lecturas previas:** 2.1, 2.2
-
-- [2.3 Exploración inicial de datos]()
-
-- [2.4 Métricas de control de calidad de Cell Ranger]() (204a)
-
-- [2.5 Otras métricas de control de calidad establecidas]()
-  - Empty Droplet Detection (DropletUtils)
-  - Ambient RNA Correction (SoupX)
-  - Doublet Detection (scDblFinder)
-
-- [2.6 Filtrado de calidad a nivel celular (Cell-level QC filtering)]()
-
-- [2.7 Filtrado de control de calidad a nivel genético]()
-
-- [2.8 Normalización y selección de características variables (Feature selection)]()
-
-- [2.9 Dataset limpio y filtrado tras control de calidad]()
-
-  - *Práctica 2.P2:* Control de calidad de una sola muestra  
-    **Lecturas previas:** 2.3–2.9
-
-**Prácticas:**
-
-- [2.P1: Requerimientos de sistema](../scripts/00_system_requirments.md)
-
-- [2.P2: Control de calidad de una sola muestra](../scripts/01_std_qc_filtering.R)
--->
-
 ---
 
 ### Día 3: Integración de datasets y corrección de batch effects
@@ -127,16 +81,7 @@ El día 1 forma parte del contenido de acceso abierto.\
 3.1 Integración de más datos scRNA-seq\
 3.2 Corrección de Batch effects\
 3.3 Métodos de visualización e integración de datos
-<!--
-- [3.1 Integración de más datos scRNA-seq](main_docs/08_dataset_integration.md)
-- [3.2 Corrección de Batch effects](main_docs/08a_batch_effects.md)
-- [3.3 Métodos de visualización e integración de datos](main_docs/08b_integration_methods.md)
 
-**Práctica:**
-
-- [3.P1: Integración de múltiples muestras en Seurat](../scripts/03_dataset_integration.R)  
-  **Lecturas previas:** 3.1–3.3
--->
 ---
 
 ### Día 4: Reducción de dimensionalidad y clustering
@@ -144,15 +89,6 @@ El día 1 forma parte del contenido de acceso abierto.\
 4.1 Reducción de dimensionalidad en scRNA-seq\
 4.2 Construcción del grafo celular\
 4.3 Métodos de clustering
-<!--
-- [4.1 Reducción de dimensionalidad en scRNA-seq](main_docs/09_dimensionality_reduction.md)
-- [4.2 Construcción del grafo celular](main_docs/09a_knn_graph_clustering.md)
-- [4.3 Métodos de clustering](main_docs/09b_clustering_methods.md)
-**Práctica:**
-
-- [4.P1: Clustering de poblaciones celulares](../scripts/04_clustering.R)  
-  **Lecturas previas:** 4.1, 4.2
--->
 
 ---
 
@@ -164,21 +100,7 @@ El día 1 forma parte del contenido de acceso abierto.\
 5.4 Interpretación biológica de resultados\
 5.5 Temas avanzados de análisis scRNA-seq
 
-<!--
-- [5.1 Identificación de genes marcadores](main_docs/10_marker_genes.md)
-- [5.2 Differential expression entre clusters](main_docs/10a_differential_expression.md)
-- [5.3 Identificación de tipos celulares](main_docs/11_cell_type_annotation.md)
-- [5.4 Bases de datos de marcadores celulares](main_docs/11a_marker_databases.md)
-
-**Práctica:**
-
-- [5.P1: Anotación de tipos celulares](../scripts/05_celltype_annotation.R)  
-  **Lecturas previas:** 5.1–5.4
--->
-
 ## Resultado esperado del taller
-
-Al finalizar el taller, los participantes habrán recorrido el flujo completo de análisis de datos **single-cell RNA-seq**, desde el procesamiento inicial de archivos FASTQ hasta la identificación de tipos celulares.
 
 Los participantes aprenderán a:
 
@@ -189,10 +111,7 @@ Los participantes aprenderán a:
 - Identificar poblaciones celulares mediante clustering
 - Anotar tipos celulares utilizando genes marcadores
 
-
-## Flujo conceptual del análisis de datos scRNA-seq
-
-En este taller seguimos el flujo estándar de análisis utilizado en estudios modernos de transcriptómica a nivel celular, que se puede resumir en el siguiente esquema:
+## Flujo estándar del análisis
 
 <p align="center">
   <img src="../docs/images/snrnaseq_pipe.png" width="500">
@@ -200,10 +119,7 @@ En este taller seguimos el flujo estándar de análisis utilizado en estudios mo
 
 ---
 
-## Continue learning
-
-El día 1 forma parte del contenido de acceso abierto.\
-👉 Para más información sobre el taller: [Registrarse aquí](registro.md)
+#### Para más información escribenos a <a href="mailto:elarkhe@gmail.com">elarkhe@gmail.com</a>
 
 ---
 
