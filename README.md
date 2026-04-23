@@ -63,13 +63,6 @@ El análisis de célula única comienza aquí (día 1), y continua con las sigui
 
 Duración total: **20 horas**
 
-## 🔓 Acceso al taller completo (Días 2–5)
-Si ya estas registrado accede al material  a través del siguiente enlace:
-https://github.com/el-arkhe/scrnaseq-workshop_portal
-
-👉 Si deseas participar en próximas ediciones o solicitar información [Registrarse aquí](docs/registro.md)
-
-
 ## Filosofía de enseñanza
 *El Arkhe y Colaboradores* nos enfocamos en:
 - Construir criterio analítico, no solo ejecutar código
@@ -80,17 +73,19 @@ https://github.com/el-arkhe/scrnaseq-workshop_portal
 
 ## Visita rápida al temario y recursos del taller
 
-- [`Indice del Taller`](/docs/README.md) — Material teórico, guías y ejercicios de práctica.
-- [`Environment`](/docs/software_setup.md) — Entorno reproducible.
-- [`Código (R / Bash / Python)`](/scripts/README.md) — Scripts R / Bash / Python
-- [`Datos single-cell`](/data/README.md) — Acceso a scRNA-seq datasets
-- [`Colaboradores / Estudiantes`](colaboradores.md) — Ediciones del taller, colaboradores y estudiantes
+- [`Indíce del Taller`](/docs/README.md)
+- [`Environment`](/docs/software_setup.md)
+- [`Código (R / Bash / Python)`](/scripts/README.md)
+- [`Datos single-cell`](/data/README.md)
+- [`Colaboradores / Estudiantes`](colaboradores.md)
 
 <!--
 ### Clonar repositorio
 
 [`Github repo`](docs/main_docs/day1/09_github_repo.md) — Guía para clonar el repositorio y acceder a los materiales localmente.
 -->
+
+👉 Si deseas información sobre las próximas ediciones escribenos a  <a href="mailto:elarkhe@gmail.com">elarkhe@gmail.com</a>
 
 ## Autora y curaduría
 *Dra. Cynthia Soto Cardinault*
